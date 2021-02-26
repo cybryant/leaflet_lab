@@ -30,28 +30,63 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     getData(map);
 };
 
+//function to calculate the radius of each proportional symbol
+function calcPropRadius(attValue) {
+    //scale factor to adjust symbol size evenly
+    var scaleFactor = 50;
+    //area based on attribute value and scale factor
+    var area = attValue * scaleFactor;
+    //radius calculated based on area
+    var radius = Math.sqrt(area/Math.PI);
+    
+    return radius;
+}
+
+//function to add circle markers for point features to the map
+function createPropSymbols(data, map){
+    //set attribute to visualize with proportional symbols
+    var attribute = "60Perc_Urban";
+    
+    //create marker options
+    var geojsonMarkerOptions = {
+        radius: 8,
+        fillColor: "#ff7800",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+    };
+
+    
+    //create a Leaflet GeoJSON layer and add it to the map
+    L.geoJson(data, {
+        pointToLayer: function (feature, latlng) {
+            //for each feature, determine the value for the selected attribute
+            var attValue = Number(feature.properties[attribute]);
+            
+            /*
+            //examine the attribute value to check for correctness
+            console.log(feature.properties, attValue)
+            */
+            
+            //give each feature's curcle marker a radisu based on its attribute value
+            geojsonMarkerOptions.radius = calcPropRadius(attValue);
+            
+            //create circle markers
+            return L.circleMarker(latlng, geojsonMarkerOptions);
+        }
+    }).addTo(map);
+};
+
+
 //function to retrieve the data and place it on the map
 function getData(map){
     //load the data
     $.ajax("data/urb_percent_pop_1960_2017.geojson", {
         dataType: "json",
         success: function(response){
-            //create marker options            
-            var geojsonMarkerOptions = {
-                radius: 8,
-                fillColor: "#ff7800",
-                color: "#000",
-                weight: 1,
-                opacity: 1,
-                fillOpacity: 0.8
-            };            
-
-            //create a Leaflet GeoJSON layer and add it to the map
-            L.geoJson(response, {
-                pointToLayer: function (feature, latlng){
-                    return L.circleMarker(latlng, geojsonMarkerOptions);
-                }
-            }).addTo(map);
+            //cal function to create proportional symbols
+            createPropSymbols(response, map);
         }
     });
 }
