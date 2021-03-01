@@ -28,7 +28,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
     //call getData function
     getData(map);
-};
+}
 
 //function to calculate the radius of each proportional symbol
 function calcPropRadius(attValue) {
@@ -43,9 +43,11 @@ function calcPropRadius(attValue) {
 }
 
 //function to convert markers to circle markers
-function pointToLayer(feature, latlng){
-     //set attribute to visualize with proportional symbols
-    var attribute = "60Perc_Urban";   
+function pointToLayer(feature, latlng, years_array){
+     //assign the current attribute based on the first index of years_array
+    var attribute = years_array[0];   
+    //check
+    console.log(attribute);
 
     //create marker options
     var options = {
@@ -77,7 +79,7 @@ function pointToLayer(feature, latlng){
         offset: new L.Point(0,-options.radius)
     });
     
-    //event listerners to open popup on hover
+    //event listeners to open popup on hover
     layer.on({
         mouseover: function(){
             this.openPopup();
@@ -89,25 +91,82 @@ function pointToLayer(feature, latlng){
     
     //return the circle marker to the L/geoJson pointToLayer option
     return layer;
-};
+}
     
 //Add circle markers for point features to the map
-function createPropSymbols(data, map){
+function createPropSymbols(data, map, years_array){
     //create a Leaflet GeoJSON layer and add it to the map
     L.geoJson(data, {
-        pointToLayer: pointToLayer
+        pointToLayer: function(feature, latlng){
+            return pointToLayer(feature, latlng, years_array);
+        }
     }).addTo(map);
-};
+}
 
 
-//function to retrieve the data and place it on the map
+//function to create sequence controls
+function createSequenceControls(map){
+    //create range input element (slider)
+    $('#sequence-controls').append('<input class="range-slider" type="range">');
+    
+    //set slider attributes
+    $('.range-slider').attr({
+      max: 6,
+      min: 0,
+      value: 0,
+      step: 1
+    });
+    
+    //add reverse & skip buttons
+    $('#sequence-controls').append('<button class="skip" id="reverse">Reverse</button>');
+    $('#sequence-controls').append('<button class="skip" id="forward">Skip</button>');
+    
+    /*WORK ON BUTTONS
+    //replace button content with images
+    $('#reverse').html('<img src="img/backward_noun_Skip_559097b.svg">');
+    $('#forward').html('<img src="img/forward_noun_Skip_559098.png">');  
+    */
+    
+}
+
+//function to build an array of the data for each year
+function processData(data){
+    //empty array to hold attributes
+    var years_array = [];
+    
+    //properties of the first feature in the dataset
+    var properties = data.features[0].properties;
+    
+    //push each attribute name into years_array
+    for (var attribute in properties){
+        //only take attributes with population values
+        if (attribute.indexOf("Perc") > -1){
+            years_array.push(attribute); 
+        } 
+
+    }
+ 
+    /*
+    //check result
+    console.log(years_array);
+    */
+    
+    return years_array;
+}
+
+//function to retrieve the GeoJSON data and place it on the map
 function getData(map){
     //load the data
     $.ajax("data/urb_percent_pop_1960_2017.geojson", {
         dataType: "json",
         success: function(response){
-            //cal function to create proportional symbols
-            createPropSymbols(response, map);
+            //create an attributes array
+            var years_array = processData(response);
+            
+            //call function to create proportional symbols
+            createPropSymbols(response, map, years_array);
+            //call function to create slider
+            createSequenceControls(map, years_array);
         }
     });
 }
