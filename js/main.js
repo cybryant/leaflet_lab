@@ -104,8 +104,30 @@ function createPropSymbols(data, map, years_array){
 }
 
 
-//function to create sequence controls
-function createSequenceControls(map){
+//build an array of data for each year to pass to sequence controls
+function processData(data){
+    //empty array to hold attributes
+    var years_array = [];
+    
+    //properties of the first feature in the dataset
+    var properties = data.features[0].properties;
+    
+    //push each attribute name into years_array
+    for (var attribute in properties){
+        //only take attributes with population values
+        if (attribute.indexOf("Perc") > -1){
+            years_array.push(attribute); 
+        } 
+    }
+  
+    //check result
+    console.log(years_array);
+    
+    return years_array;
+}
+
+//create sequence controls
+function createSequenceControls(map, years_array){
     //create range input element (slider)
     $('#sequence-controls').append('<input class="range-slider" type="range">');
     
@@ -121,37 +143,75 @@ function createSequenceControls(map){
     $('#sequence-controls').append('<button class="skip" id="reverse">Reverse</button>');
     $('#sequence-controls').append('<button class="skip" id="forward">Skip</button>');
     
-    /*WORK ON BUTTONS
+    /*WORK ON BUTTONS - ADD SVG INSTEAD OF TEXT; CORRECT HORIZONTAL ALIGNMENT
     //replace button content with images
     $('#reverse').html('<img src="img/backward_noun_Skip_559097b.svg">');
     $('#forward').html('<img src="img/forward_noun_Skip_559098.png">');  
     */
+        
+    //click listener for buttons
+    $('.skip').click(function(){
+        //get the old index value
+        var index = $('.range-slider').val();
+        
+        //increment or decrement depending on button clickec
+        if ($(this).attr('id') == 'forward'){
+            index++;
+            //if past the last attribute, wrap around to first attribute
+            index = index > 6 ? 0 : index;
+        } else if ($(this).attr('id') == 'reverse'){
+            index--;
+            //if past the first attribut, wrap around to the last attribute
+            index = index < 0 ? 6 : index;
+        }
+        
+        //update slider
+        $('.range-slider').val(index); 
+
+        //pass new attibute to update symbols
+        updatePropSymbols(map, years_array[index]);
+    });
     
+    //input listener for slider
+    $('.range-slider').on('input', function(){
+        //get the new index value
+        var index = $(this).val();
+        
+        /*
+        //check
+        console.log(index);
+        */
+        
+        //pass new attibute to update symbols
+        updatePropSymbols(map, years_array[index]);        
+        
+    });
 }
 
-//function to build an array of the data for each year
-function processData(data){
-    //empty array to hold attributes
-    var years_array = [];
-    
-    //properties of the first feature in the dataset
-    var properties = data.features[0].properties;
-    
-    //push each attribute name into years_array
-    for (var attribute in properties){
-        //only take attributes with population values
-        if (attribute.indexOf("Perc") > -1){
-            years_array.push(attribute); 
-        } 
+//function to resize proportional symbols according to new attribute values
+function updatePropSymbols(map, attribute){
+    map.eachLayer(function(layer){
+        if (layer.feature && layer.feature.properties[attribute]){
 
-    }
- 
-    /*
-    //check result
-    console.log(years_array);
-    */
-    
-    return years_array;
+            //access feature properties
+            var props = layer.feature.properties;
+
+            //update each feature's radius based on new attribute values
+            var radius = calcPropRadius(props[attribute]);
+            layer.setRadius(radius);
+
+            //add city to popup content string
+            var popupContent = "<p><b>Country:</b> " + props.Entity + "</p>";
+
+            //add formatted attribute to panel content string
+            var year = attribute.split("P")[0]; 
+            popupContent += "<p><b>Urban Population in " + year + ": </b>" + props[attribute] + "%</p>";
+
+            //replace the layer popup
+            layer.bindPopup(popupContent, {offset: new L.Point(0,-radius)
+            });
+        }
+    });
 }
 
 //function to retrieve the GeoJSON data and place it on the map
@@ -162,7 +222,6 @@ function getData(map){
         success: function(response){
             //create an attributes array
             var years_array = processData(response);
-            
             //call function to create proportional symbols
             createPropSymbols(response, map, years_array);
             //call function to create slider
