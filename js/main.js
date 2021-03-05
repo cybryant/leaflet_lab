@@ -102,7 +102,7 @@ function createMap(){
     
 }
 
-//Add circle markers for point features to the map
+//Add circle markers for point features to the map + overlay for most and least urbanized
 function createPropSymbols(data, map, years_array){
     //create a Leaflet GeoJSON layer and add it to the map
     L.geoJson(data, {
@@ -110,54 +110,49 @@ function createPropSymbols(data, map, years_array){
             return pointToLayer(feature, latlng, years_array);
         }
     }).addTo(map);  
+}
     
-    //create an overlay
-    var gabon       = L.marker([0.416198, 9.467268]).bindPopup('Gabon: 71.58%'),
-        oman        = L.marker([23.58589, 58.405923]).bindPopup('Oman: 67.16%'),
-        botswana    = L.marker([-24.628208, 25.923147]).bindPopup('Botswana: 65.64%'),
-        saoTome     = L.marker([0.330192, 6.733343]).bindPopup('Sao Tome and Principe: 55.90%');
-/*
-Angola	-8.839988	13.289437	54.40
-South Korea	37.566535	126.977969	53.79
-Libya	32.887209	13.191338	52.49
-Saudi Arabia	24.749403	46.902838	52.37
-Dominican Republic	18.486058	-69.931212	50.09
-Puerto Rico	18.466334	-66.105722	49.04
-Malaysia	3.139003	101.686855	48.85
-Cape Verde	14.93305	-23.513327	48.58
-Gambia	13.454876	-16.579032	48.47
-San Marino	43.935591	12.447281	48.17
-Montenegro	42.43042	19.259364	47.69
-Equatorial Guinea	3.750412	8.737104	46.11
-Lebanon	33.888629	35.495479	46.09
-Mauritania	18.07353	-15.958237	45.94
-Belarus	53.90454	27.561524	45.73
-Tuvalu	-8.520066	179.198128	45.63
-Turks and Caicos Islands	21.467458	-71.13891	45.14
-Guam	13.470891	144.751278	44.55
-Costa Rica	9.928069	-84.090725	44.31
-Turkey	39.933364	32.859742	43.13
-Cameroon	3.848033	11.502075	41.84
-China	39.904211	116.407395	41.76
-Algeria	36.752887	3.042048	41.54
-Marshall Islands	7.116421	171.185774	41.05
-Iran	35.689198	51.388974	40.66
-Northern Mariana Islands	15.177801	145.750967	40.31
-*/  
+//Create overlay for most and least urbanized countries
+function createOverlays(map){
+    //variables for top ten urbanized countries
+    var gabon               = L.marker([-0.803689, 11.609444]).bindPopup('Gabon: 71.58%'),
+        oman                = L.marker([21.512583, 55.923255]).bindPopup('Oman: 67.16%'),
+        botswana            = L.marker([-22.328474, 24.684866]).bindPopup('Botswana: 65.64%'),
+        saoTome             = L.marker([0.18636, 6.613081]).bindPopup('Sao Tome and Principe: 55.90%'),
+        angola	            = L.marker([-11.202692,17.873887]).bindPopup('Angola:	54.40%'),
+        southKorea	        = L.marker([35.907757, 127.766922]).bindPopup('South Korea: 53.79%'),
+        libya	            = L.marker([26.3351, 17.228331]).bindPopup('Libya:	52.49%'),
+        saudiArabia         = L.marker([23.885942, 45.079162]).bindPopup('Saudi Arabia:	52.37%'),
+        dominicanRepublic	= L.marker([18.735693, -70.162651]).bindPopup('Dominican Republic: 50.09%'),
+        puertoRico	        = L.marker([18.220833, -66.590149]).bindPopup('Puerto Rico: 49.04%');
     
-    
+    //variables for negative urbanized countries
+    var samoa           = L.marker([-13.759029, -172.104629]).bindPopup('Samoa: -0.47%'),
+        guyana          = L.marker([4.860416, -58.93018]).bindPopup('Guyana: -2.47%'),
+        isleOfMan       = L.marker([54.236107, -4.548056]).bindPopup('Isle of Man: -2.67%'),
+        stLucia         = L.marker([13.909444, -60.978893]).bindPopup('St. Lucia: -2.85%'),
+        barbados	    = L.marker([13.193887, -59.543198]).bindPopup('Barbados:	-5.62%'),
+        liechtenstein	= L.marker([47.166, 9.555373]).bindPopup('Liechtenstein: -6.12%'),
+        tajikistan	    = L.marker([38.861034, 71.276093]).bindPopup('Tajikistan: -6.19%'),
+        austria         = L.marker([47.516231, 14.550072]).bindPopup('Austria: -6.63%'),
+        aruba	        = L.marker([12.52111, -69.968338]).bindPopup('Aruba: -7.48%'),
+        belize	        = L.marker([17.189877, -88.49765]).bindPopup('Belize: - 8.43%'),
+        antiguaBarbuda	= L.marker([17.060816, -61.796428]).bindPopup('Antigua and Barbuda: -14.94%');    
 
-        var top30 = L.layerGroup([gabon, oman, botswana, saoTome]);
+        //create layer group to hold the top ten countries
+        var top10 = L.layerGroup([gabon, oman, botswana, saoTome, angola, southKorea, libya, saudiArabia, dominicanRepublic, puertoRico]);
+    
+        //create layer group to hold the negative countries
+        var negativeUrban = L.layerGroup([samoa, guyana, isleOfMan, stLucia, barbados, liechtenstein, tajikistan, austria, aruba, belize, antiguaBarbuda]);
 
+        //create overlay controls
         var overlayMaps = {
-            "Top 30 Most Urbanized Countries": top30
+            "Top 10 Most Urbanized Countries, 1960 to 2017": top10,
+            "Countries with Negative Urbanization, 1960 to 2017": negativeUrban
         };
 
         L.control.layers(null, overlayMaps).addTo(map);
-    
 }
-
-
 
 
 //function to calculate the radius of each proportional symbol
@@ -306,14 +301,7 @@ function createSequenceControls(map, years_array){
         
         //pass new attibute to update symbols
         updatePropSymbols(map, years_array[index]);     
-    });
-
-
- 
-
-    
-
-    
+    });   
 }
 
 
@@ -358,5 +346,9 @@ function getData(map){
             createSequenceControls(map, years_array);
         }
     });
+
+    //call function to create overlays
+    createOverlays(map);
 }
+
 $(document).ready(createMap);
