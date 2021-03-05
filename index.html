@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title></title>
+		<title>Changes in Percentage of Urban Population for Nations (1960-2017)</title>
 
         
         <!--leaflet tutorial stylesheet reference-->
@@ -12,7 +12,9 @@
             crossorigin=""/>
         
 		<!--put your external stylesheet links here-->
-        <link rel="stylesheet" href="css/leaflet.css">       
+        <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+        <link rel="stylesheet" href="css/leaflet.css"> 
+        <link rel="stylesheet" href="css/leaflet-search.css">         
         <link rel="stylesheet" href="css/style.css">
 		<!--[if IE<9]>
 			<link rel="stylesheet" href="css/style.ie.css">
@@ -23,6 +25,16 @@
 		<!--put your initial page content here-->
         <!--<div id="mapid"></div>-->
         <div id="map"></div>
+            <!--<nav class='menu-ui'>
+                <a href='#' class='active' data-filter='all'>Show all</a>
+                <a href='#' data-filter='Over 50 million'>Over 50 million</a>
+                <a href='#' data-filter='10-50 million'>10 to 50 million</a>
+                <a href='#' data-filter='5-10 million'>5 to 10 million</a>
+                <a href='#' data-filter='1-5 million'>1 to 5 million</a> 
+                <a href='#' data-filter='100,000 to 1 million'>100,000 to 1 million</a>
+                <a href='#' data-filter='under 100,000'>under 100,000</a>
+            </nav>-->
+        
         <div id="sequence-controls"></div>        
         
 			
@@ -36,10 +48,14 @@
             crossorigin=""></script>
         
 		<!--put your external script links here-->
+        <!--<script src="data/urb_percent_pop_1960_2017.geojson"></script>-->
+        <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
         <script type="text/javascript" src="lib/jquery-3.5.1.js">
         </script>
         <script type="text/javascript" src="lib/leaflet-src.js">
-        </script>  
+        </script>
+        <script type="text/javascript" src="js/leaflet-search.js">
+        </script>          
         <script type="text/javascript" src="js/main.js">
         </script>
         <!--<script type="text/javascript" src="js/example_main.js"></script>  -->
@@ -47,3 +63,5 @@
         
 	</body>
 </html>
+
+		<!--data from https://ourworldindata.org/urbanization#citation-->

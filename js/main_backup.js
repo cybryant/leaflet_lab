@@ -5,12 +5,12 @@ function createMap(){
     //create the map
 	var map = L.map('map', {
 		center: [20, 0],
-		zoom: 3
+		zoom: 2
 	});
 
 
-    // access mapbox tiles
-    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+// access mapbox tiles
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>', 
         maxZoom: 18, 
         id: 'mapbox/streets-v11', 
@@ -21,86 +21,18 @@ function createMap(){
 
     //call getData function
     getData(map);
-    
-    
-
-	function searchByAjax(text, callResponse)//callback for 3rd party ajax requests
-	{
-		return $.ajax({
-			url: 'data/urb_percent_pop_1960_2017.geojson',	//read comments in search.php for more information usage
-			type: 'GET',
-			data: {q: text},
-			dataType: 'json',
-			success: function(json) {
-				callResponse(json);
-			}
-		});
-	}
-    
-	map.addControl( new L.Control.Search({sourceData: searchByAjax, text:'Entity', markerLocation: true}) );
-    
-    
-    
-    /*
-    //add search box
-    //... adding data in searchLayer ...
-    var searchLayer = L.layerGroup(L.geoJSON("data/urb_percent_pop_1960_2017.geojson")).addTo(map);
-    //searchLayer is a L.LayerGroup contains searched markers
-    map.addControl(new L.Control.Search({layer: searchLayer}) ); 
-
-    
-    var data = "data/urb_percent_pop_1960_2017.geojson";
-    //add search box
-    //... adding data in searchLayer ...
-    var searchLayer = L.geoJSON(data);
-    //searchLayer is a L.LayerGroup contains searched markers
-    map.addControl(new L.Control.Search({layer: searchLayer}) );      
-    
-
-    
-/*	var featuresLayer = new L.GeoJSON(data, {
-			style: function(feature) {
-				return {color: feature.properties.color };
-			},
-			onEachFeature: function(feature, marker) {
-				marker.bindPopup('<h4 style="color:'+feature.properties.color+'">'+ feature.properties.name +'</h4>');
-			}
-		});
-
-	map.addLayer(featuresLayer);
-
-	var searchControl = new L.Control.Search({
-		layer: featuresLayer,
-		propertyName: 'name',
-		marker: false,
-		moveToLocation: function(latlng, title, map) {
-			//map.fitBounds( latlng.layer.getBounds() );
-			var zoom = map.getBoundsZoom(latlng.layer.getBounds());
-  			map.setView(latlng, zoom); // access the zoom
-		}
-	});
-
-	searchControl.on('search:locationfound', function(e) {
-		
-		//console.log('search:locationfound', );
-
-		//map.removeLayer(this._markerSearch)
-
-		e.layer.setStyle({fillColor: '#3f0', color: '#0f0'});
-		if(e.layer._popup)
-			e.layer.openPopup();
-
-	}).on('search:collapsed', function(e) {
-
-		featuresLayer.eachLayer(function(layer) {	//restore feature color
-			featuresLayer.resetStyle(layer);
-		});	
-	});
-	
-	map.addControl( searchControl );  //inizialize search control    
-*/
-    
 }
+
+/*    
+//add OSM base tilelayer
+ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+    }).addTo(map);
+
+    //call getData function
+    getData(map);
+}
+*/
 
 //Add circle markers for point features to the map
 function createPropSymbols(data, map, years_array){
@@ -109,61 +41,29 @@ function createPropSymbols(data, map, years_array){
         pointToLayer: function(feature, latlng){
             return pointToLayer(feature, latlng, years_array);
         }
-    }).addTo(map);  
-    
-    //create an overlay
-    var gabon       = L.marker([0.416198, 9.467268]).bindPopup('Gabon: 71.58%'),
-        oman        = L.marker([23.58589, 58.405923]).bindPopup('Oman: 67.16%'),
-        botswana    = L.marker([-24.628208, 25.923147]).bindPopup('Botswana: 65.64%'),
-        saoTome     = L.marker([0.330192, 6.733343]).bindPopup('Sao Tome and Principe: 55.90%');
-/*
-Angola	-8.839988	13.289437	54.40
-South Korea	37.566535	126.977969	53.79
-Libya	32.887209	13.191338	52.49
-Saudi Arabia	24.749403	46.902838	52.37
-Dominican Republic	18.486058	-69.931212	50.09
-Puerto Rico	18.466334	-66.105722	49.04
-Malaysia	3.139003	101.686855	48.85
-Cape Verde	14.93305	-23.513327	48.58
-Gambia	13.454876	-16.579032	48.47
-San Marino	43.935591	12.447281	48.17
-Montenegro	42.43042	19.259364	47.69
-Equatorial Guinea	3.750412	8.737104	46.11
-Lebanon	33.888629	35.495479	46.09
-Mauritania	18.07353	-15.958237	45.94
-Belarus	53.90454	27.561524	45.73
-Tuvalu	-8.520066	179.198128	45.63
-Turks and Caicos Islands	21.467458	-71.13891	45.14
-Guam	13.470891	144.751278	44.55
-Costa Rica	9.928069	-84.090725	44.31
-Turkey	39.933364	32.859742	43.13
-Cameroon	3.848033	11.502075	41.84
-China	39.904211	116.407395	41.76
-Algeria	36.752887	3.042048	41.54
-Marshall Islands	7.116421	171.185774	41.05
-Iran	35.689198	51.388974	40.66
-Northern Mariana Islands	15.177801	145.750967	40.31
-*/  
-    
-    
-
-        var top30 = L.layerGroup([gabon, oman, botswana, saoTome]);
-
-        var overlayMaps = {
-            "Top 30 Most Urbanized Countries": top30
-        };
-
-        L.control.layers(null, overlayMaps).addTo(map);
-    
+    }).addTo(map);
 }
 
-
+/*
+$('.menu-ui a').on('click', function() {
+    // For each filter link, get the 'data-filter' attribute value.
+    var filter = $(this).data('filter');
+    $(this).addClass('active').siblings().removeClass('active');
+    markers.setFilter(function(f) {
+        // If the data-filter attribute is set to "all", return
+        // all (true). Otherwise, filter on markers that have
+        // a value set to true based on the filter name.
+        return (filter === 'all') ? true : f.properties[filter] === true;
+    });
+    return false;
+});
+*/
 
 
 //function to calculate the radius of each proportional symbol
 function calcPropRadius(attValue) {
-    //scale factor to adjust symbol size evenlyS
-    var scaleFactor = 10;
+    //scale factor to adjust symbol size evenly
+    var scaleFactor = 50;
     //area based on attribute value and scale factor
     var area = attValue * scaleFactor;
     //radius calculated based on area
@@ -307,13 +207,6 @@ function createSequenceControls(map, years_array){
         //pass new attibute to update symbols
         updatePropSymbols(map, years_array[index]);     
     });
-
-
- 
-
-    
-
-    
 }
 
 

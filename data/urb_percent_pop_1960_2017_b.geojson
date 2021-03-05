@@ -35,13 +35,13 @@
         "17Urban_Pop": 8971345,
         " 17Tot_pop ": "35,530,081",
         "2017Perc_Urban": 25.25,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.709953,
-          33.93911
+          69.240073,
+          34.575503
         ]
       }
     },
@@ -79,13 +79,13 @@
         "17Urban_Pop": 1706345,
         " 17Tot_pop ": "2,873,457",
         "2017Perc_Urban": 59.38,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.168331,
-          41.153332
+          19.818698,
+          41.327546
         ]
       }
     },
@@ -123,13 +123,13 @@
         "17Urban_Pop": 29770548,
         " 17Tot_pop ": "41,318,142",
         "2017Perc_Urban": 72.05,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.659626,
-          28.033886
+          3.042048,
+          36.752887
         ]
       }
     },
@@ -167,13 +167,13 @@
         "17Urban_Pop": 48502,
         " 17Tot_pop ": "55,641",
         "2017Perc_Urban": 87.17,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -170.132217,
-          -14.270972
+          -170.702036,
+          -14.275632
         ]
       }
     },
@@ -211,13 +211,13 @@
         "17Urban_Pop": 67845,
         " 17Tot_pop ": "76,965",
         "2017Perc_Urban": 88.15,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.601554,
-          42.546245
+          1.521835,
+          42.506317
         ]
       }
     },
@@ -255,13 +255,13 @@
         "17Urban_Pop": 19311773,
         " 17Tot_pop ": "29,784,193",
         "2017Perc_Urban": 64.84,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.873887,
-          -11.202692
+          13.289437,
+          -8.839988
         ]
       }
     },
@@ -299,13 +299,13 @@
         "17Urban_Pop": 25210,
         " 17Tot_pop ": "102,012",
         "2017Perc_Urban": 24.71,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.796428,
-          17.060816
+          -61.846772,
+          17.12741
         ]
       }
     },
@@ -343,13 +343,13 @@
         "17Urban_Pop": 40618237,
         " 17Tot_pop ": "44,271,041",
         "2017Perc_Urban": 91.75,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.616672,
-          -38.416097
+          -58.381559,
+          -34.603684
         ]
       }
     },
@@ -387,13 +387,13 @@
         "17Urban_Pop": 1849202,
         " 17Tot_pop ": "2,930,450",
         "2017Perc_Urban": 63.1,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.038189,
-          40.069099
+          44.499103,
+          40.179186
         ]
       }
     },
@@ -431,13 +431,13 @@
         "17Urban_Pop": 45572,
         " 17Tot_pop ": "105,264",
         "2017Perc_Urban": 43.29,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -69.968338,
-          12.52111
+          -70.008631,
+          12.509204
         ]
       }
     },
@@ -475,13 +475,13 @@
         "17Urban_Pop": 21131467,
         " 17Tot_pop ": "24,598,933",
         "2017Perc_Urban": 85.9,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          133.775136,
-          -25.274398
+          149.128684,
+          -35.282
         ]
       }
     },
@@ -519,13 +519,13 @@
         "17Urban_Pop": 5117624,
         " 17Tot_pop ": "8,809,212",
         "2017Perc_Urban": 58.09,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.550072,
-          47.516231
+          16.373819,
+          48.208174
         ]
       }
     },
@@ -563,13 +563,13 @@
         "17Urban_Pop": 5458164,
         " 17Tot_pop ": "9,862,429",
         "2017Perc_Urban": 55.34,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.576927,
-          40.143105
+          49.867092,
+          40.409262
         ]
       }
     },
@@ -607,13 +607,13 @@
         "17Urban_Pop": 327853,
         " 17Tot_pop ": "395,361",
         "2017Perc_Urban": 82.92,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.39628,
-          25.03428
+          -77.355413,
+          25.047984
         ]
       }
     },
@@ -651,13 +651,13 @@
         "17Urban_Pop": 1331176,
         " 17Tot_pop ": "1,492,584",
         "2017Perc_Urban": 89.19,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.637772,
-          25.930414
+          50.58605,
+          26.228516
         ]
       }
     },
@@ -695,13 +695,13 @@
         "17Urban_Pop": 59047279,
         " 17Tot_pop ": "164,669,751",
         "2017Perc_Urban": 35.86,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          90.356331,
-          23.684994
+          90.412518,
+          23.810332
         ]
       }
     },
@@ -739,13 +739,13 @@
         "17Urban_Pop": 89027,
         " 17Tot_pop ": "285,719",
         "2017Perc_Urban": 31.16,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -59.543198,
-          13.193887
+          -59.598809,
+          13.113222
         ]
       }
     },
@@ -783,13 +783,13 @@
         "17Urban_Pop": 7428883,
         " 17Tot_pop ": "9,507,875",
         "2017Perc_Urban": 78.13,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.953389,
-          53.709807
+          27.561524,
+          53.90454
         ]
       }
     },
@@ -827,13 +827,13 @@
         "17Urban_Pop": 11140192,
         " 17Tot_pop ": "11,372,068",
         "2017Perc_Urban": 97.96,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.469936,
-          50.503887
+          4.35171,
+          50.85034
         ]
       }
     },
@@ -871,13 +871,13 @@
         "17Urban_Pop": 170858,
         " 17Tot_pop ": "374,681",
         "2017Perc_Urban": 45.6,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.49765,
-          17.189877
+          -88.75902,
+          17.251011
         ]
       }
     },
@@ -915,13 +915,13 @@
         "17Urban_Pop": 5226648,
         " 17Tot_pop ": "11,175,692",
         "2017Perc_Urban": 46.77,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.315834,
-          9.30769
+          2.628852,
+          6.496857
         ]
       }
     },
@@ -959,13 +959,13 @@
         "17Urban_Pop": 65441,
         " 17Tot_pop ": "65,441",
         "2017Perc_Urban": 100,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.75737,
-          32.321384
+          -64.781375,
+          32.294816
         ]
       }
     },
@@ -1003,13 +1003,13 @@
         "17Urban_Pop": 324393,
         " 17Tot_pop ": "807,610",
         "2017Perc_Urban": 40.17,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          90.433601,
-          27.514162
+          89.639286,
+          27.472792
         ]
       }
     },
@@ -1047,13 +1047,13 @@
         "17Urban_Pop": 7634445,
         " 17Tot_pop ": "11,051,600",
         "2017Perc_Urban": 69.08,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.588653,
-          -16.290154
+          -68.119294,
+          -16.489689
         ]
       }
     },
@@ -1091,13 +1091,13 @@
         "17Urban_Pop": 1679019,
         " 17Tot_pop ": "3,507,017",
         "2017Perc_Urban": 47.88,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.679076,
-          43.915886
+          18.413076,
+          43.856259
         ]
       }
     },
@@ -1135,13 +1135,13 @@
         "17Urban_Pop": 1574371,
         " 17Tot_pop ": "2,291,661",
         "2017Perc_Urban": 68.7,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.684866,
-          -22.328474
+          25.923147,
+          -24.628208
         ]
       }
     },
@@ -1179,13 +1179,13 @@
         "17Urban_Pop": 180634620,
         " 17Tot_pop ": "209,288,278",
         "2017Perc_Urban": 86.31,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.92528,
-          -14.235004
+          -47.882166,
+          -15.794229
         ]
       }
     },
@@ -1223,13 +1223,13 @@
         "17Urban_Pop": 14767,
         " 17Tot_pop ": "31,196",
         "2017Perc_Urban": 47.34,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.639968,
-          18.420695
+          -64.618466,
+          18.428612
         ]
       }
     },
@@ -1267,13 +1267,13 @@
         "17Urban_Pop": 331434,
         " 17Tot_pop ": "428,697",
         "2017Perc_Urban": 77.31,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          114.727669,
-          4.535277
+          114.939821,
+          4.903052
         ]
       }
     },
@@ -1311,13 +1311,13 @@
         "17Urban_Pop": 5283572,
         " 17Tot_pop ": "7,075,991",
         "2017Perc_Urban": 74.67,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.48583,
-          42.733883
+          23.321868,
+          42.697708
         ]
       }
     },
@@ -1355,13 +1355,13 @@
         "17Urban_Pop": 5516754,
         " 17Tot_pop ": "19,193,382",
         "2017Perc_Urban": 28.74,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.561593,
-          12.238333
+          -1.51966,
+          12.371428
         ]
       }
     },
@@ -1399,13 +1399,13 @@
         "17Urban_Pop": 1380411,
         " 17Tot_pop ": "10,864,245",
         "2017Perc_Urban": 12.71,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.918886,
-          -3.373056
+          29.359878,
+          -3.361378
         ]
       }
     },
@@ -1443,13 +1443,13 @@
         "17Urban_Pop": 3678035,
         " 17Tot_pop ": "16,005,373",
         "2017Perc_Urban": 22.98,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          104.990963,
-          12.565679
+          104.892167,
+          11.544873
         ]
       }
     },
@@ -1487,13 +1487,13 @@
         "17Urban_Pop": 13416447,
         " 17Tot_pop ": "24,053,727",
         "2017Perc_Urban": 55.78,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.354722,
-          7.369722
+          11.502075,
+          3.848033
         ]
       }
     },
@@ -1531,13 +1531,13 @@
         "17Urban_Pop": 29862026,
         " 17Tot_pop ": "36,708,083",
         "2017Perc_Urban": 81.35,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.346771,
-          56.130366
+          -75.697193,
+          45.42153
         ]
       }
     },
@@ -1575,13 +1575,13 @@
         "17Urban_Pop": 356578,
         " 17Tot_pop ": "546,388",
         "2017Perc_Urban": 65.26,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -24.013197,
-          16.002082
+          -23.513327,
+          14.93305
         ]
       }
     },
@@ -1619,13 +1619,13 @@
         "17Urban_Pop": 61559,
         " 17Tot_pop ": "61,559",
         "2017Perc_Urban": 100,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.566956,
-          19.513469
+          -81.367439,
+          19.286932
         ]
       }
     },
@@ -1663,13 +1663,13 @@
         "17Urban_Pop": 1909291,
         " 17Tot_pop ": "4,659,080",
         "2017Perc_Urban": 40.98,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.939444,
-          6.611111
+          18.55819,
+          4.394674
         ]
       }
     },
@@ -1707,13 +1707,13 @@
         "17Urban_Pop": 3405841,
         " 17Tot_pop ": "14,899,994",
         "2017Perc_Urban": 22.86,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.732207,
-          15.454166
+          15.055742,
+          12.134846
         ]
       }
     },
@@ -1751,13 +1751,13 @@
         "17Urban_Pop": 15796080,
         " 17Tot_pop ": "18,054,726",
         "2017Perc_Urban": 87.49,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.542969,
-          -35.675147
+          -70.669265,
+          -33.44889
         ]
       }
     },
@@ -1795,13 +1795,13 @@
         "17Urban_Pop": 803554542,
         " 17Tot_pop ": "1,386,395,000",
         "2017Perc_Urban": 57.96,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          104.195397,
-          35.86166
+          116.407395,
+          39.904211
         ]
       }
     },
@@ -1839,13 +1839,13 @@
         "17Urban_Pop": 39471325,
         " 17Tot_pop ": "49,065,615",
         "2017Perc_Urban": 80.45,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.297333,
-          4.570868
+          -74.072092,
+          4.710989
         ]
       }
     },
@@ -1883,13 +1883,13 @@
         "17Urban_Pop": 234276,
         " 17Tot_pop ": "813,912",
         "2017Perc_Urban": 28.78,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.872219,
-          -11.875001
+          43.247315,
+          -11.717216
         ]
       }
     },
@@ -1927,13 +1927,13 @@
         "17Urban_Pop": 3496242,
         " 17Tot_pop ": "5,260,750",
         "2017Perc_Urban": 66.46,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.827659,
-          -0.228021
+          15.242885,
+          -4.26336
         ]
       }
     },
@@ -1971,13 +1971,13 @@
         "17Urban_Pop": 3853972,
         " 17Tot_pop ": "4,905,769",
         "2017Perc_Urban": 78.56,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.753428,
-          9.748917
+          -84.090725,
+          9.928069
         ]
       }
     },
@@ -2015,13 +2015,13 @@
         "17Urban_Pop": 12226576,
         " 17Tot_pop ": "24,294,750",
         "2017Perc_Urban": 50.33,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.547545,
-          7.5455112
+          -5.289343,
+          6.827623
         ]
       }
     },
@@ -2059,13 +2059,13 @@
         "17Urban_Pop": 2337910,
         " 17Tot_pop ": "4,125,700",
         "2017Perc_Urban": 56.67,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.2,
-          45.1
+          15.981919,
+          45.815011
         ]
       }
     },
@@ -2103,13 +2103,13 @@
         "17Urban_Pop": 8840528,
         " 17Tot_pop ": "11,484,636",
         "2017Perc_Urban": 76.98,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.781167,
-          21.521757
+          -82.345189,
+          23.05407
         ]
       }
     },
@@ -2147,13 +2147,13 @@
         "17Urban_Pop": 143629,
         " 17Tot_pop ": "161,014",
         "2017Perc_Urban": 89.2,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.9495816,
-          12.2135221
+          -68.882423,
+          12.122422
         ]
       }
     },
@@ -2191,13 +2191,13 @@
         "17Urban_Pop": 788365,
         " 17Tot_pop ": "1,179,551",
         "2017Perc_Urban": 66.84,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.429859,
-          35.126413
+          33.382276,
+          35.185566
         ]
       }
     },
@@ -2235,13 +2235,13 @@
         "17Urban_Pop": 7803157,
         " 17Tot_pop ": "10,591,323",
         "2017Perc_Urban": 73.67,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.472962,
-          49.817492
+          14.4378,
+          50.075538
         ]
       }
     },
@@ -2279,13 +2279,13 @@
         "17Urban_Pop": 35691987,
         " 17Tot_pop ": "81,339,988",
         "2017Perc_Urban": 43.88,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.758664,
-          -4.038333
+          15.266293,
+          -4.441931
         ]
       }
     },
@@ -2323,13 +2323,13 @@
         "17Urban_Pop": 5063231,
         " 17Tot_pop ": "5,769,603",
         "2017Perc_Urban": 87.76,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.501785,
-          56.26392
+          12.568337,
+          55.676097
         ]
       }
     },
@@ -2367,13 +2367,13 @@
         "17Urban_Pop": 743080,
         " 17Tot_pop ": "956,985",
         "2017Perc_Urban": 77.65,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          42.590275,
-          11.825138
+          43.145647,
+          11.572077
         ]
       }
     },
@@ -2411,13 +2411,13 @@
         "17Urban_Pop": 51881,
         " 17Tot_pop ": "73,925",
         "2017Perc_Urban": 70.18,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.370976,
-          15.414999
+          -61.379355,
+          15.309168
         ]
       }
     },
@@ -2455,13 +2455,13 @@
         "17Urban_Pop": 8643423,
         " 17Tot_pop ": "10,766,998",
         "2017Perc_Urban": 80.28,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.162651,
-          18.735693
+          -69.931212,
+          18.486058
         ]
       }
     },
@@ -2499,13 +2499,13 @@
         "17Urban_Pop": 10585047,
         " 17Tot_pop ": "16,624,858",
         "2017Perc_Urban": 63.67,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.183406,
-          -1.831239
+          -78.467838,
+          -0.180653
         ]
       }
     },
@@ -2543,13 +2543,13 @@
         "17Urban_Pop": 41660073,
         " 17Tot_pop ": "97,553,151",
         "2017Perc_Urban": 42.7,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.802498,
-          26.820553
+          31.235712,
+          30.04442
         ]
       }
     },
@@ -2587,13 +2587,13 @@
         "17Urban_Pop": 4545815,
         " 17Tot_pop ": "6,377,853",
         "2017Perc_Urban": 71.28,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.89653,
-          13.794185
+          -89.218191,
+          13.69294
         ]
       }
     },
@@ -2631,13 +2631,13 @@
         "17Urban_Pop": 908248,
         " 17Tot_pop ": "1,267,689",
         "2017Perc_Urban": 71.65,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.267895,
-          1.650801
+          8.737104,
+          3.750412
         ]
       }
     },
@@ -2675,13 +2675,13 @@
         "17Urban_Pop": 2079000,
         " 17Tot_pop ": "5,188,000",
         "2017Perc_Urban": 40.1,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.782334,
-          15.179384
+          38.925052,
+          15.322877
         ]
       }
     },
@@ -2719,13 +2719,13 @@
         "17Urban_Pop": 903958,
         " 17Tot_pop ": "1,315,480",
         "2017Perc_Urban": 68.72,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.013607,
-          58.595272
+          24.753575,
+          59.436961
         ]
       }
     },
@@ -2763,13 +2763,13 @@
         "17Urban_Pop": 21316856,
         " 17Tot_pop ": "104,957,438",
         "2017Perc_Urban": 20.31,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.489673,
-          9.145
+          38.757761,
+          8.980603
         ]
       }
     },
@@ -2807,13 +2807,13 @@
         "17Urban_Pop": 504745,
         " 17Tot_pop ": "905,502",
         "2017Perc_Urban": 55.74,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          179.414413,
-          -16.578193
+          178.450079,
+          -18.124809
         ]
       }
     },
@@ -2851,13 +2851,13 @@
         "17Urban_Pop": 4702519,
         " 17Tot_pop ": "5,511,303",
         "2017Perc_Urban": 85.32,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.748151,
-          61.92411
+          24.941025,
+          60.173324
         ]
       }
     },
@@ -2895,13 +2895,13 @@
         "17Urban_Pop": 53815732,
         " 17Tot_pop ": "67,118,648",
         "2017Perc_Urban": 80.18,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.213749,
-          46.227638
+          2.352222,
+          48.856614
         ]
       }
     },
@@ -2939,13 +2939,13 @@
         "17Urban_Pop": 174853,
         " 17Tot_pop ": "283,007",
         "2017Perc_Urban": 61.78,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.406843,
-          -17.679742
+          -149.558476,
+          -17.551625
         ]
       }
     },
@@ -2983,13 +2983,13 @@
         "17Urban_Pop": 1801886,
         " 17Tot_pop ": "2,025,137",
         "2017Perc_Urban": 88.98,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.609444,
-          -0.803689
+          9.467268,
+          0.416198
         ]
       }
     },
@@ -3027,13 +3027,13 @@
         "17Urban_Pop": 1272923,
         " 17Tot_pop ": "2,100,568",
         "2017Perc_Urban": 60.6,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -15.310139,
-          13.443182
+          -16.579032,
+          13.454876
         ]
       }
     },
@@ -3071,13 +3071,13 @@
         "17Urban_Pop": 2164505,
         " 17Tot_pop ": "3,717,100",
         "2017Perc_Urban": 58.23,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.356892,
-          42.315407
+          44.827096,
+          41.715138
         ]
       }
     },
@@ -3115,13 +3115,13 @@
         "17Urban_Pop": 63890984,
         " 17Tot_pop ": "82,695,000",
         "2017Perc_Urban": 77.26,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.451526,
-          51.165691
+          13.404954,
+          52.520007
         ]
       }
     },
@@ -3159,13 +3159,13 @@
         "17Urban_Pop": 15975849,
         " 17Tot_pop ": "28,833,629",
         "2017Perc_Urban": 55.41,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.023194,
-          7.946527
+          -0.186964,
+          5.603717
         ]
       }
     },
@@ -3203,13 +3203,13 @@
         "17Urban_Pop": 34571,
         " 17Tot_pop ": "34,571",
         "2017Perc_Urban": 100,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.345374,
-          36.137741
+          -5.353599,
+          36.140773
         ]
       }
     },
@@ -3247,13 +3247,13 @@
         "17Urban_Pop": 8471034,
         " 17Tot_pop ": "10,760,421",
         "2017Perc_Urban": 78.72,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.824312,
-          39.074208
+          23.72936,
+          37.983917
         ]
       }
     },
@@ -3291,13 +3291,13 @@
         "17Urban_Pop": 48629,
         " 17Tot_pop ": "56,171",
         "2017Perc_Urban": 86.57,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -42.604303,
-          71.706936
+          -51.694138,
+          64.18141
         ]
       }
     },
@@ -3335,13 +3335,13 @@
         "17Urban_Pop": 38994,
         " 17Tot_pop ": "107,825",
         "2017Perc_Urban": 36.16,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.604171,
-          12.262776
+          -61.7488,
+          12.056098
         ]
       }
     },
@@ -3379,13 +3379,13 @@
         "17Urban_Pop": 155523,
         " 17Tot_pop ": "164,229",
         "2017Perc_Urban": 94.7,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.793731,
-          13.444304
+          144.751278,
+          13.470891
         ]
       }
     },
@@ -3423,13 +3423,13 @@
         "17Urban_Pop": 8571763,
         " 17Tot_pop ": "16,913,503",
         "2017Perc_Urban": 50.68,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.230759,
-          15.783471
+          -90.506882,
+          14.634915
         ]
       }
     },
@@ -3467,13 +3467,13 @@
         "17Urban_Pop": 4551859,
         " 17Tot_pop ": "12,717,176",
         "2017Perc_Urban": 35.79,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.696645,
-          9.945587
+          -13.578401,
+          9.641185
         ]
       }
     },
@@ -3511,13 +3511,13 @@
         "17Urban_Pop": 799328,
         " 17Tot_pop ": "1,861,283",
         "2017Perc_Urban": 42.95,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -15.180413,
-          11.803749
+          -15.617794,
+          11.881655
         ]
       }
     },
@@ -3555,13 +3555,13 @@
         "17Urban_Pop": 206428,
         " 17Tot_pop ": "777,859",
         "2017Perc_Urban": 26.54,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.93018,
-          4.860416
+          -58.155125,
+          6.801279
         ]
       }
     },
@@ -3599,13 +3599,13 @@
         "17Urban_Pop": 5967859,
         " 17Tot_pop ": "10,981,229",
         "2017Perc_Urban": 54.35,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.285215,
-          18.971187
+          -72.307433,
+          18.594395
         ]
       }
     },
@@ -3643,13 +3643,13 @@
         "17Urban_Pop": 5230779,
         " 17Tot_pop ": "9,265,067",
         "2017Perc_Urban": 56.46,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.241905,
-          15.199999
+          -87.192136,
+          14.072275
         ]
       }
     },
@@ -3687,7 +3687,7 @@
         "17Urban_Pop": 7391700,
         " 17Tot_pop ": "7,391,700",
         "2017Perc_Urban": 100,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
@@ -3731,13 +3731,13 @@
         "17Urban_Pop": 6950664,
         " 17Tot_pop ": "9,781,127",
         "2017Perc_Urban": 71.06,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.503304,
-          47.162494
+          19.040235,
+          47.497912
         ]
       }
     },
@@ -3775,13 +3775,13 @@
         "17Urban_Pop": 320032,
         " 17Tot_pop ": "341,284",
         "2017Perc_Urban": 93.77,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -19.020835,
-          64.963051
+          -21.817439,
+          64.126521
         ]
       }
     },
@@ -3819,13 +3819,13 @@
         "17Urban_Pop": 449964523,
         " 17Tot_pop ": "1,339,180,127",
         "2017Perc_Urban": 33.6,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          78.96288,
-          20.593684
+          77.209021,
+          28.613939
         ]
       }
     },
@@ -3863,13 +3863,13 @@
         "17Urban_Pop": 144295048,
         " 17Tot_pop ": "263,991,379",
         "2017Perc_Urban": 54.66,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.921327,
-          -0.789275
+          106.845599,
+          -6.208763
         ]
       }
     },
@@ -3907,13 +3907,13 @@
         "17Urban_Pop": 60380245,
         " 17Tot_pop ": "81,162,788",
         "2017Perc_Urban": 74.39,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          53.688046,
-          32.427908
+          51.388974,
+          35.689198
         ]
       }
     },
@@ -3951,13 +3951,13 @@
         "17Urban_Pop": 26898636,
         " 17Tot_pop ": "38,274,618",
         "2017Perc_Urban": 70.28,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.679291,
-          33.223191
+          44.361488,
+          33.312806
         ]
       }
     },
@@ -3995,13 +3995,13 @@
         "17Urban_Pop": 3030022,
         " 17Tot_pop ": "4,813,608",
         "2017Perc_Urban": 62.95,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.24389,
-          53.41291
+          -6.26031,
+          53.349805
         ]
       }
     },
@@ -4039,13 +4039,13 @@
         "17Urban_Pop": 44215,
         " 17Tot_pop ": "84,287",
         "2017Perc_Urban": 52.46,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.548056,
-          54.236107
+          -4.486123,
+          54.152337
         ]
       }
     },
@@ -4083,13 +4083,13 @@
         "17Urban_Pop": 8044682,
         " 17Tot_pop ": "8,712,400",
         "2017Perc_Urban": 92.34,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.851612,
-          31.046051
+          34.781768,
+          32.0853
         ]
       }
     },
@@ -4127,13 +4127,13 @@
         "17Urban_Pop": 42473185,
         " 17Tot_pop ": "60,551,416",
         "2017Perc_Urban": 70.14,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.56738,
-          41.87194
+          12.496366,
+          41.902784
         ]
       }
     },
@@ -4171,13 +4171,13 @@
         "17Urban_Pop": 1600590,
         " 17Tot_pop ": "2,890,299",
         "2017Perc_Urban": 55.38,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.297508,
-          18.109581
+          -76.802893,
+          18.042327
         ]
       }
     },
@@ -4215,13 +4215,13 @@
         "17Urban_Pop": 116053379,
         " 17Tot_pop ": "126,785,797",
         "2017Perc_Urban": 91.53,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.252924,
-          36.204824
+          139.731992,
+          35.709026
         ]
       }
     },
@@ -4259,13 +4259,13 @@
         "17Urban_Pop": 8804594,
         " 17Tot_pop ": "9,702,353",
         "2017Perc_Urban": 90.75,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.238414,
-          30.585164
+          35.945695,
+          31.956578
         ]
       }
     },
@@ -4303,13 +4303,13 @@
         "17Urban_Pop": 10342065,
         " 17Tot_pop ": "18,037,646",
         "2017Perc_Urban": 57.34,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          66.923684,
-          48.019573
+          71.470356,
+          51.160523
         ]
       }
     },
@@ -4347,13 +4347,13 @@
         "17Urban_Pop": 13201277,
         " 17Tot_pop ": "49,699,862",
         "2017Perc_Urban": 26.56,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.906193,
-          -0.023559
+          36.821946,
+          -1.292066
         ]
       }
     },
@@ -4391,13 +4391,13 @@
         "17Urban_Pop": 61996,
         " 17Tot_pop ": "116,398",
         "2017Perc_Urban": 53.26,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -168.734039,
-          -3.370417
+          172.971662,
+          1.451817
         ]
       }
     },
@@ -4435,13 +4435,13 @@
         "17Urban_Pop": 4136528,
         " 17Tot_pop ": "4,136,528",
         "2017Perc_Urban": 100,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.481766,
-          29.31166
+          47.977405,
+          29.375859
         ]
       }
     },
@@ -4479,13 +4479,13 @@
         "17Urban_Pop": 2240912,
         " 17Tot_pop ": "6,201,500",
         "2017Perc_Urban": 36.13,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          74.766098,
-          41.20438
+          74.569762,
+          42.874621
         ]
       }
     },
@@ -4523,13 +4523,13 @@
         "17Urban_Pop": 2357012,
         " 17Tot_pop ": "6,858,160",
         "2017Perc_Urban": 34.37,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          102.495496,
-          19.85627
+          102.633104,
+          17.975706
         ]
       }
     },
@@ -4567,13 +4567,13 @@
         "17Urban_Pop": 1321159,
         " 17Tot_pop ": "1,940,740",
         "2017Perc_Urban": 68.08,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.603189,
-          56.879635
+          24.105186,
+          56.949649
         ]
       }
     },
@@ -4611,13 +4611,13 @@
         "17Urban_Pop": 5378567,
         " 17Tot_pop ": "6,082,357",
         "2017Perc_Urban": 88.43,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.862285,
-          33.854721
+          35.495479,
+          33.888629
         ]
       }
     },
@@ -4655,13 +4655,13 @@
         "17Urban_Pop": 619305,
         " 17Tot_pop ": "2,233,339",
         "2017Perc_Urban": 27.73,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.233608,
-          -29.609988
+          27.51436,
+          -29.363219
         ]
       }
     },
@@ -4699,13 +4699,13 @@
         "17Urban_Pop": 2398934,
         " 17Tot_pop ": "4,731,906",
         "2017Perc_Urban": 50.7,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.429499,
-          6.428055
+          -10.760524,
+          6.290743
         ]
       }
     },
@@ -4743,13 +4743,13 @@
         "17Urban_Pop": 5088027,
         " 17Tot_pop ": "6,374,616",
         "2017Perc_Urban": 79.82,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.228331,
-          26.3351
+          13.191338,
+          32.887209
         ]
       }
     },
@@ -4787,13 +4787,13 @@
         "17Urban_Pop": 5429,
         " 17Tot_pop ": "37,922",
         "2017Perc_Urban": 14.32,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.555373,
-          47.166
+          9.520928,
+          47.14103
         ]
       }
     },
@@ -4831,13 +4831,13 @@
         "17Urban_Pop": 1909164,
         " 17Tot_pop ": "2,827,721",
         "2017Perc_Urban": 67.52,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.881275,
-          55.169438
+          25.279651,
+          54.687156
         ]
       }
     },
@@ -4875,13 +4875,13 @@
         "17Urban_Pop": 543862,
         " 17Tot_pop ": "599,449",
         "2017Perc_Urban": 90.73,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.129583,
-          49.815273
+          6.131935,
+          49.611621
         ]
       }
     },
@@ -4919,13 +4919,13 @@
         "17Urban_Pop": 622567,
         " 17Tot_pop ": "622,567",
         "2017Perc_Urban": 100,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.543873,
-          22.198745
+          113.55,
+          22.166667
         ]
       }
     },
@@ -4963,13 +4963,13 @@
         "17Urban_Pop": 9339002,
         " 17Tot_pop ": "25,570,895",
         "2017Perc_Urban": 36.52,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.869107,
-          -18.766947
+          47.507905,
+          -18.87919
         ]
       }
     },
@@ -5007,13 +5007,13 @@
         "17Urban_Pop": 3112498,
         " 17Tot_pop ": "18,622,104",
         "2017Perc_Urban": 16.71,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.301525,
-          -13.254308
+          33.774119,
+          -13.962612
         ]
       }
     },
@@ -5051,13 +5051,13 @@
         "17Urban_Pop": 23859558,
         " 17Tot_pop ": "31,624,264",
         "2017Perc_Urban": 75.45,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          101.975766,
-          4.210484
+          101.686855,
+          3.139003
         ]
       }
     },
@@ -5095,13 +5095,13 @@
         "17Urban_Pop": 171827,
         " 17Tot_pop ": "436,330",
         "2017Perc_Urban": 39.38,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          73.22068,
-          3.202778
+          73.509347,
+          4.175496
         ]
       }
     },
@@ -5139,13 +5139,13 @@
         "17Urban_Pop": 7708272,
         " 17Tot_pop ": "18,541,980",
         "2017Perc_Urban": 41.57,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.996166,
-          17.570692
+          -8.002889,
+          12.639232
         ]
       }
     },
@@ -5183,13 +5183,13 @@
         "17Urban_Pop": 439915,
         " 17Tot_pop ": "465,292",
         "2017Perc_Urban": 94.55,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.375416,
-          35.937496
+          14.514553,
+          35.898909
         ]
       }
     },
@@ -5227,13 +5227,13 @@
         "17Urban_Pop": 40713,
         " 17Tot_pop ": "53,127",
         "2017Perc_Urban": 76.63,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          171.184478,
-          7.131474
+          171.185774,
+          7.116421
         ]
       }
     },
@@ -5271,13 +5271,13 @@
         "17Urban_Pop": 2334918,
         " 17Tot_pop ": "4,420,184",
         "2017Perc_Urban": 52.82,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -10.940835,
-          21.00789
+          -15.958237,
+          18.07353
         ]
       }
     },
@@ -5315,13 +5315,13 @@
         "17Urban_Pop": 516481,
         " 17Tot_pop ": "1,264,613",
         "2017Perc_Urban": 40.84,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          57.552152,
-          -20.348404
+          57.502332,
+          -20.166896
         ]
       }
     },
@@ -5359,13 +5359,13 @@
         "17Urban_Pop": 103158834,
         " 17Tot_pop ": "129,163,276",
         "2017Perc_Urban": 79.87,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.552784,
-          23.634501
+          -99.133208,
+          19.432608
         ]
       }
     },
@@ -5403,13 +5403,13 @@
         "17Urban_Pop": 23861,
         " 17Tot_pop ": "105,544",
         "2017Perc_Urban": 22.61,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.550812,
-          7.425554
+          158.161027,
+          6.914712
         ]
       }
     },
@@ -5447,13 +5447,13 @@
         "17Urban_Pop": 1510667,
         " 17Tot_pop ": "3,549,750",
         "2017Perc_Urban": 42.56,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.369885,
-          47.411631
+          28.86381,
+          47.010453
         ]
       }
     },
@@ -5491,13 +5491,13 @@
         "17Urban_Pop": 38695,
         " 17Tot_pop ": "38,695",
         "2017Perc_Urban": 100,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.412841,
-          43.750298
+          7.420816,
+          43.737411
         ]
       }
     },
@@ -5535,13 +5535,13 @@
         "17Urban_Pop": 2102605,
         " 17Tot_pop ": "3,075,647",
         "2017Perc_Urban": 68.36,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.846656,
-          46.862496
+          106.905744,
+          47.886399
         ]
       }
     },
@@ -5579,13 +5579,13 @@
         "17Urban_Pop": 413800,
         " 17Tot_pop ": "622,471",
         "2017Perc_Urban": 66.48,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.37439,
-          42.708678
+          19.259364,
+          42.43042
         ]
       }
     },
@@ -5623,13 +5623,13 @@
         "17Urban_Pop": 22125659,
         " 17Tot_pop ": "35,739,580",
         "2017Perc_Urban": 61.91,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.09262,
-          31.791702
+          -6.849813,
+          33.97159
         ]
       }
     },
@@ -5667,13 +5667,13 @@
         "17Urban_Pop": 10519085,
         " 17Tot_pop ": "29,668,834",
         "2017Perc_Urban": 35.45,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.529562,
-          -18.665695
+          32.605135,
+          -25.891968
         ]
       }
     },
@@ -5711,13 +5711,13 @@
         "17Urban_Pop": 16183036,
         " 17Tot_pop ": "53,370,609",
         "2017Perc_Urban": 30.32,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          95.956223,
-          21.913965
+          96.07851,
+          19.763306
         ]
       }
     },
@@ -5755,13 +5755,13 @@
         "17Urban_Pop": 1241686,
         " 17Tot_pop ": "2,533,794",
         "2017Perc_Urban": 49.01,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.49041,
-          -22.95764
+          17.065755,
+          -22.560881
         ]
       }
     },
@@ -5799,13 +5799,13 @@
         "17Urban_Pop": 13649,
         " 17Tot_pop ": "13,649",
         "2017Perc_Urban": 100,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          166.931503,
-          -0.522778
+          166.921091,
+          -0.546686
         ]
       }
     },
@@ -5843,13 +5843,13 @@
         "17Urban_Pop": 5666414,
         " 17Tot_pop ": "29,304,998",
         "2017Perc_Urban": 19.34,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          84.124008,
-          28.394857
+          85.323961,
+          27.717245
         ]
       }
     },
@@ -5887,13 +5887,13 @@
         "17Urban_Pop": 15604089,
         " 17Tot_pop ": "17,132,854",
         "2017Perc_Urban": 91.08,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.291266,
-          52.132633
+          4.895168,
+          52.370216
         ]
       }
     },
@@ -5931,13 +5931,13 @@
         "17Urban_Pop": 197040,
         " 17Tot_pop ": "280,460",
         "2017Perc_Urban": 70.26,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          165.618042,
-          -20.904305
+          166.450524,
+          -22.255823
         ]
       }
     },
@@ -5975,13 +5975,13 @@
         "17Urban_Pop": 4145094,
         " 17Tot_pop ": "4,793,900",
         "2017Perc_Urban": 86.47,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.885971,
-          -40.900557
+          174.776236,
+          -41.28646
         ]
       }
     },
@@ -6019,13 +6019,13 @@
         "17Urban_Pop": 3624788,
         " 17Tot_pop ": "6,217,581",
         "2017Perc_Urban": 58.3,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -85.207229,
-          12.865416
+          -86.236174,
+          12.114993
         ]
       }
     },
@@ -6063,13 +6063,13 @@
         "17Urban_Pop": 3511546,
         " 17Tot_pop ": "21,477,348",
         "2017Perc_Urban": 16.35,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.081666,
-          17.607789
+          2.125385,
+          13.511596
         ]
       }
     },
@@ -6107,13 +6107,13 @@
         "17Urban_Pop": 94524992,
         " 17Tot_pop ": "190,886,311",
         "2017Perc_Urban": 49.52,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.675277,
-          9.081999
+          7.398574,
+          9.076479
         ]
       }
     },
@@ -6151,13 +6151,13 @@
         "17Urban_Pop": 15722317,
         " 17Tot_pop ": "25,490,965",
         "2017Perc_Urban": 61.68,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.510093,
-          40.339852
+          125.762524,
+          39.039219
         ]
       }
     },
@@ -6195,13 +6195,13 @@
         "17Urban_Pop": 1202983,
         " 17Tot_pop ": "2,083,160",
         "2017Perc_Urban": 57.75,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.743258,
-          41.6137143
+          21.43141,
+          41.99646
         ]
       }
     },
@@ -6239,13 +6239,13 @@
         "17Urban_Pop": 50473,
         " 17Tot_pop ": "55,144",
         "2017Perc_Urban": 91.53,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.38469,
-          17.33083
+          145.750967,
+          15.177801
         ]
       }
     },
@@ -6283,13 +6283,13 @@
         "17Urban_Pop": 4324609,
         " 17Tot_pop ": "5,282,223",
         "2017Perc_Urban": 81.87,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.468946,
-          60.472024
+          10.752245,
+          59.913869
         ]
       }
     },
@@ -6327,13 +6327,13 @@
         "17Urban_Pop": 3874061,
         " 17Tot_pop ": "4,636,262",
         "2017Perc_Urban": 83.56,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.923255,
-          21.512583
+          58.405923,
+          23.58589
         ]
       }
     },
@@ -6371,13 +6371,13 @@
         "17Urban_Pop": 71796554,
         " 17Tot_pop ": "197,015,955",
         "2017Perc_Urban": 36.44,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          69.345116,
-          30.375321
+          73.093146,
+          33.729388
         ]
       }
     },
@@ -6415,13 +6415,13 @@
         "17Urban_Pop": 17245,
         " 17Tot_pop ": "21,729",
         "2017Perc_Urban": 79.36,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          134.58252,
-          7.51498
+          134.624289,
+          7.500384
         ]
       }
     },
@@ -6459,13 +6459,13 @@
         "17Urban_Pop": 3555465,
         " 17Tot_pop ": "4,684,777",
         "2017Perc_Urban": 75.89,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.233154,
-          31.952162
+          35.5354719,
+          31.9073509
         ]
       }
     },
@@ -6503,13 +6503,13 @@
         "17Urban_Pop": 2761013,
         " 17Tot_pop ": "4,098,587",
         "2017Perc_Urban": 67.36,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.782127,
-          8.537981
+          -79.402864,
+          9.101179
         ]
       }
     },
@@ -6547,13 +6547,13 @@
         "17Urban_Pop": 1081067,
         " 17Tot_pop ": "8,251,162",
         "2017Perc_Urban": 13.1,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.95555,
-          -6.314993
+          147.180267,
+          -9.4438
         ]
       }
     },
@@ -6591,13 +6591,13 @@
         "17Urban_Pop": 4175325,
         " 17Tot_pop ": "6,811,297",
         "2017Perc_Urban": 61.3,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.443832,
-          -23.442503
+          -57.575926,
+          -25.26374
         ]
       }
     },
@@ -6635,13 +6635,13 @@
         "17Urban_Pop": 24999015,
         " 17Tot_pop ": "32,165,485",
         "2017Perc_Urban": 77.72,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.015152,
-          -9.189967
+          -77.042793,
+          -12.046374
         ]
       }
     },
@@ -6679,13 +6679,13 @@
         "17Urban_Pop": 48977863,
         " 17Tot_pop ": "104,918,090",
         "2017Perc_Urban": 46.68,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.774017,
-          12.879721
+          120.98422,
+          14.599512
         ]
       }
     },
@@ -6723,13 +6723,13 @@
         "17Urban_Pop": 22825379,
         " 17Tot_pop ": "37,975,841",
         "2017Perc_Urban": 60.1,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.145136,
-          51.919438
+          21.012229,
+          52.229676
         ]
       }
     },
@@ -6767,13 +6767,13 @@
         "17Urban_Pop": 6655095,
         " 17Tot_pop ": "10,293,718",
         "2017Perc_Urban": 64.65,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.224454,
-          39.399872
+          -9.139337,
+          38.722252
         ]
       }
     },
@@ -6811,13 +6811,13 @@
         "17Urban_Pop": 3123164,
         " 17Tot_pop ": "3,337,177",
         "2017Perc_Urban": 93.59,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.590149,
-          18.220833
+          -66.105722,
+          18.466334
         ]
       }
     },
@@ -6855,13 +6855,13 @@
         "17Urban_Pop": 2614877,
         " 17Tot_pop ": "2,639,211",
         "2017Perc_Urban": 99.08,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.183884,
-          25.354826
+          51.53104,
+          25.285447
         ]
       }
     },
@@ -6899,13 +6899,13 @@
         "17Urban_Pop": 10564196,
         " 17Tot_pop ": "19,586,539",
         "2017Perc_Urban": 53.94,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.96676,
-          45.943161
+          26.102538,
+          44.426767
         ]
       }
     },
@@ -6943,13 +6943,13 @@
         "17Urban_Pop": 107348258,
         " 17Tot_pop ": "144,495,044",
         "2017Perc_Urban": 74.29,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.318756,
-          61.52401
+          37.6173,
+          55.755826
         ]
       }
     },
@@ -6987,13 +6987,13 @@
         "17Urban_Pop": 2090690,
         " 17Tot_pop ": "12,208,407",
         "2017Perc_Urban": 17.13,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.873888,
-          -1.940278
+          30.112735,
+          -1.957875
         ]
       }
     },
@@ -7031,13 +7031,13 @@
         "17Urban_Pop": 17031,
         " 17Tot_pop ": "55,345",
         "2017Perc_Urban": 30.77,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.782998,
-          17.357822
+          -62.717692,
+          17.302606
         ]
       }
     },
@@ -7075,13 +7075,13 @@
         "17Urban_Pop": 33286,
         " 17Tot_pop ": "178,844",
         "2017Perc_Urban": 18.61,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -60.978893,
-          13.909444
+          -60.987469,
+          14.010109
         ]
       }
     },
@@ -7119,13 +7119,13 @@
         "17Urban_Pop": 56909,
         " 17Tot_pop ": "109,897",
         "2017Perc_Urban": 51.78,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.287228,
-          12.984305
+          -61.224816,
+          13.160025
         ]
       }
     },
@@ -7163,13 +7163,13 @@
         "17Urban_Pop": 36247,
         " 17Tot_pop ": "196,440",
         "2017Perc_Urban": 18.45,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -172.104629,
-          -13.759029
+          -171.751355,
+          -13.850696
         ]
       }
     },
@@ -7207,13 +7207,13 @@
         "17Urban_Pop": 32422,
         " 17Tot_pop ": "33,400",
         "2017Perc_Urban": 97.07,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.457777,
-          43.94236
+          12.447281,
+          43.935591
         ]
       }
     },
@@ -7251,13 +7251,13 @@
         "17Urban_Pop": 147050,
         " 17Tot_pop ": "204,327",
         "2017Perc_Urban": 71.97,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.613081,
-          0.18636
+          6.733343,
+          0.330192
         ]
       }
     },
@@ -7295,13 +7295,13 @@
         "17Urban_Pop": 27543592,
         " 17Tot_pop ": "32,938,213",
         "2017Perc_Urban": 83.62,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.079162,
-          23.885942
+          46.902838,
+          24.749403
         ]
       }
     },
@@ -7339,13 +7339,13 @@
         "17Urban_Pop": 7408555,
         " 17Tot_pop ": "15,850,567",
         "2017Perc_Urban": 46.74,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -14.452362,
-          14.497401
+          -17.366029,
+          14.764504
         ]
       }
     },
@@ -7383,13 +7383,13 @@
         "17Urban_Pop": 3928397,
         " 17Tot_pop ": "7,022,268",
         "2017Perc_Urban": 55.94,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.005859,
-          44.016521
+          20.448922,
+          44.786568
         ]
       }
     },
@@ -7427,13 +7427,13 @@
         "17Urban_Pop": 53922,
         " 17Tot_pop ": "95,843",
         "2017Perc_Urban": 56.26,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.491977,
-          -4.679574
+          55.451315,
+          -4.619143
         ]
       }
     },
@@ -7471,13 +7471,13 @@
         "17Urban_Pop": 3146521,
         " 17Tot_pop ": "7,557,212",
         "2017Perc_Urban": 41.64,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.779889,
-          8.460555
+          -13.231722,
+          8.465677
         ]
       }
     },
@@ -7515,13 +7515,13 @@
         "17Urban_Pop": 5612253,
         " 17Tot_pop ": "5,612,253",
         "2017Perc_Urban": 100,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.819836,
-          1.352083
+          103.850949,
+          1.280095
         ]
       }
     },
@@ -7559,13 +7559,13 @@
         "17Urban_Pop": 41109,
         " 17Tot_pop ": "41,109",
         "2017Perc_Urban": 100,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.0681114,
-          18.0347188
+          -63.0458,
+          18.0237
         ]
       }
     },
@@ -7603,13 +7603,13 @@
         "17Urban_Pop": 2923996,
         " 17Tot_pop ": "5,439,892",
         "2017Perc_Urban": 53.75,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.699024,
-          48.669026
+          17.107137,
+          48.145892
         ]
       }
     },
@@ -7647,13 +7647,13 @@
         "17Urban_Pop": 1121686,
         " 17Tot_pop ": "2,066,748",
         "2017Perc_Urban": 54.27,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.995463,
-          46.151241
+          14.505751,
+          46.056947
         ]
       }
     },
@@ -7691,13 +7691,13 @@
         "17Urban_Pop": 142357,
         " 17Tot_pop ": "611,343",
         "2017Perc_Urban": 23.29,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.156194,
-          -9.64571
+          159.9729,
+          -9.445638
         ]
       }
     },
@@ -7735,13 +7735,13 @@
         "17Urban_Pop": 6544353,
         " 17Tot_pop ": "14,742,523",
         "2017Perc_Urban": 44.39,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.199616,
-          5.152149
+          45.318162,
+          2.046934
         ]
       }
     },
@@ -7779,13 +7779,13 @@
         "17Urban_Pop": 37348247,
         " 17Tot_pop ": "56,717,156",
         "2017Perc_Urban": 65.85,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.937506,
-          -30.559482
+          28.229271,
+          -25.747868
         ]
       }
     },
@@ -7823,13 +7823,13 @@
         "17Urban_Pop": 41946498,
         " 17Tot_pop ": "51,466,201",
         "2017Perc_Urban": 81.5,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.766922,
-          35.907757
+          126.977969,
+          37.566535
         ]
       }
     },
@@ -7867,13 +7867,13 @@
         "17Urban_Pop": 2432898,
         " 17Tot_pop ": "12,575,714",
         "2017Perc_Urban": 19.35,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.6949232,
-          7.8626845
+          31.57125,
+          4.859363
         ]
       }
     },
@@ -7911,13 +7911,13 @@
         "17Urban_Pop": 37294880,
         " 17Tot_pop ": "46,572,028",
         "2017Perc_Urban": 80.08,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.74922,
-          40.463667
+          -3.70379,
+          40.416775
         ]
       }
     },
@@ -7955,13 +7955,13 @@
         "17Urban_Pop": 3942265,
         " 17Tot_pop ": "21,444,000",
         "2017Perc_Urban": 18.38,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          80.771797,
-          7.873054
+          79.902478,
+          6.89407
         ]
       }
     },
@@ -7999,13 +7999,13 @@
         "17Urban_Pop": 13931306,
         " 17Tot_pop ": "40,533,330",
         "2017Perc_Urban": 34.37,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.217636,
-          12.862807
+          32.559899,
+          15.500654
         ]
       }
     },
@@ -8043,13 +8043,13 @@
         "17Urban_Pop": 372076,
         " 17Tot_pop ": "563,402",
         "2017Perc_Urban": 66.04,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.027783,
-          3.919305
+          -55.203828,
+          5.852036
         ]
       }
     },
@@ -8087,13 +8087,13 @@
         "17Urban_Pop": 323014,
         " 17Tot_pop ": "1,367,254",
         "2017Perc_Urban": 23.63,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.465866,
-          -26.522503
+          31.13333,
+          -26.31667
         ]
       }
     },
@@ -8131,13 +8131,13 @@
         "17Urban_Pop": 8773636,
         " 17Tot_pop ": "10,067,744",
         "2017Perc_Urban": 87.15,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.643501,
-          60.128161
+          18.068581,
+          59.329323
         ]
       }
     },
@@ -8175,13 +8175,13 @@
         "17Urban_Pop": 6244619,
         " 17Tot_pop ": "8,466,017",
         "2017Perc_Urban": 73.76,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.227512,
-          46.818188
+          7.447447,
+          46.947974
         ]
       }
     },
@@ -8219,13 +8219,13 @@
         "17Urban_Pop": 9774379,
         " 17Tot_pop ": "18,269,868",
         "2017Perc_Urban": 53.5,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.996815,
-          34.802075
+          36.276528,
+          33.513807
         ]
       }
     },
@@ -8263,13 +8263,13 @@
         "17Urban_Pop": 2407157,
         " 17Tot_pop ": "8,921,343",
         "2017Perc_Urban": 26.98,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          71.276093,
-          38.861034
+          68.787038,
+          38.559772
         ]
       }
     },
@@ -8307,13 +8307,13 @@
         "17Urban_Pop": 18942681,
         " 17Tot_pop ": "57,310,019",
         "2017Perc_Urban": 33.05,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.888822,
-          -6.369028
+          35.751607,
+          -6.162959
         ]
       }
     },
@@ -8351,13 +8351,13 @@
         "17Urban_Pop": 33966456,
         " 17Tot_pop ": "69,037,513",
         "2017Perc_Urban": 49.2,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          100.992541,
-          15.870032
+          100.501765,
+          13.756331
         ]
       }
     },
@@ -8395,13 +8395,13 @@
         "17Urban_Pop": 391641,
         " 17Tot_pop ": "1,296,311",
         "2017Perc_Urban": 30.21,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.727539,
-          -8.874217
+          125.560314,
+          -8.556856
         ]
       }
     },
@@ -8439,13 +8439,13 @@
         "17Urban_Pop": 3209687,
         " 17Tot_pop ": "7,797,694",
         "2017Perc_Urban": 41.16,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.824782,
-          8.619543
+          1.231362,
+          6.172497
         ]
       }
     },
@@ -8483,13 +8483,13 @@
         "17Urban_Pop": 25027,
         " 17Tot_pop ": "108,020",
         "2017Perc_Urban": 23.17,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -175.198242,
-          -21.178986
+          -175.204947,
+          -21.139342
         ]
       }
     },
@@ -8527,13 +8527,13 @@
         "17Urban_Pop": 728443,
         " 17Tot_pop ": "1,369,125",
         "2017Perc_Urban": 53.21,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.222503,
-          10.691803
+          -61.501926,
+          10.654901
         ]
       }
     },
@@ -8571,13 +8571,13 @@
         "17Urban_Pop": 7915883,
         " 17Tot_pop ": "11,532,127",
         "2017Perc_Urban": 68.64,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.537499,
-          33.886917
+          10.181532,
+          36.806495
         ]
       }
     },
@@ -8615,13 +8615,13 @@
         "17Urban_Pop": 60271313,
         " 17Tot_pop ": "80,745,020",
         "2017Perc_Urban": 74.64,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.243322,
-          38.963745
+          32.859742,
+          39.933364
         ]
       }
     },
@@ -8659,13 +8659,13 @@
         "17Urban_Pop": 2945428,
         " 17Tot_pop ": "5,758,075",
         "2017Perc_Urban": 51.15,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          59.556278,
-          38.969719
+          58.326063,
+          37.960077
         ]
       }
     },
@@ -8703,13 +8703,13 @@
         "17Urban_Pop": 32900,
         " 17Tot_pop ": "35,446",
         "2017Perc_Urban": 92.82,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.797928,
-          21.694025
+          -71.13891,
+          21.467458
         ]
       }
     },
@@ -8747,13 +8747,13 @@
         "17Urban_Pop": 6886,
         " 17Tot_pop ": "11,192",
         "2017Perc_Urban": 61.53,
-        "popClass": "Less than 100,000"
+        "2017_Pop_Class": "Less than 100,000"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          177.64933,
-          -7.109535
+          179.198128,
+          -8.520066
         ]
       }
     },
@@ -8791,13 +8791,13 @@
         "17Urban_Pop": 9942492,
         " 17Tot_pop ": "42,862,958",
         "2017Perc_Urban": 23.2,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.290275,
-          1.373333
+          32.58252,
+          0.347596
         ]
       }
     },
@@ -8835,13 +8835,13 @@
         "17Urban_Pop": 31043784,
         " 17Tot_pop ": "44,831,159",
         "2017Perc_Urban": 69.25,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.16558,
-          48.379433
+          30.5234,
+          50.4501
         ]
       }
     },
@@ -8879,13 +8879,13 @@
         "17Urban_Pop": 8107437,
         " 17Tot_pop ": "9,400,145",
         "2017Perc_Urban": 86.25,
-        "popClass": "5-10 million"
+        "2017_Pop_Class": "5-10 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          53.847818,
-          23.424076
+          54.697277,
+          24.299174
         ]
       }
     },
@@ -8923,13 +8923,13 @@
         "17Urban_Pop": 54892898,
         " 17Tot_pop ": "66,022,273",
         "2017Perc_Urban": 83.14,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.435973,
-          55.378051
+          -0.127758,
+          51.507351
         ]
       }
     },
@@ -8967,13 +8967,57 @@
         "17Urban_Pop": 267278643,
         " 17Tot_pop ": "325,719,178",
         "2017Perc_Urban": 82.06,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.712891,
-          37.09024
+          -77.036871,
+          38.907192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "United States Virgin Islands",
+        "Capital": "Charlotte Amalie",
+        "Code": "VIR",
+        "60Rural_Pop": 14145,
+        "60Urban_Pop": 18355,
+        "60Tot_pop": 32500,
+        "1960Perc_Urban": 56.48,
+        "70Rural_Pop": 19302,
+        "70Urban_Pop": 44174,
+        "70Tot_pop": 63476,
+        "1970Perc_Urban": 69.59,
+        "80Rural_Pop": 19781,
+        "80Urban_Pop": 79855,
+        "80Tot_pop": 99636,
+        "1980Perc_Urban": 80.15,
+        "90Rural_Pop": 12803,
+        "90Urban_Pop": 91160,
+        "90Tot_pop": 103963,
+        "1990Perc_Urban": 87.69,
+        "00Rural_Pop": 8055,
+        "00Urban_Pop": 100587,
+        "00Tot_pop": 108642,
+        "2000Perc_Urban": 92.59,
+        "10Rural_Pop": 5858,
+        "10Urban_Pop": 102500,
+        "10Tot_pop": 108358,
+        "2010Perc_Urban": 94.59,
+        "17Rural_Pop": 4717,
+        "17Urban_Pop": 102551,
+        " 17Tot_pop ": "107,268",
+        "2017Perc_Urban": 95.6,
+        "2017_Pop_Class": "100,000 to 1 million"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.930701,
+          18.3419
         ]
       }
     },
@@ -9011,13 +9055,13 @@
         "17Urban_Pop": 3292209,
         " 17Tot_pop ": "3,456,750",
         "2017Perc_Urban": 95.24,
-        "popClass": "1-5 million"
+        "2017_Pop_Class": "1-5 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.765835,
-          -32.522779
+          -56.164531,
+          -34.901113
         ]
       }
     },
@@ -9055,13 +9099,13 @@
         "17Urban_Pop": 16371730,
         " 17Tot_pop ": "32,387,200",
         "2017Perc_Urban": 50.55,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          64.585262,
-          41.377491
+          69.240073,
+          41.299496
         ]
       }
     },
@@ -9099,13 +9143,13 @@
         "17Urban_Pop": 69511,
         " 17Tot_pop ": "276,244",
         "2017Perc_Urban": 25.16,
-        "popClass": "100,000 to 1 million"
+        "2017_Pop_Class": "100,000 to 1 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          166.959158,
-          -15.376706
+          168.327325,
+          -17.733251
         ]
       }
     },
@@ -9143,13 +9187,13 @@
         "17Urban_Pop": 28198335,
         " 17Tot_pop ": "31,977,065",
         "2017Perc_Urban": 88.18,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.58973,
-          6.42375
+          -66.903606,
+          10.480594
         ]
       }
     },
@@ -9187,13 +9231,13 @@
         "17Urban_Pop": 33642782,
         " 17Tot_pop ": "95,540,800",
         "2017Perc_Urban": 35.21,
-        "popClass": "Over 50 million"
+        "2017_Pop_Class": "Over 50 million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          108.277199,
-          14.058324
+          105.83416,
+          21.027764
         ]
       }
     },
@@ -9231,13 +9275,13 @@
         "17Urban_Pop": 10174671,
         " 17Tot_pop ": "28,250,420",
         "2017Perc_Urban": 36.02,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.516388,
-          15.552727
+          44.191007,
+          15.369445
         ]
       }
     },
@@ -9275,13 +9319,13 @@
         "17Urban_Pop": 7346373,
         " 17Tot_pop ": "17,094,130",
         "2017Perc_Urban": 42.98,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.849332,
-          -13.133897
+          28.322817,
+          -15.387526
         ]
       }
     },
@@ -9319,13 +9363,13 @@
         "17Urban_Pop": 5328745,
         " 17Tot_pop ": "16,529,904",
         "2017Perc_Urban": 32.24,
-        "popClass": "10-50  million"
+        "2017_Pop_Class": "10-50  million"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.154857,
-          -19.015438
+          31.03351,
+          -17.825166
         ]
       }
     }
