@@ -21,9 +21,25 @@ function createMap(){
 
     //call getData function
     getData(map);
+    
+    
+
+	function searchByAjax(text, callResponse)//callback for 3rd party ajax requests
+	{
+		return $.ajax({
+			url: 'data/urb_percent_pop_1960_2017.geojson',	//read comments in search.php for more information usage
+			type: 'GET',
+			data: {q: text},
+			dataType: 'json',
+			success: function(json) {
+				callResponse(json);
+			}
+		});
+	}
+    
+	map.addControl( new L.Control.Search({sourceData: searchByAjax, text:'Entity', markerLocation: true}) );
+    
 }
-
-
 
 //Add circle markers for point features to the map + overlay for most and least urbanized
 function createPropSymbols(data, map, years_array){
@@ -35,7 +51,7 @@ function createPropSymbols(data, map, years_array){
     }).addTo(map);  
 }
     
-//Create overlay for most and least urbanized
+//Create overlay for most and least urbanized countries
 function createOverlays(map){
     //variables for top ten urbanized countries
     var gabon               = L.marker([-0.803689, 11.609444]).bindPopup('Gabon: 71.58%'),
@@ -165,81 +181,9 @@ function processData(data){
     return years_array;
 }
 
-/* NOT WORKING - kill commands not working; sequencer not advancing on clicks
-//create new sequence controls within map bounds
+
+//create sequence controls
 function createSequenceControls(map, years_array){
-    var SequenceControl = L.Control.extend({
-        options: {
-            position: 'bottomleft'
-        },
-        
-        onAdd: function (map) {
-            //create the control container div with a particular class name
-            var container = L.DomUtil.create('div', 'sequence-control-container');
-
-            //kill any mouse listeners on the map
-            $(container).on('mousedown dblclick', function(e){
-                L.DomEvent.stopPropagation(e);
-            });
-            
-            //create range input element (slider)
-            $(container).append('<input class="range-slider" type="range">');
-        
-            //set slider attributes
-            $('.range-slider').attr({
-              max: 6,
-              min: 0,
-              value: 0,
-              step: 1
-            });
-    
-            //add reverse & skip buttons
-            $(container).append('<button class="skip" id="reverse">Reverse</button>');
-            $(container).append('<button class="skip" id="forward">Skip</button>');
-
-            //click listener for buttons
-            $('.skip').click(function(){
-                //get the old index value
-                var index = $('.range-slider').val();
-
-                //increment or decrement depending on button clickec
-                if ($(this).attr('id') == 'forward'){
-                    index++;
-                    //if past the last attribute, wrap around to first attribute
-                    index = index > 6 ? 0 : index;
-                } else if ($(this).attr('id') == 'reverse'){
-                    index--;
-                    //if past the first attribut, wrap around to the last attribute
-                    index = index < 0 ? 6 : index;
-                }
-
-                //update slider
-                $('.range-slider').val(index); 
-
-                //pass new attibute to update symbols
-                updatePropSymbols(map, years_array[index]);
-            });
-
-            //input listener for slider
-            $('.range-slider').on('input', function(){
-                //get the new index value
-                var index = $(this).val();
-
-                //pass new attibute to update symbols
-                updatePropSymbols(map, years_array[index]);     
-            }); 
-            
-            return container;
-        }
-    });
-    
-    map.addControl(new SequenceControl());
-}
-*/
-
-//
-//create sequence controls (original)
-function createSequenceControls(map, years_array){    
     //create range input element (slider)
     $('#sequence-controls').append('<input class="range-slider" type="range">');
     
@@ -255,17 +199,18 @@ function createSequenceControls(map, years_array){
     $('#sequence-controls').append('<button class="skip" id="reverse">Reverse</button>');
     $('#sequence-controls').append('<button class="skip" id="forward">Skip</button>');
     
-        //WORK ON BUTTONS - ADD SVG INSTEAD OF TEXT; CORRECT HORIZONTAL ALIGNMENT
-        //replace button content with images
-        //$('#reverse').html('<img src="img/backward_noun_Skip_559097b.svg">');
-        //$('#forward').html('<img src="img/forward_noun_Skip_559098.png">');  
+    /*WORK ON BUTTONS - ADD SVG INSTEAD OF TEXT; CORRECT HORIZONTAL ALIGNMENT
+    //replace button content with images
+    $('#reverse').html('<img src="img/backward_noun_Skip_559097b.svg">');
+    $('#forward').html('<img src="img/forward_noun_Skip_559098.png">');  
+    */
         
     //click listener for buttons
     $('.skip').click(function(){
         //get the old index value
         var index = $('.range-slider').val();
         
-        //increment or decrement depending on button clicked
+        //increment or decrement depending on button clickec
         if ($(this).attr('id') == 'forward'){
             index++;
             //if past the last attribute, wrap around to first attribute
@@ -287,12 +232,17 @@ function createSequenceControls(map, years_array){
     $('.range-slider').on('input', function(){
         //get the new index value
         var index = $(this).val();
-            
+        
+        /*
+        //check
+        console.log(index);
+        */
+        
         //pass new attibute to update symbols
         updatePropSymbols(map, years_array[index]);     
     });   
 }
-//
+
 
 //function to resize proportional symbols according to new attribute values
 function updatePropSymbols(map, attribute){
@@ -320,27 +270,6 @@ function updatePropSymbols(map, attribute){
     });
 }
 
-function createLegend(map, attribute){
-    var LegendControl = L.Control.extend({
-        options: {
-            position: 'bottomright'
-        },
-        
-        onAdd: function(map) {
-            //create the container with a particular class name
-            var container = L.DomUtil.create('div', 'legend-control-container');
-            
-            //create legend controller
-            var year = attribute.split("P")[0];
-            $(container).append("<p><b> Urban Population Percentage in " + year + " </b><p>");
-            
-            return container;
-        }
-    });
-    
-    map.addControl(new LegendControl());
-}
-
 
 //function to retrieve the GeoJSON data and place it on the map
 function getData(map){
@@ -354,8 +283,6 @@ function getData(map){
             createPropSymbols(response, map, years_array);
             //call function to create slider
             createSequenceControls(map, years_array);
-            //call function to create temporal legend
-            createLegend(map, attribute);
         }
     });
 
@@ -364,21 +291,3 @@ function getData(map){
 }
 
 $(document).ready(createMap);
-
-
-/* FOR FUTURE DEVELOPMENT - Search box
-function searchByAjax(text, callResponse)//callback for 3rd party ajax requests
-	{
-		return $.ajax({
-			url: 'data/urb_percent_pop_1960_2017.geojson',	//read comments in search.php for more information usage
-			type: 'GET',
-			data: {q: text},
-			dataType: 'json',
-			success: function(json) {
-				callResponse(json);
-			}
-		});
-	}
-    
-	map.addControl( new L.Control.Search({sourceData: searchByAjax, text:'Entity', markerLocation: true}) );
-*/

@@ -12,9 +12,10 @@
             crossorigin=""/>
         
 		<!--put your external stylesheet links here-->
-        <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+        <!--<link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />-->
         <link rel="stylesheet" href="css/leaflet.css"> 
-        <link rel="stylesheet" href="css/leaflet-search.css">         
+        <!--IF ADD SEARCH BUTTON, activate-->
+            <!--<link rel="stylesheet" href="css/leaflet-search.css">-->         
         <link rel="stylesheet" href="css/style.css">
 		<!--[if IE<9]>
 			<link rel="stylesheet" href="css/style.ie.css">
@@ -22,9 +23,15 @@
 	</head>
 
 	<body>
+        <div>
+            <h1>Change in Percentage of People Living in Urban Areas (1960-2017) by Nation</h1>
+        </div>
+        
 		<!--put your initial page content here-->
         <!--<div id="mapid"></div>-->
         <div id="map"></div>
+        
+            <!--FOR LATER DEVELOPMENT - buttons for population classes-->
             <!--<nav class='menu-ui'>
                 <a href='#' class='active' data-filter='all'>Show all</a>
                 <a href='#' data-filter='Over 50 million'>Over 50 million</a>
@@ -35,7 +42,20 @@
                 <a href='#' data-filter='under 100,000'>under 100,000</a>
             </nav>-->
         
-        <div id="sequence-controls"></div>        
+        <div id="sequence-controls"></div>  
+        
+        <div>
+            <h4>Some subheading here</h4>
+
+            <p>a paragraph</p>
+
+            <p><img src="img/urban-and-rural-population.png" alt="chart" width="700"></p>
+
+            <p>a paragraph</p>
+
+            <h6>Map Data Source: United Nations Population Division. World Urbanization Prospects: 2018 Revision; <a href="http://https://ourworldindata.org/urbanization">ourworldindata.org/urbanization</a> </h6> 
+        
+        </div>
         
 			
 		<!--you can also use this space for internal scripts or stylesheets;
@@ -48,18 +68,12 @@
             crossorigin=""></script>
         
 		<!--put your external script links here-->
-        <!--<script src="data/urb_percent_pop_1960_2017.geojson"></script>-->
-        <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
-        <script type="text/javascript" src="lib/jquery-3.5.1.js">
-        </script>
-        <script type="text/javascript" src="lib/leaflet-src.js">
-        </script>
-        <script type="text/javascript" src="js/leaflet-search.js">
-        </script>          
-        <script type="text/javascript" src="js/main.js">
-        </script>
-        <!--<script type="text/javascript" src="js/example_main.js"></script>  -->
-
+        <<script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+        <script type="text/javascript" src="lib/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="lib/leaflet-src.js"></script>
+        <!--IF ADD SEARCH BUTTON, activate-->
+            <!--<script type="text/javascript" src="js/leaflet-search.js"></script>-->  
+        <script type="text/javascript" src="js/main.js"></script>
         
 	</body>
 </html>
