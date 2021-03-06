@@ -316,31 +316,113 @@ function updatePropSymbols(map, attribute){
             //replace the layer popup
             layer.bindPopup(popupContent, {offset: new L.Point(0,-radius)
             });
+ 
+            updateLegend(map, year)   
         }
-    });
+    }); 
 }
 
-function createLegend(map, attribute){
+
+function createLegend(map, years_array){
     var LegendControl = L.Control.extend({
         options: {
             position: 'bottomright'
         },
         
         onAdd: function(map) {
-            //create the container with a particular class name
+            //create the control container with a particular class name
             var container = L.DomUtil.create('div', 'legend-control-container');
             
-            //create legend controller
-            var year = attribute.split("P")[0];
-            $(container).append("<p><b> Urban Population Percentage in " + year + " </b><p>");
+            //add temporal legend div to container
+            $(container).append('<div id="temporal-legend">')
+            
+            //var year = attribute.split("P")[0];
+            //$(container).append("<p><b> Urban Population % in </b><p>");
+            
+            //start attribute legend svg string
+            var svg = '<svg id="attribute-legend" width="180px" height="180px">';
+            
+            //array of circle names to base loop on
+            var circles = ["max", "mean", "min"];
+            
+            //loop to add each circle and text to svg string
+            for (var i=0; i<circles.length; i++){
+                //circle string
+                svg += '<circle class="legend-circle" id="' + circles[i] + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
+            };
+            
+            //close svg string
+            svg += "</svg>";
+            
+            //add atribute legend svg to container
+            $(container).append(svg);
             
             return container;
         }
     });
     
     map.addControl(new LegendControl());
-}
+    
+    updateLegend(map, years_array[0])
+};
 
+//update the legend with new attribute
+function updateLegend(map, attribute){
+    //create content for legend
+    var year = attribute.split("P")[0];
+    var content = "Urban population % in " + year;
+    
+    //replace legend content
+    $('#temporal-legend').html(content);
+    
+    //get the max, mean, and min values as an object
+    var circleValues = getCircleValues(map, attribute);
+    
+    for (var key in circleValues){
+        //get the radius
+        var radius = calcPropRadius(circleValues[key]);
+        
+        //assign the cy and r attributes
+        $('#'+key).attr({
+            cy: 179 - radius,
+            r: radius
+        });
+    };
+};
+
+//calculate the max, mean, and min value for a given attribute
+function getCircleValues(map, attribute){
+    //start with min at highest possible and max at lowest possible number
+    var min = Infinity,
+        max = -Infinity;
+    
+    map.eachLayer(function(layer){
+        //get the attribute value
+        if (layer.feature){
+            var attributeValue = Number(layer.feature.properties[attribute]);
+            
+            //test for min
+            if (attributeValue < min){
+                min = attributeValue;
+            };
+            
+            //test for max
+            if (attributeValue > max){
+                max = attributeValue;
+            };
+        };
+    });
+    
+    //set mean
+    var mean = (max + min) / 2;
+    
+    //return values as an object
+    return {
+        max: max,
+        mean: mean,
+        min: min
+    };
+};
 
 //function to retrieve the GeoJSON data and place it on the map
 function getData(map){
@@ -355,13 +437,13 @@ function getData(map){
             //call function to create slider
             createSequenceControls(map, years_array);
             //call function to create temporal legend
-            createLegend(map, attribute);
+            createLegend(map, years_array);
         }
     });
 
     //call function to create overlays
     createOverlays(map);
-}
+};
 
 $(document).ready(createMap);
 
