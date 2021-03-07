@@ -20,15 +20,21 @@ h1 {
 }
 
 h6 {
-    font-family: Helvetica;
+    font-family: 'Trebuchet MS';
 }
 
-p   {
-    font-family: Helvetica;
+h5   {
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
 }
 
 h4   {
-    font-family: Helvetica;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
 }
 
 .leaflet-popup-content p {
