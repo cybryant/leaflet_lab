@@ -1,6 +1,20 @@
 /*Stylesheet by Cherie Y. Bryant, 2021 */
 
+body {
+    background-color: tan;
+}
+
 #map {height: 500px;}
+
+h1 {
+    text-align: center;
+    font-family: Helvetica;
+    background-color: gray;
+    color: cornsilk;
+    margin-bottom: 25px
+    
+    
+}
 
 .leaflet-popup-content p {
     margin: 0.2em 0;
@@ -30,12 +44,20 @@
 
 .legend-control-container {
     width: 200px;
-    height: 200px;
+    height: 40px;
     background-color: rgba(255,255,255,0.8);
     padding: 5px;
     line-height: 45px;
     text-align: center;
     border: solid gray 1px;
+    border-radius: 10px;
+}
+
+#temporal-legend{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    
 }
 
 .menu-ui {

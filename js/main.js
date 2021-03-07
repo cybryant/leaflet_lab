@@ -21,7 +21,7 @@ function createMap(){
 
     //call getData function
     getData(map);
-}
+}//end createMap();
 
 
 
@@ -33,50 +33,8 @@ function createPropSymbols(data, map, years_array){
             return pointToLayer(feature, latlng, years_array);
         }
     }).addTo(map);  
-}
+}//end createPropSymbols();
     
-//Create overlay for most and least urbanized
-function createOverlays(map){
-    //variables for top ten urbanized countries
-    var gabon               = L.marker([-0.803689, 11.609444]).bindPopup('Gabon: 71.58%'),
-        oman                = L.marker([21.512583, 55.923255]).bindPopup('Oman: 67.16%'),
-        botswana            = L.marker([-22.328474, 24.684866]).bindPopup('Botswana: 65.64%'),
-        saoTome             = L.marker([0.18636, 6.613081]).bindPopup('Sao Tome and Principe: 55.90%'),
-        angola	            = L.marker([-11.202692,17.873887]).bindPopup('Angola:	54.40%'),
-        southKorea	        = L.marker([35.907757, 127.766922]).bindPopup('South Korea: 53.79%'),
-        libya	            = L.marker([26.3351, 17.228331]).bindPopup('Libya:	52.49%'),
-        saudiArabia         = L.marker([23.885942, 45.079162]).bindPopup('Saudi Arabia:	52.37%'),
-        dominicanRepublic	= L.marker([18.735693, -70.162651]).bindPopup('Dominican Republic: 50.09%'),
-        puertoRico	        = L.marker([18.220833, -66.590149]).bindPopup('Puerto Rico: 49.04%');
-    
-    //variables for negative urbanized countries
-    var samoa           = L.marker([-13.759029, -172.104629]).bindPopup('Samoa: -0.47%'),
-        guyana          = L.marker([4.860416, -58.93018]).bindPopup('Guyana: -2.47%'),
-        isleOfMan       = L.marker([54.236107, -4.548056]).bindPopup('Isle of Man: -2.67%'),
-        stLucia         = L.marker([13.909444, -60.978893]).bindPopup('St. Lucia: -2.85%'),
-        barbados	    = L.marker([13.193887, -59.543198]).bindPopup('Barbados:	-5.62%'),
-        liechtenstein	= L.marker([47.166, 9.555373]).bindPopup('Liechtenstein: -6.12%'),
-        tajikistan	    = L.marker([38.861034, 71.276093]).bindPopup('Tajikistan: -6.19%'),
-        austria         = L.marker([47.516231, 14.550072]).bindPopup('Austria: -6.63%'),
-        aruba	        = L.marker([12.52111, -69.968338]).bindPopup('Aruba: -7.48%'),
-        belize	        = L.marker([17.189877, -88.49765]).bindPopup('Belize: - 8.43%'),
-        antiguaBarbuda	= L.marker([17.060816, -61.796428]).bindPopup('Antigua and Barbuda: -14.94%');    
-
-        //create layer group to hold the top ten countries
-        var top10 = L.layerGroup([gabon, oman, botswana, saoTome, angola, southKorea, libya, saudiArabia, dominicanRepublic, puertoRico]);
-    
-        //create layer group to hold the negative countries
-        var negativeUrban = L.layerGroup([samoa, guyana, isleOfMan, stLucia, barbados, liechtenstein, tajikistan, austria, aruba, belize, antiguaBarbuda]);
-
-        //create overlay controls
-        var overlayMaps = {
-            "Top 10 Most Urbanized Countries, 1960 to 2017": top10,
-            "Countries with Negative Urbanization, 1960 to 2017": negativeUrban
-        };
-
-        L.control.layers(null, overlayMaps).addTo(map);
-}
-
 
 //function to calculate the radius of each proportional symbol
 function calcPropRadius(attValue) {
@@ -88,15 +46,16 @@ function calcPropRadius(attValue) {
     var radius = Math.sqrt(area/Math.PI);
     
     return radius;
-}
+}//end calcPropRadius();
 
 
 //function to convert markers to circle markers
 function pointToLayer(feature, latlng, years_array){
      //assign the current attribute based on the first index of years_array
     var attribute = years_array[0];   
+    
     //check
-    console.log(attribute);
+    //console.log(attribute);
 
     //create marker options
     var options = {
@@ -140,7 +99,7 @@ function pointToLayer(feature, latlng, years_array){
     
     //return the circle marker to the L/geoJson pointToLayer option
     return layer;
-}
+}//end pointToLayer();
 
 
 //build an array of data for each year to pass to sequence controls
@@ -160,10 +119,10 @@ function processData(data){
     }
   
     //check result
-    console.log(years_array);
+    //console.log(years_array);
     
     return years_array;
-}
+}//end processData();
 
 /* NOT WORKING - kill commands not working; sequencer not advancing on clicks
 //create new sequence controls within map bounds
@@ -172,16 +131,11 @@ function createSequenceControls(map, years_array){
         options: {
             position: 'bottomleft'
         },
-        
+
         onAdd: function (map) {
             //create the control container div with a particular class name
             var container = L.DomUtil.create('div', 'sequence-control-container');
 
-            //kill any mouse listeners on the map
-            $(container).on('mousedown dblclick', function(e){
-                L.DomEvent.stopPropagation(e);
-            });
-            
             //create range input element (slider)
             $(container).append('<input class="range-slider" type="range">');
         
@@ -215,6 +169,11 @@ function createSequenceControls(map, years_array){
 
                 //update slider
                 $('.range-slider').val(index); 
+                
+                //kill any mouse event listeners on the map
+                $(container).on('mousedown dblclick', function(e){
+                    L.DomEvent.stopPropagation(e);
+                });                 
 
                 //pass new attibute to update symbols
                 updatePropSymbols(map, years_array[index]);
@@ -226,18 +185,24 @@ function createSequenceControls(map, years_array){
                 var index = $(this).val();
 
                 //pass new attibute to update symbols
-                updatePropSymbols(map, years_array[index]);     
-            }); 
+                updatePropSymbols(map, years_array[index]);    
+                
+            });
+            
+            //kill any mouse event listeners on the map
+            $(container).on('click', function(e){
+                L.DomEvent.stopPropagation(e);
+            });
             
             return container;
         }
     });
     
     map.addControl(new SequenceControl());
-}
+}//end createSequenceControls();
 */
 
-//
+
 //create sequence controls (original)
 function createSequenceControls(map, years_array){    
     //create range input element (slider)
@@ -281,6 +246,9 @@ function createSequenceControls(map, years_array){
 
         //pass new attibute to update symbols
         updatePropSymbols(map, years_array[index]);
+        
+        /*var year = attribute.split("P")[0]; 
+        updateLegend(map, year)*/
     });
     
     //input listener for slider
@@ -291,8 +259,8 @@ function createSequenceControls(map, years_array){
         //pass new attibute to update symbols
         updatePropSymbols(map, years_array[index]);     
     });   
-}
-//
+}//end createSequenceControls();*/
+
 
 //function to resize proportional symbols according to new attribute values
 function updatePropSymbols(map, attribute){
@@ -320,9 +288,10 @@ function updatePropSymbols(map, attribute){
             updateLegend(map, year)   
         }
     }); 
-}
+}//end updatePropSymbols();
 
 
+//create the legend
 function createLegend(map, years_array){
     var LegendControl = L.Control.extend({
         options: {
@@ -335,24 +304,29 @@ function createLegend(map, years_array){
             
             //add temporal legend div to container
             $(container).append('<div id="temporal-legend">')
-            
-            //var year = attribute.split("P")[0];
-            //$(container).append("<p><b> Urban Population % in </b><p>");
-            
+                
             //start attribute legend svg string
             var svg = '<svg id="attribute-legend" width="180px" height="180px">';
             
             //array of circle names to base loop on
-            var circles = ["max", "mean", "min"];
-            
-            //loop to add each circle and text to svg string
-            for (var i=0; i<circles.length; i++){
-                //circle string
-                svg += '<circle class="legend-circle" id="' + circles[i] + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
+            var circles = {
+                max: 20,
+                mean: 40,
+                min: 60
             };
-            
+
+            //loop to add each circle and text to svg string
+            for (var circle in circles){
+                //circle string
+                svg += '<circle class="legend-circle" id="' + circle + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="30"/>';
+    
+                //text string
+                svg += '<text id="' + circle + '-text" x="65" y="' + circles[circle] + '"></text>';
+                
+            };
+
             //close svg string
-            svg += "</svg>";
+            svg += "</svg>";           
             
             //add atribute legend svg to container
             $(container).append(svg);
@@ -363,21 +337,25 @@ function createLegend(map, years_array){
     
     map.addControl(new LegendControl());
     
-    updateLegend(map, years_array[0])
-};
+    //update the legend with the new year
+    updateLegend(map, years_array[0]);
+    
+} //end createLegend();
+
 
 //update the legend with new attribute
 function updateLegend(map, attribute){
     //create content for legend
     var year = attribute.split("P")[0];
-    var content = "Urban population % in " + year;
+    var content = "Percent Urban in " + year;
     
     //replace legend content
     $('#temporal-legend').html(content);
-    
+
+/*//ATTRIBUTE LEGEND NOT ADVANCING - PAUSING THIS CODE UNTIL RESOLVED
     //get the max, mean, and min values as an object
-    var circleValues = getCircleValues(map, attribute);
-    
+    var circleValues = getCircleValues(map, attribute);   
+
     for (var key in circleValues){
         //get the radius
         var radius = calcPropRadius(circleValues[key]);
@@ -387,47 +365,98 @@ function updateLegend(map, attribute){
             cy: 179 - radius,
             r: radius
         });
-    };
-};
+        
+        //add legend text
+        $('#'+key+'-text').text(Math.round(circleValues[key]*100)/100 + "%");  
+    };*/
+   
+}//end updateLegend();
 
-//calculate the max, mean, and min value for a given attribute
+
+//Calculate the max, mean, and min values for a given attribute
 function getCircleValues(map, attribute){
     //start with min at highest possible and max at lowest possible number
     var min = Infinity,
         max = -Infinity;
-    
+
     map.eachLayer(function(layer){
         //get the attribute value
         if (layer.feature){
             var attributeValue = Number(layer.feature.properties[attribute]);
+
+            //ERROR WITH attributeValue WHEN ADVANCING TO 1970, RESULTING IN max, min, median NOT BEING RETURNED, AND THUS NO RADIUS FOR updateLegend(). PROBLEM - NOT FINDING 'attribute' ON ADVANCING?
+            console.log(attributeValue);
             
             //test for min
             if (attributeValue < min){
                 min = attributeValue;
             };
-            
+
             //test for max
             if (attributeValue > max){
                 max = attributeValue;
             };
         };
     });
-    
+
     //set mean
     var mean = (max + min) / 2;
-    
+
     //return values as an object
     return {
         max: max,
         mean: mean,
         min: min
     };
-};
+}//end getCircleValues();
+
+
+//Create overlay for most and least urbanized
+function createOverlays(map){
+    //variables for top ten urbanized countries
+    var gabon               = L.marker([-0.803689, 11.609444]).bindPopup('Gabon: 71.58%'),
+        oman                = L.marker([21.512583, 55.923255]).bindPopup('Oman: 67.16%'),
+        botswana            = L.marker([-22.328474, 24.684866]).bindPopup('Botswana: 65.64%'),
+        saoTome             = L.marker([0.18636, 6.613081]).bindPopup('Sao Tome and Principe: 55.90%'),
+        angola	            = L.marker([-11.202692,17.873887]).bindPopup('Angola:	54.40%'),
+        southKorea	        = L.marker([35.907757, 127.766922]).bindPopup('South Korea: 53.79%'),
+        libya	            = L.marker([26.3351, 17.228331]).bindPopup('Libya:	52.49%'),
+        saudiArabia         = L.marker([23.885942, 45.079162]).bindPopup('Saudi Arabia:	52.37%'),
+        dominicanRepublic	= L.marker([18.735693, -70.162651]).bindPopup('Dominican Republic: 50.09%'),
+        puertoRico	        = L.marker([18.220833, -66.590149]).bindPopup('Puerto Rico: 49.04%');
+    
+    //variables for negative urbanized countries
+    var samoa           = L.marker([-13.759029, -172.104629]).bindPopup('Samoa: -0.47%'),
+        guyana          = L.marker([4.860416, -58.93018]).bindPopup('Guyana: -2.47%'),
+        isleOfMan       = L.marker([54.236107, -4.548056]).bindPopup('Isle of Man: -2.67%'),
+        stLucia         = L.marker([13.909444, -60.978893]).bindPopup('St. Lucia: -2.85%'),
+        barbados	    = L.marker([13.193887, -59.543198]).bindPopup('Barbados:	-5.62%'),
+        liechtenstein	= L.marker([47.166, 9.555373]).bindPopup('Liechtenstein: -6.12%'),
+        tajikistan	    = L.marker([38.861034, 71.276093]).bindPopup('Tajikistan: -6.19%'),
+        austria         = L.marker([47.516231, 14.550072]).bindPopup('Austria: -6.63%'),
+        aruba	        = L.marker([12.52111, -69.968338]).bindPopup('Aruba: -7.48%'),
+        belize	        = L.marker([17.189877, -88.49765]).bindPopup('Belize: - 8.43%'),
+        antiguaBarbuda	= L.marker([17.060816, -61.796428]).bindPopup('Antigua and Barbuda: -14.94%');    
+
+        //create layer group to hold the top ten countries
+        var top10 = L.layerGroup([gabon, oman, botswana, saoTome, angola, southKorea, libya, saudiArabia, dominicanRepublic, puertoRico]);
+    
+        //create layer group to hold the negative countries
+        var negativeUrban = L.layerGroup([samoa, guyana, isleOfMan, stLucia, barbados, liechtenstein, tajikistan, austria, aruba, belize, antiguaBarbuda]);
+
+        //create overlay controls
+        var overlayMaps = {
+            "Top 10 Most Urbanized Countries, 1960 to 2017": top10,
+            "Countries with Negative Urbanization, 1960 to 2017": negativeUrban
+        };
+
+        L.control.layers(null, overlayMaps).addTo(map);
+}//end createOverlays();
 
 //function to retrieve the GeoJSON data and place it on the map
 function getData(map){
     //load the data
-    $.ajax("data/urb_percent_pop_1960_2017.geojson", {
+    $.ajax("data/urb_percent_pop_1960_2017d.geojson", {
         dataType: "json",
         success: function(response){
             //create an attributes array
@@ -443,24 +472,11 @@ function getData(map){
 
     //call function to create overlays
     createOverlays(map);
-};
+}//end getData();
 
 $(document).ready(createMap);
 
 
 /* FOR FUTURE DEVELOPMENT - Search box
-function searchByAjax(text, callResponse)//callback for 3rd party ajax requests
-	{
-		return $.ajax({
-			url: 'data/urb_percent_pop_1960_2017.geojson',	//read comments in search.php for more information usage
-			type: 'GET',
-			data: {q: text},
-			dataType: 'json',
-			success: function(json) {
-				callResponse(json);
-			}
-		});
-	}
-    
 	map.addControl( new L.Control.Search({sourceData: searchByAjax, text:'Entity', markerLocation: true}) );
 */

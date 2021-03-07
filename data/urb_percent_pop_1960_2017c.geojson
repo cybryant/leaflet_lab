@@ -1,0 +1,4185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Afghanistan",
+        "1960Perc_Urban": 8.40,
+        "1970Perc_Urban": 11.64,
+        "1980Perc_Urban": 16,
+        "1990Perc_Urban": 21.18,
+        "2000Perc_Urban": 22.08,
+        "2010Perc_Urban": 23.74,
+        "2017Perc_Urban": 25.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.709953,
+          33.93911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Albania",
+        "1960Perc_Urban": 30.70,
+        "1970Perc_Urban": 31.74,
+        "1980Perc_Urban": 33.76,
+        "1990Perc_Urban": 36.43,
+        "2000Perc_Urban": 41.74,
+        "2010Perc_Urban": 52.16,
+        "2017Perc_Urban": 59.38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.168331,
+          41.153332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Algeria",
+        "1960Perc_Urban": 30.51,
+        "1970Perc_Urban": 39.5,
+        "1980Perc_Urban": 43.54,
+        "1990Perc_Urban": 52.08,
+        "2000Perc_Urban": 59.92,
+        "2010Perc_Urban": 67.54,
+        "2017Perc_Urban": 72.05
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.659626,
+          28.033886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "American Samoa",
+        "1960Perc_Urban": 66.21,
+        "1970Perc_Urban": 70.38,
+        "1980Perc_Urban": 74.33,
+        "1990Perc_Urban": 80.95,
+        "2000Perc_Urban": 88.59,
+        "2010Perc_Urban": 87.59,
+        "2017Perc_Urban": 87.17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.132217,
+          -14.270972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Andorra",
+        "1960Perc_Urban": 58.45,
+        "1970Perc_Urban": 80.15,
+        "1980Perc_Urban": 92.06,
+        "1990Perc_Urban": 94.71,
+        "2000Perc_Urban": 92.39,
+        "2010Perc_Urban": 88.82,
+        "2017Perc_Urban": 88.15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.601554,
+          42.546245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Angola",
+        "1960Perc_Urban": 10.43,
+        "1970Perc_Urban": 14.96,
+        "1980Perc_Urban": 24.3,
+        "1990Perc_Urban": 37.14,
+        "2000Perc_Urban": 50.09,
+        "2010Perc_Urban": 59.78,
+        "2017Perc_Urban": 64.84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.873887,
+          -11.202692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Antigua and Barbuda",
+        "1960Perc_Urban": 39.66,
+        "1970Perc_Urban": 33.82,
+        "1980Perc_Urban": 34.62,
+        "1990Perc_Urban": 35.43,
+        "2000Perc_Urban": 32.13,
+        "2010Perc_Urban": 26.24,
+        "2017Perc_Urban": 24.71 
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.796428,
+          17.060816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Argentina",
+        "1960Perc_Urban": 73.61,
+        "1970Perc_Urban": 78.88,
+        "1980Perc_Urban": 82.89,
+        "1990Perc_Urban": 86.98,
+        "2000Perc_Urban": 89.14,
+        "2010Perc_Urban": 90.85,
+        "2017Perc_Urban": 91.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.616672,
+          -38.416097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Armenia",
+        "1960Perc_Urban": 51.27,
+        "1970Perc_Urban": 59.86,
+        "1980Perc_Urban": 66.05,
+        "1990Perc_Urban": 67.42,
+        "2000Perc_Urban": 64.67,
+        "2010Perc_Urban": 63.44,
+        "2017Perc_Urban": 63.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.038189,
+          40.069099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Aruba",
+        "1960Perc_Urban": 50.78,
+        "1970Perc_Urban": 50.62,
+        "1980Perc_Urban": 50.47,
+        "1990Perc_Urban": 50.32,
+        "2000Perc_Urban": 46.72,
+        "2010Perc_Urban": 43.06,
+        "2017Perc_Urban": 43.29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.968338,
+          12.52111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Australia",
+        "1960Perc_Urban": 81.53,
+        "1970Perc_Urban": 84,
+        "1980Perc_Urban": 85.55,
+        "1990Perc_Urban": 85.43,
+        "2000Perc_Urban": 84.24,
+        "2010Perc_Urban": 85.18,
+        "2017Perc_Urban": 85.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.775136,
+          -25.274398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Austria",
+        "1960Perc_Urban": 64.72,
+        "1970Perc_Urban": 65.26,
+        "1980Perc_Urban": 65.39,
+        "1990Perc_Urban": 62.96,
+        "2000Perc_Urban": 60.21,
+        "2010Perc_Urban": 57.4,
+        "2017Perc_Urban": 58.09
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.550072,
+          47.516231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Azerbaijan",
+        "1960Perc_Urban": 52.66,
+        "1970Perc_Urban": 50.01,
+        "1980Perc_Urban": 52.78,
+        "1990Perc_Urban": 53.75,
+        "2000Perc_Urban": 51.39,
+        "2010Perc_Urban": 53.41,
+        "2017Perc_Urban": 55.34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.576927,
+          40.143105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Bahamas",
+        "1960Perc_Urban": 59.71,
+        "1970Perc_Urban": 66.76,
+        "1980Perc_Urban": 73.1,
+        "1990Perc_Urban": 79.84,
+        "2000Perc_Urban": 82.01,
+        "2010Perc_Urban": 82.43,
+        "2017Perc_Urban": 82.92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.39628,
+          25.03428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Bahrain",
+        "1960Perc_Urban": 82.32,
+        "1970Perc_Urban": 83.78,
+        "1980Perc_Urban": 86.1,
+        "1990Perc_Urban": 88.14,
+        "2000Perc_Urban": 88.37,
+        "2010Perc_Urban": 88.63,
+        "2017Perc_Urban": 89.19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.637772,
+          25.930414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Bangladesh",
+        "1960Perc_Urban": 5.13,
+        "1970Perc_Urban": 7.59,
+        "1980Perc_Urban": 14.85,
+        "1990Perc_Urban": 19.81,
+        "2000Perc_Urban": 23.59,
+        "2010Perc_Urban": 30.46,
+        "2017Perc_Urban": 35.86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.356331,
+          23.684994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Barbados",
+        "1960Perc_Urban": 36.78,
+        "1970Perc_Urban": 37.55,
+        "1980Perc_Urban": 40.1,
+        "1990Perc_Urban": 37.37,
+        "2000Perc_Urban": 33.83,
+        "2010Perc_Urban": 31.87,
+        "2017Perc_Urban": 31.16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.543198,
+          13.193887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Belarus",
+        "1960Perc_Urban": 32.40,
+        "1970Perc_Urban": 44.01,
+        "1980Perc_Urban": 56.5,
+        "1990Perc_Urban": 65.98,
+        "2000Perc_Urban": 69.97,
+        "2010Perc_Urban": 74.67,
+        "2017Perc_Urban": 78.13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.953389,
+          53.709807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Belgium",
+        "1960Perc_Urban": 92.46,
+        "1970Perc_Urban": 93.84,
+        "1980Perc_Urban": 95.38,
+        "1990Perc_Urban": 96.38,
+        "2000Perc_Urban": 97.13,
+        "2010Perc_Urban": 97.65,
+        "2017Perc_Urban": 97.96
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.469936,
+          50.503887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Belize",
+        "1960Perc_Urban": 54.03,
+        "1970Perc_Urban": 50.96,
+        "1980Perc_Urban": 49.37,
+        "1990Perc_Urban": 47.47,
+        "2000Perc_Urban": 45.4,
+        "2010Perc_Urban": 45.23,
+        "2017Perc_Urban": 45.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.49765,
+          17.189877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Benin",
+        "1960Perc_Urban": 9.28,
+        "1970Perc_Urban": 16.69,
+        "1980Perc_Urban": 27.34,
+        "1990Perc_Urban": 34.48,
+        "2000Perc_Urban": 38.33,
+        "2010Perc_Urban": 43.09,
+        "2017Perc_Urban": 46.77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.315834,
+          9.30769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Bermuda",
+        "1960Perc_Urban": 100,
+        "1970Perc_Urban": 100,
+        "1980Perc_Urban": 100,
+        "1990Perc_Urban": 100,
+        "2000Perc_Urban": 100,
+        "2010Perc_Urban": 100,
+        "2017Perc_Urban": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.75737,
+          32.321384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Bhutan",
+        "1960Perc_Urban": 3.60,
+        "1970Perc_Urban": 6.09,
+        "1980Perc_Urban": 10.13,
+        "1990Perc_Urban": 16.39,
+        "2000Perc_Urban": 25.42,
+        "2010Perc_Urban": 34.79,
+        "2017Perc_Urban": 40.17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.433601,
+          27.514162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Bolivia",
+        "1960Perc_Urban": 36.76,
+        "1970Perc_Urban": 39.78,
+        "1980Perc_Urban": 45.45,
+        "1990Perc_Urban": 55.58,
+        "2000Perc_Urban": 61.79,
+        "2010Perc_Urban": 66.43,
+        "2017Perc_Urban": 69.08
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.588653,
+          -16.290154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Bosnia and Herzegovina",
+        "1960Perc_Urban": 19.04,
+        "1970Perc_Urban": 27.2,
+        "1980Perc_Urban": 35.54,
+        "1990Perc_Urban": 39.25,
+        "2000Perc_Urban": 42.38,
+        "2010Perc_Urban": 45.56,
+        "2017Perc_Urban": 47.88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.679076,
+          43.915886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Botswana",
+        "1960Perc_Urban": 3.06,
+        "1970Perc_Urban": 7.83,
+        "1980Perc_Urban": 16.48,
+        "1990Perc_Urban": 41.93,
+        "2000Perc_Urban": 53.22,
+        "2010Perc_Urban": 62.41,
+        "2017Perc_Urban": 68.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.684866,
+          -22.328474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Brazil",
+        "1960Perc_Urban": 46.14,
+        "1970Perc_Urban": 55.91,
+        "1980Perc_Urban": 65.47,
+        "1990Perc_Urban": 73.92,
+        "2000Perc_Urban": 81.19,
+        "2010Perc_Urban": 84.33,
+        "2017Perc_Urban": 86.31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.92528,
+          -14.235004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "British Virgin Islands",
+        "1960Perc_Urban": 12.22,
+        "1970Perc_Urban": 16.64,
+        "1980Perc_Urban": 22.74,
+        "1990Perc_Urban": 37.82,
+        "2000Perc_Urban": 41.77,
+        "2010Perc_Urban": 44.81,
+        "2017Perc_Urban": 47.34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.639968,
+          18.420695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Brunei",
+        "1960Perc_Urban": 43.40,
+        "1970Perc_Urban": 61.67,
+        "1980Perc_Urban": 64.95,
+        "1990Perc_Urban": 66.44,
+        "2000Perc_Urban": 71.16,
+        "2010Perc_Urban": 74.96,
+        "2017Perc_Urban": 77.31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.727669,
+          4.535277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Bulgaria",
+        "1960Perc_Urban": 37.10,
+        "1970Perc_Urban": 52.3,
+        "1980Perc_Urban": 62.1,
+        "1990Perc_Urban": 66.38,
+        "2000Perc_Urban": 68.9,
+        "2010Perc_Urban": 72.3,
+        "2017Perc_Urban": 74.67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.48583,
+          42.733883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Burkina Faso",
+        "1960Perc_Urban": 4.70,
+        "1970Perc_Urban": 5.75,
+        "1980Perc_Urban": 8.8,
+        "1990Perc_Urban": 13.81,
+        "2000Perc_Urban": 17.84,
+        "2010Perc_Urban": 24.63,
+        "2017Perc_Urban": 28.74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.561593,
+          12.238333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Burundi",
+        "1960Perc_Urban": 2.08,
+        "1970Perc_Urban": 2.85,
+        "1980Perc_Urban": 4.34,
+        "1990Perc_Urban": 6.27,
+        "2000Perc_Urban": 8.25,
+        "2010Perc_Urban": 10.64,
+        "2017Perc_Urban": 12.71
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.918886,
+          -3.373056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Cambodia",
+        "1960Perc_Urban": 10.29,
+        "1970Perc_Urban": 15.97,
+        "1980Perc_Urban": 9.9,
+        "1990Perc_Urban": 15.55,
+        "2000Perc_Urban": 18.59,
+        "2010Perc_Urban": 20.29,
+        "2017Perc_Urban": 22.98
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.990963,
+          12.565679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Cameroon",
+        "1960Perc_Urban": 13.94,
+        "1970Perc_Urban": 20.3,
+        "1980Perc_Urban": 31.92,
+        "1990Perc_Urban": 39.66,
+        "2000Perc_Urban": 45.54,
+        "2010Perc_Urban": 51.56,
+        "2017Perc_Urban": 55.78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.354722,
+          7.369722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Canada",
+        "1960Perc_Urban": 69.06,
+        "1970Perc_Urban": 75.65,
+        "1980Perc_Urban": 75.66,
+        "1990Perc_Urban": 76.58,
+        "2000Perc_Urban": 79.48,
+        "2010Perc_Urban": 80.94,
+        "2017Perc_Urban": 81.35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.346771,
+          56.130366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Cape Verde",
+        "1960Perc_Urban": 16.68,
+        "1970Perc_Urban": 19.56,
+        "1980Perc_Urban": 23.52,
+        "1990Perc_Urban": 44.12,
+        "2000Perc_Urban": 53.43,
+        "2010Perc_Urban": 61.82,
+        "2017Perc_Urban": 65.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -24.013197,
+          16.002082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Cayman Islands",
+        "1960Perc_Urban": 100,
+        "1970Perc_Urban": 100,
+        "1980Perc_Urban": 100,
+        "1990Perc_Urban": 100,
+        "2000Perc_Urban": 100,
+        "2010Perc_Urban": 100,
+        "2017Perc_Urban": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.566956,
+          19.513469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Central African Republic",
+        "1960Perc_Urban": 20.10,
+        "1970Perc_Urban": 27.49,
+        "1980Perc_Urban": 33.87,
+        "1990Perc_Urban": 36.83,
+        "2000Perc_Urban": 37.64,
+        "2010Perc_Urban": 38.9,
+        "2017Perc_Urban": 40.98
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.939444,
+          6.611111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Chad",
+        "1960Perc_Urban": 6.70,
+        "1970Perc_Urban": 11.57,
+        "1980Perc_Urban": 18.79,
+        "1990Perc_Urban": 20.81,
+        "2000Perc_Urban": 21.64,
+        "2010Perc_Urban": 21.98,
+        "2017Perc_Urban": 22.86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.732207,
+          15.454166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Chile",
+        "1960Perc_Urban": 67.84,
+        "1970Perc_Urban": 75.23,
+        "1980Perc_Urban": 81.24,
+        "1990Perc_Urban": 83.27,
+        "2000Perc_Urban": 86.07,
+        "2010Perc_Urban": 87.07,
+        "2017Perc_Urban": 87.49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.542969,
+          -35.675147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "China",
+        "1960Perc_Urban": 16.20,
+        "1970Perc_Urban": 17.4,
+        "1980Perc_Urban": 19.36,
+        "1990Perc_Urban": 26.44,
+        "2000Perc_Urban": 35.88,
+        "2010Perc_Urban": 49.23,
+        "2017Perc_Urban": 57.96
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.195397,
+          35.86166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Colombia",
+        "1960Perc_Urban": 46.27,
+        "1970Perc_Urban": 56.63,
+        "1980Perc_Urban": 63.74,
+        "1990Perc_Urban": 69.48,
+        "2000Perc_Urban": 73.96,
+        "2010Perc_Urban": 77.96,
+        "2017Perc_Urban": 80.45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.297333,
+          4.570868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Comoros",
+        "1960Perc_Urban": 12.55,
+        "1970Perc_Urban": 19.39,
+        "1980Perc_Urban": 23.22,
+        "1990Perc_Urban": 27.87,
+        "2000Perc_Urban": 28.08,
+        "2010Perc_Urban": 27.97,
+        "2017Perc_Urban": 28.78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.872219,
+          -11.875001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Congo",
+        "1960Perc_Urban": 31.60,
+        "1970Perc_Urban": 39.13,
+        "1980Perc_Urban": 47.86,
+        "1990Perc_Urban": 54.32,
+        "2000Perc_Urban": 58.69,
+        "2010Perc_Urban": 63.26,
+        "2017Perc_Urban": 66.46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.827659,
+          -0.228021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Costa Rica",
+        "1960Perc_Urban": 34.25,
+        "1970Perc_Urban": 38.83,
+        "1980Perc_Urban": 43.1,
+        "1990Perc_Urban": 50,
+        "2000Perc_Urban": 59.05,
+        "2010Perc_Urban": 71.74,
+        "2017Perc_Urban": 78.56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.753428,
+          9.748917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Cote d'Ivoire",
+        "1960Perc_Urban": 17.68,
+        "1970Perc_Urban": 28.16,
+        "1980Perc_Urban": 36.83,
+        "1990Perc_Urban": 39.35,
+        "2000Perc_Urban": 43.15,
+        "2010Perc_Urban": 47.33,
+        "2017Perc_Urban": 50.33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.547545,
+          7.5455112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Croatia",
+        "1960Perc_Urban": 30.15,
+        "1970Perc_Urban": 40.2,
+        "1980Perc_Urban": 47.29,
+        "1990Perc_Urban": 51.04,
+        "2000Perc_Urban": 53.43,
+        "2010Perc_Urban": 55.15,
+        "2017Perc_Urban": 56.67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2,
+          45.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Cuba",
+        "1960Perc_Urban": 58.40,
+        "1970Perc_Urban": 60.27,
+        "1980Perc_Urban": 68.11,
+        "1990Perc_Urban": 73.36,
+        "2000Perc_Urban": 75.32,
+        "2010Perc_Urban": 76.6,
+        "2017Perc_Urban": 76.98
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.781167,
+          21.521757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Curacao",
+        "1960Perc_Urban": 74.71,
+        "1970Perc_Urban": 78.45,
+        "1980Perc_Urban": 81.77,
+        "1990Perc_Urban": 84.68,
+        "2000Perc_Urban": 90.75,
+        "2010Perc_Urban": 89.9,
+        "2017Perc_Urban": 89.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9495816,
+          12.2135221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Cyprus",
+        "1960Perc_Urban": 35.63,
+        "1970Perc_Urban": 40.76,
+        "1980Perc_Urban": 58.61,
+        "1990Perc_Urban": 66.78,
+        "2000Perc_Urban": 68.65,
+        "2010Perc_Urban": 67.55,
+        "2017Perc_Urban": 66.84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.429859,
+          35.126413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Czechia",
+        "1960Perc_Urban": 59.55,
+        "1970Perc_Urban": 64.4,
+        "1980Perc_Urban": 75.17,
+        "1990Perc_Urban": 75.22,
+        "2000Perc_Urban": 73.99,
+        "2010Perc_Urban": 73.25,
+        "2017Perc_Urban": 73.67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.472962,
+          49.817492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Democratic Republic of Congo",
+        "1960Perc_Urban": 22.30,
+        "1970Perc_Urban": 24.61,
+        "1980Perc_Urban": 27.07,
+        "1990Perc_Urban": 30.63,
+        "2000Perc_Urban": 35.12,
+        "2010Perc_Urban": 40.01,
+        "2017Perc_Urban": 43.88
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.758664,
+          -4.038333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Denmark",
+        "1960Perc_Urban": 73.69,
+        "1970Perc_Urban": 79.74,
+        "1980Perc_Urban": 83.72,
+        "1990Perc_Urban": 84.84,
+        "2000Perc_Urban": 85.1,
+        "2010Perc_Urban": 86.79,
+        "2017Perc_Urban": 87.76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.501785,
+          56.26392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Djibouti",
+        "1960Perc_Urban": 50.33,
+        "1970Perc_Urban": 61.78,
+        "1980Perc_Urban": 72.1,
+        "1990Perc_Urban": 75.96,
+        "2000Perc_Urban": 76.53,
+        "2010Perc_Urban": 77,
+        "2017Perc_Urban": 77.65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.590275,
+          11.825138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Dominica",
+        "1960Perc_Urban": 37.85,
+        "1970Perc_Urban": 38.68,
+        "1980Perc_Urban": 46.76,
+        "1990Perc_Urban": 63.08,
+        "2000Perc_Urban": 65.26,
+        "2010Perc_Urban": 68.09,
+        "2017Perc_Urban": 70.18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.370976,
+          15.414999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Dominican Republic",
+        "1960Perc_Urban": 30.19,
+        "1970Perc_Urban": 40.27,
+        "1980Perc_Urban": 51.29,
+        "1990Perc_Urban": 55.23,
+        "2000Perc_Urban": 61.75,
+        "2010Perc_Urban": 73.75,
+        "2017Perc_Urban": 80.28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.162651,
+          18.735693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Ecuador",
+        "1960Perc_Urban": 33.88,
+        "1970Perc_Urban": 39.28,
+        "1980Perc_Urban": 46.96,
+        "1990Perc_Urban": 55.09,
+        "2000Perc_Urban": 60.3,
+        "2010Perc_Urban": 62.69,
+        "2017Perc_Urban": 63.67
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.183406,
+          -1.831239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Egypt",
+        "1960Perc_Urban": 37.86,
+        "1970Perc_Urban": 41.48,
+        "1980Perc_Urban": 43.86,
+        "1990Perc_Urban": 43.48,
+        "2000Perc_Urban": 42.8,
+        "2010Perc_Urban": 43.02,
+        "2017Perc_Urban": 42.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.802498,
+          26.820553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "El Salvador",
+        "1960Perc_Urban": 38.35,
+        "1970Perc_Urban": 39.44,
+        "1980Perc_Urban": 44.1,
+        "1990Perc_Urban": 49.27,
+        "2000Perc_Urban": 58.91,
+        "2010Perc_Urban": 65.45,
+        "2017Perc_Urban": 71.28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.89653,
+          13.794185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Equatorial Guinea",
+        "1960Perc_Urban": 25.54,
+        "1970Perc_Urban": 26.95,
+        "1980Perc_Urban": 27.87,
+        "1990Perc_Urban": 34.75,
+        "2000Perc_Urban": 49.09,
+        "2010Perc_Urban": 65.94,
+        "2017Perc_Urban": 71.65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.267895,
+          1.650801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Eritrea",
+        "1960Perc_Urban": 9.80,
+        "1970Perc_Urban": 12.68,
+        "1980Perc_Urban": 14.39,
+        "1990Perc_Urban": 18.9,
+        "2000Perc_Urban": 26.59,
+        "2010Perc_Urban": 35.18,
+        "2017Perc_Urban": 40.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.782334,
+          15.179384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Estonia",
+        "1960Perc_Urban": 57.53,
+        "1970Perc_Urban": 64.95,
+        "1980Perc_Urban": 69.71,
+        "1990Perc_Urban": 71.23,
+        "2000Perc_Urban": 69.37,
+        "2010Perc_Urban": 68.09,
+        "2017Perc_Urban": 68.72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.013607,
+          58.595272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Ethiopia",
+        "1960Perc_Urban": 6.43,
+        "1970Perc_Urban": 8.59,
+        "1980Perc_Urban": 10.41,
+        "1990Perc_Urban": 12.62,
+        "2000Perc_Urban": 14.74,
+        "2010Perc_Urban": 17.32,
+        "2017Perc_Urban": 20.31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.489673,
+          9.145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Fiji",
+        "1960Perc_Urban": 29.68,
+        "1970Perc_Urban": 34.76,
+        "1980Perc_Urban": 37.77,
+        "1990Perc_Urban": 41.61,
+        "2000Perc_Urban": 47.91,
+        "2010Perc_Urban": 52.17,
+        "2017Perc_Urban": 55.74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.414413,
+          -16.578193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Finland",
+        "1960Perc_Urban": 55.29,
+        "1970Perc_Urban": 63.7,
+        "1980Perc_Urban": 71.73,
+        "1990Perc_Urban": 79.37,
+        "2000Perc_Urban": 82.18,
+        "2010Perc_Urban": 83.77,
+        "2017Perc_Urban": 85.32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.748151,
+          61.92411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "France",
+        "1960Perc_Urban": 61.88,
+        "1970Perc_Urban": 71.06,
+        "1980Perc_Urban": 73.28,
+        "1990Perc_Urban": 74.06,
+        "2000Perc_Urban": 75.87,
+        "2010Perc_Urban": 78.37,
+        "2017Perc_Urban": 80.18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.213749,
+          46.227638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "French Polynesia",
+        "1960Perc_Urban": 42.28,
+        "1970Perc_Urban": 55.16,
+        "1980Perc_Urban": 59,
+        "1990Perc_Urban": 57.85,
+        "2000Perc_Urban": 56.05,
+        "2010Perc_Urban": 60.32,
+        "2017Perc_Urban": 61.78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.406843,
+          -17.679742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Gabon",
+        "1960Perc_Urban": 17.40,
+        "1970Perc_Urban": 32,
+        "1980Perc_Urban": 54.68,
+        "1990Perc_Urban": 69.14,
+        "2000Perc_Urban": 78.88,
+        "2010Perc_Urban": 85.53,
+        "2017Perc_Urban": 88.98
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.609444,
+          -0.803689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Gambia",
+        "1960Perc_Urban": 12.13,
+        "1970Perc_Urban": 19.5,
+        "1980Perc_Urban": 28.41,
+        "1990Perc_Urban": 38.31,
+        "2000Perc_Urban": 47.87,
+        "2010Perc_Urban": 55.66,
+        "2017Perc_Urban": 60.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.310139,
+          13.443182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Georgia",
+        "1960Perc_Urban": 43.07,
+        "1970Perc_Urban": 48.01,
+        "1980Perc_Urban": 52.5,
+        "1990Perc_Urban": 55.04,
+        "2000Perc_Urban": 52.64,
+        "2010Perc_Urban": 55.53,
+        "2017Perc_Urban": 58.23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.356892,
+          42.315407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Germany",
+        "1960Perc_Urban": 71.38,
+        "1970Perc_Urban": 72.27,
+        "1980Perc_Urban": 72.84,
+        "1990Perc_Urban": 73.12,
+        "2000Perc_Urban": 74.97,
+        "2010Perc_Urban": 76.97,
+        "2017Perc_Urban": 77.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.451526,
+          51.165691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Ghana",
+        "1960Perc_Urban": 23.25,
+        "1970Perc_Urban": 28.96,
+        "1980Perc_Urban": 31.16,
+        "1990Perc_Urban": 36.44,
+        "2000Perc_Urban": 43.93,
+        "2010Perc_Urban": 50.71,
+        "2017Perc_Urban": 55.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.023194,
+          7.946527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Gibraltar",
+        "1960Perc_Urban": 100.00,
+        "1970Perc_Urban": 100,
+        "1980Perc_Urban": 100,
+        "1990Perc_Urban": 100,
+        "2000Perc_Urban": 100,
+        "2010Perc_Urban": 100,
+        "2017Perc_Urban": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.345374,
+          36.137741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Greece",
+        "1960Perc_Urban": 55.94,
+        "1970Perc_Urban": 64.22,
+        "1980Perc_Urban": 69.34,
+        "1990Perc_Urban": 71.47,
+        "2000Perc_Urban": 72.72,
+        "2010Perc_Urban": 76.29,
+        "2017Perc_Urban": 78.72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.824312,
+          39.074208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Greenland",
+        "1960Perc_Urban": 58.54,
+        "1970Perc_Urban": 72.74,
+        "1980Perc_Urban": 76.12,
+        "1990Perc_Urban": 79.7,
+        "2000Perc_Urban": 81.6,
+        "2010Perc_Urban": 84.38,
+        "2017Perc_Urban": 86.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.604303,
+          71.706936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Grenada",
+        "1960Perc_Urban": 30.33,
+        "1970Perc_Urban": 32.21,
+        "1980Perc_Urban": 32.91,
+        "1990Perc_Urban": 33.43,
+        "2000Perc_Urban": 35.7,
+        "2010Perc_Urban": 35.86,
+        "2017Perc_Urban": 36.16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.604171,
+          12.262776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Guam",
+        "1960Perc_Urban": 50.15,
+        "1970Perc_Urban": 61.92,
+        "1980Perc_Urban": 93.75,
+        "1990Perc_Urban": 90.8,
+        "2000Perc_Urban": 93.13,
+        "2010Perc_Urban": 94.1,
+        "2017Perc_Urban": 94.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.793731,
+          13.444304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Guatemala",
+        "1960Perc_Urban": 31.12,
+        "1970Perc_Urban": 35.55,
+        "1980Perc_Urban": 38.72,
+        "1990Perc_Urban": 41.99,
+        "2000Perc_Urban": 45.33,
+        "2010Perc_Urban": 48.4,
+        "2017Perc_Urban": 50.68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.230759,
+          15.783471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Guinea",
+        "1960Perc_Urban": 10.47,
+        "1970Perc_Urban": 15.98,
+        "1980Perc_Urban": 23.62,
+        "1990Perc_Urban": 28.03,
+        "2000Perc_Urban": 30.87,
+        "2010Perc_Urban": 33.68,
+        "2017Perc_Urban": 35.79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.696645,
+          9.945587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Guinea-Bissau",
+        "1960Perc_Urban": 13.60,
+        "1970Perc_Urban": 15.13,
+        "1980Perc_Urban": 17.8,
+        "1990Perc_Urban": 30.83,
+        "2000Perc_Urban": 36.24,
+        "2010Perc_Urban": 40.11,
+        "2017Perc_Urban": 42.95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.180413,
+          11.803749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Guyana",
+        "1960Perc_Urban": 29.01,
+        "1970Perc_Urban": 29.43,
+        "1980Perc_Urban": 30.49,
+        "1990Perc_Urban": 29.58,
+        "2000Perc_Urban": 28.69,
+        "2010Perc_Urban": 26.63,
+        "2017Perc_Urban": 26.54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.93018,
+          4.860416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Haiti",
+        "1960Perc_Urban": 15.59,
+        "1970Perc_Urban": 19.76,
+        "1980Perc_Urban": 20.54,
+        "1990Perc_Urban": 28.51,
+        "2000Perc_Urban": 35.6,
+        "2010Perc_Urban": 47.51,
+        "2017Perc_Urban": 54.35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.285215,
+          18.971187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Honduras",
+        "1960Perc_Urban": 22.75,
+        "1970Perc_Urban": 28.9,
+        "1980Perc_Urban": 34.87,
+        "1990Perc_Urban": 40.46,
+        "2000Perc_Urban": 45.46,
+        "2010Perc_Urban": 51.89,
+        "2017Perc_Urban": 56.46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.241905,
+          15.199999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Hong Kong",
+        "1960Perc_Urban": 85.20,
+        "1970Perc_Urban": 87.73,
+        "1980Perc_Urban": 91.48,
+        "1990Perc_Urban": 99.52,
+        "2000Perc_Urban": 100,
+        "2010Perc_Urban": 100,
+        "2017Perc_Urban": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.109497,
+          22.396428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Hungary",
+        "1960Perc_Urban": 55.91,
+        "1970Perc_Urban": 60.11,
+        "1980Perc_Urban": 64.19,
+        "1990Perc_Urban": 65.84,
+        "2000Perc_Urban": 64.58,
+        "2010Perc_Urban": 68.91,
+        "2017Perc_Urban": 71.06
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.503304,
+          47.162494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Iceland",
+        "1960Perc_Urban": 80.30,
+        "1970Perc_Urban": 84.9,
+        "1980Perc_Urban": 88.26,
+        "1990Perc_Urban": 90.75,
+        "2000Perc_Urban": 92.4,
+        "2010Perc_Urban": 93.57,
+        "2017Perc_Urban": 93.77
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.020835,
+          64.963051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "India",
+        "1960Perc_Urban": 17.92,
+        "1970Perc_Urban": 19.76,
+        "1980Perc_Urban": 23.1,
+        "1990Perc_Urban": 25.55,
+        "2000Perc_Urban": 27.67,
+        "2010Perc_Urban": 30.93,
+        "2017Perc_Urban": 33.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.96288,
+          20.593684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Indonesia",
+        "1960Perc_Urban": 14.59,
+        "1970Perc_Urban": 17.07,
+        "1980Perc_Urban": 22.1,
+        "1990Perc_Urban": 30.58,
+        "2000Perc_Urban": 42,
+        "2010Perc_Urban": 49.91,
+        "2017Perc_Urban": 54.66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.921327,
+          -0.789275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Iran",
+        "1960Perc_Urban": 33.74,
+        "1970Perc_Urban": 41.21,
+        "1980Perc_Urban": 49.69,
+        "1990Perc_Urban": 56.33,
+        "2000Perc_Urban": 64.04,
+        "2010Perc_Urban": 70.63,
+        "2017Perc_Urban": 74.39
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.688046,
+          32.427908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Iraq",
+        "1960Perc_Urban": 42.90,
+        "1970Perc_Urban": 56.15,
+        "1980Perc_Urban": 65.52,
+        "1990Perc_Urban": 69.71,
+        "2000Perc_Urban": 68.5,
+        "2010Perc_Urban": 69.1,
+        "2017Perc_Urban": 70.28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.679291,
+          33.223191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Ireland",
+        "1960Perc_Urban": 45.18,
+        "1970Perc_Urban": 51.28,
+        "1980Perc_Urban": 55.33,
+        "1990Perc_Urban": 56.93,
+        "2000Perc_Urban": 59.16,
+        "2010Perc_Urban": 61.54,
+        "2017Perc_Urban": 62.95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.24389,
+          53.41291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Isle of Man",
+        "1960Perc_Urban": 55.12,
+        "1970Perc_Urban": 55.83,
+        "1980Perc_Urban": 51.78,
+        "1990Perc_Urban": 51.75,
+        "2000Perc_Urban": 51.82,
+        "2010Perc_Urban": 51.99,
+        "2017Perc_Urban": 52.46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.548056,
+          54.236107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Israel",
+        "1960Perc_Urban": 76.85,
+        "1970Perc_Urban": 84.19,
+        "1980Perc_Urban": 88.58,
+        "1990Perc_Urban": 90.36,
+        "2000Perc_Urban": 91.2,
+        "2010Perc_Urban": 91.83,
+        "2017Perc_Urban": 92.34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.851612,
+          31.046051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Italy",
+        "1960Perc_Urban": 59.36,
+        "1970Perc_Urban": 64.27,
+        "1980Perc_Urban": 66.64,
+        "1990Perc_Urban": 66.73,
+        "2000Perc_Urban": 67.22,
+        "2010Perc_Urban": 68.33,
+        "2017Perc_Urban": 70.14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.56738,
+          41.87194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Jamaica",
+        "1960Perc_Urban": 33.77,
+        "1970Perc_Urban": 41.32,
+        "1980Perc_Urban": 46.74,
+        "1990Perc_Urban": 49.44,
+        "2000Perc_Urban": 51.81,
+        "2010Perc_Urban": 53.74,
+        "2017Perc_Urban": 55.38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.297508,
+          18.109581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Japan",
+        "1960Perc_Urban": 63.27,
+        "1970Perc_Urban": 71.88,
+        "1980Perc_Urban": 76.18,
+        "1990Perc_Urban": 77.34,
+        "2000Perc_Urban": 78.65,
+        "2010Perc_Urban": 90.81,
+        "2017Perc_Urban": 91.53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.252924,
+          36.204824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Jordan",
+        "1960Perc_Urban": 50.88,
+        "1970Perc_Urban": 55.97,
+        "1980Perc_Urban": 60.03,
+        "1990Perc_Urban": 73.29,
+        "2000Perc_Urban": 78.27,
+        "2010Perc_Urban": 86.09,
+        "2017Perc_Urban": 90.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.238414,
+          30.585164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Kazakhstan",
+        "1960Perc_Urban": 44.20,
+        "1970Perc_Urban": 50.24,
+        "1980Perc_Urban": 54.14,
+        "1990Perc_Urban": 56.27,
+        "2000Perc_Urban": 56.1,
+        "2010Perc_Urban": 56.83,
+        "2017Perc_Urban": 57.34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.923684,
+          48.019573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Kenya",
+        "1960Perc_Urban": 7.36,
+        "1970Perc_Urban": 10.29,
+        "1980Perc_Urban": 15.58,
+        "1990Perc_Urban": 16.75,
+        "2000Perc_Urban": 19.89,
+        "2010Perc_Urban": 23.57,
+        "2017Perc_Urban": 26.56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.906193,
+          -0.023559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Kiribati",
+        "1960Perc_Urban": 16.29,
+        "1970Perc_Urban": 24.09,
+        "1980Perc_Urban": 32.28,
+        "1990Perc_Urban": 34.99,
+        "2000Perc_Urban": 42.96,
+        "2010Perc_Urban": 47.39,
+        "2017Perc_Urban": 53.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.734039,
+          -3.370417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Kuwait",
+        "1960Perc_Urban": 74.89,
+        "1970Perc_Urban": 85.66,
+        "1980Perc_Urban": 94.78,
+        "1990Perc_Urban": 97.97,
+        "2000Perc_Urban": 99,
+        "2010Perc_Urban": 100,
+        "2017Perc_Urban": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.481766,
+          29.31166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Kyrgyzstan",
+        "1960Perc_Urban": 34.18,
+        "1970Perc_Urban": 37.47,
+        "1980Perc_Urban": 38.63,
+        "1990Perc_Urban": 37.78,
+        "2000Perc_Urban": 35.3,
+        "2010Perc_Urban": 35.31,
+        "2017Perc_Urban": 36.13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.766098,
+          41.20438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Laos",
+        "1960Perc_Urban": 7.95,
+        "1970Perc_Urban": 9.62,
+        "1980Perc_Urban": 12.38,
+        "1990Perc_Urban": 15.44,
+        "2000Perc_Urban": 21.98,
+        "2010Perc_Urban": 30.06,
+        "2017Perc_Urban": 34.37       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.495496,
+          19.85627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Latvia",
+        "1960Perc_Urban": 52.87,
+        "1970Perc_Urban": 60.71,
+        "1980Perc_Urban": 67.1,
+        "1990Perc_Urban": 69.25,
+        "2000Perc_Urban": 68.07,
+        "2010Perc_Urban": 67.84,
+        "2017Perc_Urban": 68.08       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.603189,
+          56.879635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Lebanon",
+        "1960Perc_Urban": 42.34,
+        "1970Perc_Urban": 59.47,
+        "1980Perc_Urban": 73.67,
+        "1990Perc_Urban": 83.12,
+        "2000Perc_Urban": 86,
+        "2010Perc_Urban": 87.33,
+        "2017Perc_Urban": 88.43       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.862285,
+          33.854721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Lesotho",
+        "1960Perc_Urban": 3.51,
+        "1970Perc_Urban": 8.61,
+        "1980Perc_Urban": 11.45,
+        "1990Perc_Urban": 13.97,
+        "2000Perc_Urban": 19.55,
+        "2010Perc_Urban": 24.8,
+        "2017Perc_Urban": 27.73       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.233608,
+          -29.609988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Liberia",
+        "1960Perc_Urban": 18.63,
+        "1970Perc_Urban": 26.03,
+        "1980Perc_Urban": 35.17,
+        "1990Perc_Urban": 55.42,
+        "2000Perc_Urban": 44.33,
+        "2010Perc_Urban": 47.81,
+        "2017Perc_Urban": 50.7       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.429499,
+          6.428055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Libya",
+        "1960Perc_Urban": 27.32,
+        "1970Perc_Urban": 49.67,
+        "1980Perc_Urban": 70.09,
+        "1990Perc_Urban": 75.72,
+        "2000Perc_Urban": 76.39,
+        "2010Perc_Urban": 78.05,
+        "2017Perc_Urban": 79.82       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.228331,
+          26.3351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Liechtenstein",
+        "1960Perc_Urban": 20.44,
+        "1970Perc_Urban": 18.45,
+        "1980Perc_Urban": 18.27,
+        "1990Perc_Urban": 16.93,
+        "2000Perc_Urban": 15.13,
+        "2010Perc_Urban": 14.46,
+        "2017Perc_Urban": 14.32       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.555373,
+          47.166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Lithuania",
+        "1960Perc_Urban": 39.46,
+        "1970Perc_Urban": 49.56,
+        "1980Perc_Urban": 61.16,
+        "1990Perc_Urban": 67.58,
+        "2000Perc_Urban": 66.99,
+        "2010Perc_Urban": 66.76,
+        "2017Perc_Urban": 67.52       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.881275,
+          55.169438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Luxembourg",
+        "1960Perc_Urban": 69.56,
+        "1970Perc_Urban": 74.37,
+        "1980Perc_Urban": 80.04,
+        "1990Perc_Urban": 80.95,
+        "2000Perc_Urban": 84.22,
+        "2010Perc_Urban": 88.55,
+        "2017Perc_Urban": 90.73       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.129583,
+          49.815273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Macao",
+        "1960Perc_Urban": 95.29,
+        "1970Perc_Urban": 97.03,
+        "1980Perc_Urban": 98.52,
+        "1990Perc_Urban": 99.76,
+        "2000Perc_Urban": 100,
+        "2010Perc_Urban": 100,
+        "2017Perc_Urban": 100       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.543873,
+          22.198745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Madagascar",
+        "1960Perc_Urban": 10.64,
+        "1970Perc_Urban": 14.1,
+        "1980Perc_Urban": 18.52,
+        "1990Perc_Urban": 23.57,
+        "2000Perc_Urban": 27.12,
+        "2010Perc_Urban": 31.94,
+        "2017Perc_Urban": 36.52       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.869107,
+          -18.766947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Malawi",
+        "1960Perc_Urban": 4.39,
+        "1970Perc_Urban": 6.05,
+        "1980Perc_Urban": 9.05,
+        "1990Perc_Urban": 11.56,
+        "2000Perc_Urban": 14.61,
+        "2010Perc_Urban": 15.54,
+        "2017Perc_Urban": 16.71       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.301525,
+          -13.254308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Malaysia",
+        "1960Perc_Urban": 26.60,
+        "1970Perc_Urban": 33.45,
+        "1980Perc_Urban": 42.04,
+        "1990Perc_Urban": 49.79,
+        "2000Perc_Urban": 61.98,
+        "2010Perc_Urban": 70.91,
+        "2017Perc_Urban": 75.45       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.975766,
+          4.210484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Maldives",
+        "1960Perc_Urban": 11.17,
+        "1970Perc_Urban": 11.89,
+        "1980Perc_Urban": 22.25,
+        "1990Perc_Urban": 25.84,
+        "2000Perc_Urban": 27.71,
+        "2010Perc_Urban": 36.43,
+        "2017Perc_Urban": 39.38       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.22068,
+          3.202778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Mali",
+        "1960Perc_Urban": 11.07,
+        "1970Perc_Urban": 14.33,
+        "1980Perc_Urban": 18.48,
+        "1990Perc_Urban": 23.32,
+        "2000Perc_Urban": 28.36,
+        "2010Perc_Urban": 36,
+        "2017Perc_Urban": 41.57       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.996166,
+          17.570692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Malta",
+        "1960Perc_Urban": 90.13,
+        "1970Perc_Urban": 89.7,
+        "1980Perc_Urban": 89.79,
+        "1990Perc_Urban": 90.38,
+        "2000Perc_Urban": 92.37,
+        "2010Perc_Urban": 94.07,
+        "2017Perc_Urban": 94.55       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.375416,
+          35.937496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Marshall Islands",
+        "1960Perc_Urban": 35.58,
+        "1970Perc_Urban": 53.49,
+        "1980Perc_Urban": 58.3,
+        "1990Perc_Urban": 65.05,
+        "2000Perc_Urban": 68.58,
+        "2010Perc_Urban": 73.57,
+        "2017Perc_Urban": 76.63       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.184478,
+          7.131474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Mauritania",
+        "1960Perc_Urban": 6.88,
+        "1970Perc_Urban": 14.56,
+        "1980Perc_Urban": 27.37,
+        "1990Perc_Urban": 39.32,
+        "2000Perc_Urban": 38.09,
+        "2010Perc_Urban": 46.59,
+        "2017Perc_Urban": 52.82       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.940835,
+          21.00789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Mauritius",
+        "1960Perc_Urban": 35.11,
+        "1970Perc_Urban": 42.56,
+        "1980Perc_Urban": 42.35,
+        "1990Perc_Urban": 43.9,
+        "2000Perc_Urban": 42.67,
+        "2010Perc_Urban": 41.56,
+        "2017Perc_Urban": 40.84       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.552152,
+          -20.348404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Mexico",
+        "1960Perc_Urban": 50.75,
+        "1970Perc_Urban": 59.02,
+        "1980Perc_Urban": 66.34,
+        "1990Perc_Urban": 71.42,
+        "2000Perc_Urban": 74.72,
+        "2010Perc_Urban": 77.82,
+        "2017Perc_Urban": 79.87       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.552784,
+          23.634501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Micronesia (country)",
+        "1960Perc_Urban": 22.31,
+        "1970Perc_Urban": 24.81,
+        "1980Perc_Urban": 26.44,
+        "1990Perc_Urban": 25.82,
+        "2000Perc_Urban": 22.33,
+        "2010Perc_Urban": 22.3,
+        "2017Perc_Urban": 22.61       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.550812,
+          7.425554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Moldova",
+        "1960Perc_Urban": 23.42,
+        "1970Perc_Urban": 32.07,
+        "1980Perc_Urban": 40.39,
+        "1990Perc_Urban": 46.76,
+        "2000Perc_Urban": 44.59,
+        "2010Perc_Urban": 42.62,
+        "2017Perc_Urban": 42.56       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.369885,
+          47.411631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Monaco",
+        "1960Perc_Urban": "100.00",
+        "1970Perc_Urban": 100,
+        "1980Perc_Urban": 100,
+        "1990Perc_Urban": 100,
+        "2000Perc_Urban": 100,
+        "2010Perc_Urban": 100,
+        "2017Perc_Urban": 100       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.412841,
+          43.750298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Mongolia",
+        "1960Perc_Urban": 35.68,
+        "1970Perc_Urban": 45.05,
+        "1980Perc_Urban": 52.08,
+        "1990Perc_Urban": 57.03,
+        "2000Perc_Urban": 57.13,
+        "2010Perc_Urban": 67.57,
+        "2017Perc_Urban": 68.36       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.846656,
+          46.862496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Montenegro",
+        "1960Perc_Urban": 18.79,
+        "1970Perc_Urban": 26.85,
+        "1980Perc_Urban": 36.81,
+        "1990Perc_Urban": 48.04,
+        "2000Perc_Urban": 58.54,
+        "2010Perc_Urban": 64.14,
+        "2017Perc_Urban": 66.48       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.37439,
+          42.708678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Morocco",
+        "1960Perc_Urban": 29.36,
+        "1970Perc_Urban": 34.48,
+        "1980Perc_Urban": 41.21,
+        "1990Perc_Urban": 48.39,
+        "2000Perc_Urban": 53.33,
+        "2010Perc_Urban": 58.02,
+        "2017Perc_Urban": 61.91       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.09262,
+          31.791702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Mozambique",
+        "1960Perc_Urban": 6.87,
+        "1970Perc_Urban": 8.99,
+        "1980Perc_Urban": 13.16,
+        "1990Perc_Urban": 25,
+        "2000Perc_Urban": 29.1,
+        "2010Perc_Urban": 31.83,
+        "2017Perc_Urban": 35.45       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.529562,
+          -18.665695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Myanmar",
+        "1960Perc_Urban": 19.23,
+        "1970Perc_Urban": 22.83,
+        "1980Perc_Urban": 23.97,
+        "1990Perc_Urban": 25.24,
+        "2000Perc_Urban": 27.03,
+        "2010Perc_Urban": 28.89,
+        "2017Perc_Urban": 30.32       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.956223,
+          21.913965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Namibia",
+        "1960Perc_Urban": 17.91,
+        "1970Perc_Urban": 22.29,
+        "1980Perc_Urban": 25.07,
+        "1990Perc_Urban": 27.66,
+        "2000Perc_Urban": 32.37,
+        "2010Perc_Urban": 41.62,
+        "2017Perc_Urban": 49.01       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.49041,
+          -22.95764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Nauru",
+        "1960Perc_Urban": 100,
+        "1970Perc_Urban": 100,
+        "1980Perc_Urban": 100,
+        "1990Perc_Urban": 100,
+        "2000Perc_Urban": 100,
+        "2010Perc_Urban": 100,
+        "2017Perc_Urban": 100       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.931503,
+          -0.522778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Nepal",
+        "1960Perc_Urban": 3.48,
+        "1970Perc_Urban": 3.96,
+        "1980Perc_Urban": 6.09,
+        "1990Perc_Urban": 8.85,
+        "2000Perc_Urban": 13.4,
+        "2010Perc_Urban": 16.77,
+        "2017Perc_Urban": 19.34       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.124008,
+          28.394857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Netherlands",
+        "1960Perc_Urban": 59.75,
+        "1970Perc_Urban": 61.66,
+        "1980Perc_Urban": 64.74,
+        "1990Perc_Urban": 68.68,
+        "2000Perc_Urban": 76.8,
+        "2010Perc_Urban": 87.13,
+        "2017Perc_Urban": 91.08       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.291266,
+          52.132633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "New Caledonia",
+        "1960Perc_Urban": 37.36,
+        "1970Perc_Urban": 51.23,
+        "1980Perc_Urban": 57.43,
+        "1990Perc_Urban": 59.58,
+        "2000Perc_Urban": 61.92,
+        "2010Perc_Urban": 67.1,
+        "2017Perc_Urban": 70.26       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.618042,
+          -20.904305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "New Zealand",
+        "1960Perc_Urban": 76.00,
+        "1970Perc_Urban": 81.11,
+        "1980Perc_Urban": 83.43,
+        "1990Perc_Urban": 84.74,
+        "2000Perc_Urban": 86.02,
+        "2010Perc_Urban": 86.16,
+        "2017Perc_Urban": 86.47       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.885971,
+          -40.900557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Nicaragua",
+        "1960Perc_Urban": 39.58,
+        "1970Perc_Urban": 47.03,
+        "1980Perc_Urban": 50.29,
+        "1990Perc_Urban": 53.08,
+        "2000Perc_Urban": 55.18,
+        "2010Perc_Urban": 56.92,
+        "2017Perc_Urban": 58.3       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.207229,
+          12.865416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Niger",
+        "1960Perc_Urban": 5.79,
+        "1970Perc_Urban": 8.79,
+        "1980Perc_Urban": 13.44,
+        "1990Perc_Urban": 15.37,
+        "2000Perc_Urban": 16.19,
+        "2010Perc_Urban": 16.22,
+        "2017Perc_Urban": 16.35       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.081666,
+          17.607789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Nigeria",
+        "1960Perc_Urban": 15.41,
+        "1970Perc_Urban": 17.76,
+        "1980Perc_Urban": 21.97,
+        "1990Perc_Urban": 29.68,
+        "2000Perc_Urban": 34.84,
+        "2010Perc_Urban": 43.48,
+        "2017Perc_Urban": 49.52       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.675277,
+          9.081999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "North Korea",
+        "1960Perc_Urban": 40.20,
+        "1970Perc_Urban": 54.2,
+        "1980Perc_Urban": 56.9,
+        "1990Perc_Urban": 58.38,
+        "2000Perc_Urban": 59.41,
+        "2010Perc_Urban": 60.38,
+        "2017Perc_Urban": 61.68       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.510093,
+          40.339852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "North Macedonia",
+        "1960Perc_Urban": 34.02,
+        "1970Perc_Urban": 47.08,
+        "1980Perc_Urban": 53.47,
+        "1990Perc_Urban": 57.79,
+        "2000Perc_Urban": 58.55,
+        "2010Perc_Urban": 57.09,
+        "2017Perc_Urban": 57.75       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.743258,
+          41.6137143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Northern Mariana Islands",
+        "1960Perc_Urban": 51.22,
+        "1970Perc_Urban": 70.06,
+        "1980Perc_Urban": 86.78,
+        "1990Perc_Urban": 89.73,
+        "2000Perc_Urban": 90.15,
+        "2010Perc_Urban": 90.95,
+        "2017Perc_Urban": 91.53       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.38469,
+          17.33083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Norway",
+        "1960Perc_Urban": 49.92,
+        "1970Perc_Urban": 65.4,
+        "1980Perc_Urban": 70.55,
+        "1990Perc_Urban": 71.96,
+        "2000Perc_Urban": 76.02,
+        "2010Perc_Urban": 79.1,
+        "2017Perc_Urban": 81.87       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.468946,
+          60.472024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Oman",
+        "1960Perc_Urban": 16.40,
+        "1970Perc_Urban": 29.67,
+        "1980Perc_Urban": 47.56,
+        "1990Perc_Urban": 66.1,
+        "2000Perc_Urban": 71.57,
+        "2010Perc_Urban": 75.16,
+        "2017Perc_Urban": 83.56       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.923255,
+          21.512583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Pakistan",
+        "1960Perc_Urban": 22.10,
+        "1970Perc_Urban": 24.82,
+        "1980Perc_Urban": 28.07,
+        "1990Perc_Urban": 30.58,
+        "2000Perc_Urban": 32.98,
+        "2010Perc_Urban": 35,
+        "2017Perc_Urban": 36.44       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.345116,
+          30.375321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Palau",
+        "1960Perc_Urban": 56.82,
+        "1970Perc_Urban": 59.71,
+        "1980Perc_Urban": 62.54,
+        "1990Perc_Urban": 69.59,
+        "2000Perc_Urban": 70.34,
+        "2010Perc_Urban": 74.82,
+        "2017Perc_Urban": 79.36       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.58252,
+          7.51498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Panama",
+        "1960Perc_Urban": 41.25,
+        "1970Perc_Urban": 47.64,
+        "1980Perc_Urban": 50.45,
+        "1990Perc_Urban": 53.9,
+        "2000Perc_Urban": 62.2,
+        "2010Perc_Urban": 65.14,
+        "2017Perc_Urban": 67.36       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.782127,
+          8.537981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Papua New Guinea",
+        "1960Perc_Urban": 3.73,
+        "1970Perc_Urban": 9.8,
+        "1980Perc_Urban": 13.05,
+        "1990Perc_Urban": 14.99,
+        "2000Perc_Urban": 13.2,
+        "2010Perc_Urban": 13.02,
+        "2017Perc_Urban": 13.1       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.95555,
+          -6.314993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Paraguay",
+        "1960Perc_Urban": 35.57,
+        "1970Perc_Urban": 37.06,
+        "1980Perc_Urban": 41.69,
+        "1990Perc_Urban": 48.69,
+        "2000Perc_Urban": 55.33,
+        "2010Perc_Urban": 59.26,
+        "2017Perc_Urban": 61.3       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.443832,
+          -23.442503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Peru",
+        "1960Perc_Urban": 46.81,
+        "1970Perc_Urban": 57.41,
+        "1980Perc_Urban": 64.57,
+        "1990Perc_Urban": 68.9,
+        "2000Perc_Urban": 73.04,
+        "2010Perc_Urban": 76.43,
+        "2017Perc_Urban": 77.72       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.015152,
+          -9.189967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Philippines",
+        "1960Perc_Urban": 30.30,
+        "1970Perc_Urban": 32.98,
+        "1980Perc_Urban": 37.46,
+        "1990Perc_Urban": 46.99,
+        "2000Perc_Urban": 46.13,
+        "2010Perc_Urban": 45.33,
+        "2017Perc_Urban": 46.68       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.774017,
+          12.879721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Poland",
+        "1960Perc_Urban": 47.89,
+        "1970Perc_Urban": 52.12,
+        "1980Perc_Urban": 58.09,
+        "1990Perc_Urban": 61.27,
+        "2000Perc_Urban": 61.72,
+        "2010Perc_Urban": 60.89,
+        "2017Perc_Urban": 60.1       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.145136,
+          51.919438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Portugal",
+        "1960Perc_Urban": 34.96,
+        "1970Perc_Urban": 38.8,
+        "1980Perc_Urban": 42.79,
+        "1990Perc_Urban": 47.92,
+        "2000Perc_Urban": 54.4,
+        "2010Perc_Urban": 60.57,
+        "2017Perc_Urban": 64.65       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.224454,
+          39.399872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Puerto Rico",
+        "1960Perc_Urban": 44.55,
+        "1970Perc_Urban": 58.33,
+        "1980Perc_Urban": 67.83,
+        "1990Perc_Urban": 92.94,
+        "2000Perc_Urban": 94.39,
+        "2010Perc_Urban": 93.83,
+        "2017Perc_Urban": 93.59       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.590149,
+          18.220833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Qatar",
+        "1960Perc_Urban": 85.28,
+        "1970Perc_Urban": 88.35,
+        "1980Perc_Urban": 89.36,
+        "1990Perc_Urban": 92.79,
+        "2000Perc_Urban": 96.31,
+        "2010Perc_Urban": 98.5,
+        "2017Perc_Urban": 99.08       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.183884,
+          25.354826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Romania",
+        "1960Perc_Urban": 34.21,
+        "1970Perc_Urban": 40.32,
+        "1980Perc_Urban": 46.07,
+        "1990Perc_Urban": 53.22,
+        "2000Perc_Urban": 53,
+        "2010Perc_Urban": 53.83,
+        "2017Perc_Urban": 53.94       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.96676,
+          45.943161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Russia",
+        "1960Perc_Urban": 53.73,
+        "1970Perc_Urban": 62.47,
+        "1980Perc_Urban": 69.75,
+        "1990Perc_Urban": 73.39,
+        "2000Perc_Urban": 73.35,
+        "2010Perc_Urban": 73.69,
+        "2017Perc_Urban": 74.29       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.318756,
+          61.52401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Rwanda",
+        "1960Perc_Urban": 2.60,
+        "1970Perc_Urban": 3.19,
+        "1980Perc_Urban": 4.72,
+        "1990Perc_Urban": 5.42,
+        "2000Perc_Urban": 14.93,
+        "2010Perc_Urban": 16.93,
+        "2017Perc_Urban": 17.13       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.873888,
+          -1.940278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Saint Kitts and Nevis",
+        "1960Perc_Urban": 27.64,
+        "1970Perc_Urban": 34.14,
+        "1980Perc_Urban": 35.88,
+        "1990Perc_Urban": 34.61,
+        "2000Perc_Urban": 32.78,
+        "2010Perc_Urban": 31.32,
+        "2017Perc_Urban": 30.77       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.782998,
+          17.357822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Saint Lucia",
+        "1960Perc_Urban": 21.46,
+        "1970Perc_Urban": 23.91,
+        "1980Perc_Urban": 26.54,
+        "1990Perc_Urban": 29.35,
+        "2000Perc_Urban": 27.77,
+        "2010Perc_Urban": 18.45,
+        "2017Perc_Urban": 18.61       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.978893,
+          13.909444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Saint Vincent and the Grenadines",
+        "1960Perc_Urban": 25.94,
+        "1970Perc_Urban": 30.68,
+        "1980Perc_Urban": 35.87,
+        "1990Perc_Urban": 41.41,
+        "2000Perc_Urban": 45.19,
+        "2010Perc_Urban": 48.96,
+        "2017Perc_Urban": 51.78       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.287228,
+          12.984305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Samoa",
+        "1960Perc_Urban": 18.93,
+        "1970Perc_Urban": 20.35,
+        "1980Perc_Urban": 21.17,
+        "1990Perc_Urban": 21.2,
+        "2000Perc_Urban": 21.98,
+        "2010Perc_Urban": 20.08,
+        "2017Perc_Urban": 18.45       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.104629,
+          -13.759029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "San Marino",
+        "1960Perc_Urban": 48.90,
+        "1970Perc_Urban": 59.8,
+        "1980Perc_Urban": 81.23,
+        "1990Perc_Urban": 90.4,
+        "2000Perc_Urban": 93.44,
+        "2010Perc_Urban": 95.74,
+        "2017Perc_Urban": 97.07       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.457777,
+          43.94236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Sao Tome and Principe",
+        "1960Perc_Urban": 16.07,
+        "1970Perc_Urban": 29.52,
+        "1980Perc_Urban": 33.48,
+        "1990Perc_Urban": 43.65,
+        "2000Perc_Urban": 53.42,
+        "2010Perc_Urban": 64.95,
+        "2017Perc_Urban": 71.97       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.613081,
+          0.18636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Saudi Arabia",
+        "1960Perc_Urban": 31.25,
+        "1970Perc_Urban": 48.67,
+        "1980Perc_Urban": 65.86,
+        "1990Perc_Urban": 76.58,
+        "2000Perc_Urban": 79.85,
+        "2010Perc_Urban": 82.08,
+        "2017Perc_Urban": 83.62       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.079162,
+          23.885942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Senegal",
+        "1960Perc_Urban": 23.00,
+        "1970Perc_Urban": 30,
+        "1980Perc_Urban": 35.77,
+        "1990Perc_Urban": 38.9,
+        "2000Perc_Urban": 40.32,
+        "2010Perc_Urban": 43.77,
+        "2017Perc_Urban": 46.74    
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.452362,
+          14.497401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Seychelles",
+        "1960Perc_Urban": 27.67,
+        "1970Perc_Urban": 39.07,
+        "1980Perc_Urban": 49.37,
+        "1990Perc_Urban": 49.27,
+        "2000Perc_Urban": 50.43,
+        "2010Perc_Urban": 53.34,
+        "2017Perc_Urban": 56.26       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.491977,
+          -4.679574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Sierra Leone",
+        "1960Perc_Urban": 17.35,
+        "1970Perc_Urban": 23.97,
+        "1980Perc_Urban": 29.82,
+        "1990Perc_Urban": 33.25,
+        "2000Perc_Urban": 35.63,
+        "2010Perc_Urban": 38.86,
+        "2017Perc_Urban": 41.64       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.779889,
+          8.460555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Singapore",
+        "1960Perc_Urban": 100.00,
+        "1970Perc_Urban": 100,
+        "1980Perc_Urban": 100,
+        "1990Perc_Urban": 100,
+        "2000Perc_Urban": 100,
+        "2010Perc_Urban": 100,
+        "2017Perc_Urban": 100       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.819836,
+          1.352083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Slovakia",
+        "1960Perc_Urban": 33.46,
+        "1970Perc_Urban": 41.06,
+        "1980Perc_Urban": 51.64,
+        "1990Perc_Urban": 56.49,
+        "2000Perc_Urban": 56.23,
+        "2010Perc_Urban": 54.68,
+        "2017Perc_Urban": 53.75       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.699024,
+          48.669026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Slovenia",
+        "1960Perc_Urban": 28.20,
+        "1970Perc_Urban": 37,
+        "1980Perc_Urban": 48.05,
+        "1990Perc_Urban": 50.39,
+        "2000Perc_Urban": 50.75,
+        "2010Perc_Urban": 52.66,
+        "2017Perc_Urban": 54.27       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.995463,
+          46.151241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Solomon Islands",
+        "1960Perc_Urban": 5.77,
+        "1970Perc_Urban": 8.92,
+        "1980Perc_Urban": 10.58,
+        "1990Perc_Urban": 13.68,
+        "2000Perc_Urban": 15.81,
+        "2010Perc_Urban": 20.05,
+        "2017Perc_Urban": 23.29       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.156194,
+          -9.64571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Somalia",
+        "1960Perc_Urban": 17.31,
+        "1970Perc_Urban": 22.68,
+        "1980Perc_Urban": 26.76,
+        "1990Perc_Urban": 29.66,
+        "2000Perc_Urban": 33.25,
+        "2010Perc_Urban": 39.31,
+        "2017Perc_Urban": 44.39       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.199616,
+          5.152149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "South Africa",
+        "1960Perc_Urban": 46.62,
+        "1970Perc_Urban": 47.81,
+        "1980Perc_Urban": 48.42,
+        "1990Perc_Urban": 52.04,
+        "2000Perc_Urban": 56.89,
+        "2010Perc_Urban": 62.22,
+        "2017Perc_Urban": 65.85       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.937506,
+          -30.559482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "South Korea",
+        "1960Perc_Urban": 27.71,
+        "1970Perc_Urban": 40.7,
+        "1980Perc_Urban": 56.72,
+        "1990Perc_Urban": 73.84,
+        "2000Perc_Urban": 79.62,
+        "2010Perc_Urban": 81.94,
+        "2017Perc_Urban": 81.5       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.766922,
+          35.907757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "South Sudan",
+        "1960Perc_Urban": 8.75,
+        "1970Perc_Urban": 8.63,
+        "1980Perc_Urban": 8.52,
+        "1990Perc_Urban": 13.28,
+        "2000Perc_Urban": 16.5,
+        "2010Perc_Urban": 17.86,
+        "2017Perc_Urban": 19.35       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6949232,
+          7.8626845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Spain",
+        "1960Perc_Urban": 56.57,
+        "1970Perc_Urban": 66.04,
+        "1980Perc_Urban": 72.79,
+        "1990Perc_Urban": 75.35,
+        "2000Perc_Urban": 76.26,
+        "2010Perc_Urban": 78.44,
+        "2017Perc_Urban": 80.08       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.74922,
+          40.463667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Sri Lanka",
+        "1960Perc_Urban": 16.43,
+        "1970Perc_Urban": 17.6,
+        "1980Perc_Urban": 18.61,
+        "1990Perc_Urban": 18.53,
+        "2000Perc_Urban": 18.38,
+        "2010Perc_Urban": 18.23,
+        "2017Perc_Urban": 18.38       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.771797,
+          7.873054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Sudan",
+        "1960Perc_Urban": 10.75,
+        "1970Perc_Urban": 16.52,
+        "1980Perc_Urban": 19.96,
+        "1990Perc_Urban": 28.61,
+        "2000Perc_Urban": 32.49,
+        "2010Perc_Urban": 33.09,
+        "2017Perc_Urban": 34.37       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.217636,
+          12.862807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Suriname",
+        "1960Perc_Urban": 47.26,
+        "1970Perc_Urban": 45.95,
+        "1980Perc_Urban": 64.96,
+        "1990Perc_Urban": 65.71,
+        "2000Perc_Urban": 66.44,
+        "2010Perc_Urban": 66.34,
+        "2017Perc_Urban": 66.04       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.027783,
+          3.919305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Swaziland",
+        "1960Perc_Urban": 3.91,
+        "1970Perc_Urban": 9.71,
+        "1980Perc_Urban": 16.48,
+        "1990Perc_Urban": 20.2,
+        "2000Perc_Urban": 22.69,
+        "2010Perc_Urban": 22.48,
+        "2017Perc_Urban": 23.63       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.465866,
+          -26.522503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Sweden",
+        "1960Perc_Urban": 72.49,
+        "1970Perc_Urban": 81.03,
+        "1980Perc_Urban": 83.09,
+        "1990Perc_Urban": 83.1,
+        "2000Perc_Urban": 84.03,
+        "2010Perc_Urban": 85.06,
+        "2017Perc_Urban": 87.15       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.643501,
+          60.128161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Switzerland",
+        "1960Perc_Urban": 70.92,
+        "1970Perc_Urban": 73.84,
+        "1980Perc_Urban": 74.48,
+        "1990Perc_Urban": 73.93,
+        "2000Perc_Urban": 73.38,
+        "2010Perc_Urban": 73.61,
+        "2017Perc_Urban": 73.76       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.227512,
+          46.818188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Syria",
+        "1960Perc_Urban": 36.81,
+        "1970Perc_Urban": 43.35,
+        "1980Perc_Urban": 46.71,
+        "1990Perc_Urban": 48.93,
+        "2000Perc_Urban": 51.95,
+        "2010Perc_Urban": 55.6,
+        "2017Perc_Urban": 53.5       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.996815,
+          34.802075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Tajikistan",
+        "1960Perc_Urban": 33.17,
+        "1970Perc_Urban": 36.88,
+        "1980Perc_Urban": 34.29,
+        "1990Perc_Urban": 31.66,
+        "2000Perc_Urban": 26.5,
+        "2010Perc_Urban": 26.52,
+        "2017Perc_Urban": 26.98       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.276093,
+          38.861034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Tanzania",
+        "1960Perc_Urban": 5.25,
+        "1970Perc_Urban": 7.85,
+        "1980Perc_Urban": 14.56,
+        "1990Perc_Urban": 18.88,
+        "2000Perc_Urban": 22.31,
+        "2010Perc_Urban": 28.11,
+        "2017Perc_Urban": 33.05       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.888822,
+          -6.369028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Thailand",
+        "1960Perc_Urban": 19.67,
+        "1970Perc_Urban": 20.89,
+        "1980Perc_Urban": 26.79,
+        "1990Perc_Urban": 29.42,
+        "2000Perc_Urban": 31.39,
+        "2010Perc_Urban": 43.86,
+        "2017Perc_Urban": 49.2       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.992541,
+          15.870032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Timor",
+        "1960Perc_Urban": 10.09,
+        "1970Perc_Urban": 12.89,
+        "1980Perc_Urban": 16.48,
+        "1990Perc_Urban": 20.84,
+        "2000Perc_Urban": 24.26,
+        "2010Perc_Urban": 27.73,
+        "2017Perc_Urban": 30.21       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.727539,
+          -8.874217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Togo",
+        "1960Perc_Urban": 10.10,
+        "1970Perc_Urban": 21.28,
+        "1980Perc_Urban": 24.66,
+        "1990Perc_Urban": 28.59,
+        "2000Perc_Urban": 32.91,
+        "2010Perc_Urban": 37.53,
+        "2017Perc_Urban": 41.16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.824782,
+          8.619543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Tonga",
+        "1960Perc_Urban": 17.55,
+        "1970Perc_Urban": 20.19,
+        "1980Perc_Urban": 21.15,
+        "1990Perc_Urban": 22.7,
+        "2000Perc_Urban": 23.01,
+        "2010Perc_Urban": 23.39,
+        "2017Perc_Urban": 23.17       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.198242,
+          -21.178986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Trinidad and Tobago",
+        "1960Perc_Urban": 34.15,
+        "1970Perc_Urban": 43.03,
+        "1980Perc_Urban": 52.28,
+        "1990Perc_Urban": 54.12,
+        "2000Perc_Urban": 55.9,
+        "2010Perc_Urban": 54.02,
+        "2017Perc_Urban": 53.21       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.222503,
+          10.691803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Tunisia",
+        "1960Perc_Urban": 37.51,
+        "1970Perc_Urban": 43.48,
+        "1980Perc_Urban": 50.57,
+        "1990Perc_Urban": 57.95,
+        "2000Perc_Urban": 63.43,
+        "2010Perc_Urban": 66.66,
+        "2017Perc_Urban": 68.64       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.537499,
+          33.886917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Turkey",
+        "1960Perc_Urban": 31.51,
+        "1970Perc_Urban": 38.23,
+        "1980Perc_Urban": 43.78,
+        "1990Perc_Urban": 59.2,
+        "2000Perc_Urban": 64.74,
+        "2010Perc_Urban": 70.83,
+        "2017Perc_Urban": 74.64       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.243322,
+          38.963745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Turkmenistan",
+        "1960Perc_Urban": 46.41,
+        "1970Perc_Urban": 47.78,
+        "1980Perc_Urban": 47.08,
+        "1990Perc_Urban": 45.08,
+        "2000Perc_Urban": 45.91,
+        "2010Perc_Urban": 48.49,
+        "2017Perc_Urban": 51.15       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.556278,
+          38.969719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Turks and Caicos Islands",
+        "1960Perc_Urban": 47.68,
+        "1970Perc_Urban": 51.11,
+        "1980Perc_Urban": 55.26,
+        "1990Perc_Urban": 74.34,
+        "2000Perc_Urban": 84.55,
+        "2010Perc_Urban": 90.23,
+        "2017Perc_Urban": 92.82       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.797928,
+          21.694025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Tuvalu",
+        "1960Perc_Urban": 15.89,
+        "1970Perc_Urban": 22.09,
+        "1980Perc_Urban": 29.82,
+        "1990Perc_Urban": 40.66,
+        "2000Perc_Urban": 46.02,
+        "2010Perc_Urban": 54.8,
+        "2017Perc_Urban": 61.53       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          177.64933,
+          -7.109535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Uganda",
+        "1960Perc_Urban": 4.42,
+        "1970Perc_Urban": 6.66,
+        "1980Perc_Urban": 7.53,
+        "1990Perc_Urban": 11.08,
+        "2000Perc_Urban": 14.79,
+        "2010Perc_Urban": 19.38,
+        "2017Perc_Urban": 23.2       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.290275,
+          1.373333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Ukraine",
+        "1960Perc_Urban": 46.79,
+        "1970Perc_Urban": 54.83,
+        "1980Perc_Urban": 61.69,
+        "1990Perc_Urban": 66.76,
+        "2000Perc_Urban": 67.14,
+        "2010Perc_Urban": 68.6,
+        "2017Perc_Urban": 69.25,
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.16558,
+          48.379433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "United Arab Emirates",
+        "1960Perc_Urban": 73.50,
+        "1970Perc_Urban": 79.8,
+        "1980Perc_Urban": 80.71,
+        "1990Perc_Urban": 79.05,
+        "2000Perc_Urban": 80.24,
+        "2010Perc_Urban": 84.09,
+        "2017Perc_Urban": 86.25       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.847818,
+          23.424076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "United Kingdom",
+        "1960Perc_Urban": 78.44,
+        "1970Perc_Urban": 77.12,
+        "1980Perc_Urban": 78.48,
+        "1990Perc_Urban": 78.14,
+        "2000Perc_Urban": 78.65,
+        "2010Perc_Urban": 81.3,
+        "2017Perc_Urban": 83.14       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.435973,
+          55.378051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "United States",
+        "1960Perc_Urban": 70.00,
+        "1970Perc_Urban": 73.6,
+        "1980Perc_Urban": 73.74,
+        "1990Perc_Urban": 75.3,
+        "2000Perc_Urban": 79.06,
+        "2010Perc_Urban": 80.77,
+        "2017Perc_Urban": 82.06      
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.712891,
+          37.09024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Uruguay",
+        "1960Perc_Urban": 80.24,
+        "1970Perc_Urban": 82.37,
+        "1980Perc_Urban": 85.39,
+        "1990Perc_Urban": 88.97,
+        "2000Perc_Urban": 92.03,
+        "2010Perc_Urban": 94.41,
+        "2017Perc_Urban": 95.24       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.765835,
+          -32.522779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Uzbekistan",
+        "1960Perc_Urban": 33.98,
+        "1970Perc_Urban": 36.71,
+        "1980Perc_Urban": 40.78,
+        "1990Perc_Urban": 41.37,
+        "2000Perc_Urban": 46.13,
+        "2010Perc_Urban": 50.96,
+        "2017Perc_Urban": 50.55       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.585262,
+          41.377491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Vanuatu",
+        "1960Perc_Urban": 10.40,
+        "1970Perc_Urban": 12.32,
+        "1980Perc_Urban": 14.74,
+        "1990Perc_Urban": 18.72,
+        "2000Perc_Urban": 21.67,
+        "2010Perc_Urban": 24.46,
+        "2017Perc_Urban": 25.16       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.959158,
+          -15.376706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Venezuela",
+        "1960Perc_Urban": 61.61,
+        "1970Perc_Urban": 71.85,
+        "1980Perc_Urban": 79.19,
+        "1990Perc_Urban": 84.28,
+        "2000Perc_Urban": 87.56,
+        "2010Perc_Urban": 88.08,
+        "2017Perc_Urban": 88.18       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.58973,
+          6.42375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Vietnam",
+        "1960Perc_Urban": 14.70,
+        "1970Perc_Urban": 18.3,
+        "1980Perc_Urban": 19.25,
+        "1990Perc_Urban": 20.26,
+        "2000Perc_Urban": 24.37,
+        "2010Perc_Urban": 30.42,
+        "2017Perc_Urban": 35.21       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.277199,
+          14.058324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Yemen",
+        "1960Perc_Urban": 9.10,
+        "1970Perc_Urban": 13.3,
+        "1980Perc_Urban": 16.53,
+        "1990Perc_Urban": 20.93,
+        "2000Perc_Urban": 26.27,
+        "2010Perc_Urban": 31.78,
+        "2017Perc_Urban": 36.02       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.516388,
+          15.552727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Zambia",
+        "1960Perc_Urban": 18.14,
+        "1970Perc_Urban": 30.35,
+        "1980Perc_Urban": 39.82,
+        "1990Perc_Urban": 39.41,
+        "2000Perc_Urban": 34.8,
+        "2010Perc_Urban": 39.35,
+        "2017Perc_Urban": 42.98       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.849332,
+          -13.133897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Entity": "Zimbabwe",
+        "1960Perc_Urban": 12.61,
+        "1970Perc_Urban": 17.36,
+        "1980Perc_Urban": 22.37,
+        "1990Perc_Urban": 28.99,
+        "2000Perc_Urban": 33.76,
+        "2010Perc_Urban": 33.2,
+        "2017Perc_Urban": 32.24       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.154857,
+          -19.015438
+        ]
+      }
+    }
+  ]
+}
