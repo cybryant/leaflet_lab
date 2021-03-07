@@ -4,16 +4,31 @@ body {
     background-color: tan;
 }
 
-#map {height: 500px;}
+#map {
+    height: 500px;
+    border: solid peru 3px;
+    border-radius: 5px;
+}
 
 h1 {
     text-align: center;
     font-family: Helvetica;
     background-color: gray;
     color: cornsilk;
-    margin-bottom: 25px
-    
-    
+    margin-bottom: 25px;
+    line-height: 2;
+}
+
+h6 {
+    font-family: Helvetica;
+}
+
+p   {
+    font-family: Helvetica;
+}
+
+h4   {
+    font-family: Helvetica;
 }
 
 .leaflet-popup-content p {
@@ -21,25 +36,37 @@ h1 {
 }
 
 #sequence-controls {
-    text-align: center;
-    width: 26%;
-    padding: 20px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 150;
+    margin-right: 150;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
     text-align: center;
     line-height: 42px;
 }
 
 .range-slider {
-    width: 50%;
+    width: 30%;
+    margin-left: 0;
+    margin-left: 0;
 }
 
 #forward {
     float: right;
+    border: 2px solid peru;
+    border-radius: 5px;
+    display:inline-block;
+    margin-right: 325px
 }
 
 #reverse {
-    float: left
+    float: left;
+    border: 2px solid peru;
+    border-radius: 5px;
+    display:inline-block;
+    margin-left: 325px
 }
 
 .legend-control-container {

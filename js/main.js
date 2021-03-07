@@ -24,7 +24,6 @@ function createMap(){
 }//end createMap();
 
 
-
 //Add circle markers for point features to the map + overlay for most and least urbanized
 function createPropSymbols(data, map, years_array){
     //create a Leaflet GeoJSON layer and add it to the map
@@ -222,8 +221,8 @@ function createSequenceControls(map, years_array){
     
         //WORK ON BUTTONS - ADD SVG INSTEAD OF TEXT; CORRECT HORIZONTAL ALIGNMENT
         //replace button content with images
-        //$('#reverse').html('<img src="img/backward_noun_Skip_559097b.svg">');
-        //$('#forward').html('<img src="img/forward_noun_Skip_559098.png">');  
+        $('#reverse').html('<img src="img/backward_noun_Skip_559097b.png">');
+        $('#forward').html('<img src="img/forward_noun_Skip_559098b.png">');  
         
     //click listener for buttons
     $('.skip').click(function(){
@@ -413,30 +412,45 @@ function getCircleValues(map, attribute){
 
 //Create overlay for most and least urbanized
 function createOverlays(map){
+    //create 'increasing' icon
+    var upIcon = L.icon({
+        iconUrl: 'img/green_pin.png',
+        iconSize:     [25, 40], // size of the icon
+        iconAnchor:   [12, 40], // point of the icon which will correspond to marker's location
+        popupAnchor:  [20, -40] // point from which the popup should open relative to the iconAnchor
+    });
+
     //variables for top ten urbanized countries
-    var gabon               = L.marker([-0.803689, 11.609444]).bindPopup('Gabon: 71.58%'),
-        oman                = L.marker([21.512583, 55.923255]).bindPopup('Oman: 67.16%'),
-        botswana            = L.marker([-22.328474, 24.684866]).bindPopup('Botswana: 65.64%'),
-        saoTome             = L.marker([0.18636, 6.613081]).bindPopup('Sao Tome and Principe: 55.90%'),
-        angola	            = L.marker([-11.202692,17.873887]).bindPopup('Angola:	54.40%'),
-        southKorea	        = L.marker([35.907757, 127.766922]).bindPopup('South Korea: 53.79%'),
-        libya	            = L.marker([26.3351, 17.228331]).bindPopup('Libya:	52.49%'),
-        saudiArabia         = L.marker([23.885942, 45.079162]).bindPopup('Saudi Arabia:	52.37%'),
-        dominicanRepublic	= L.marker([18.735693, -70.162651]).bindPopup('Dominican Republic: 50.09%'),
-        puertoRico	        = L.marker([18.220833, -66.590149]).bindPopup('Puerto Rico: 49.04%');
+    var gabon               = L.marker([-0.803689, 11.609444], {icon: upIcon}).bindPopup('Gabon: 71.58%'),
+        oman                = L.marker([21.512583, 55.923255], {icon: upIcon}).bindPopup('Oman: 67.16%'),
+        botswana            = L.marker([-22.328474, 24.684866], {icon: upIcon}).bindPopup('Botswana: 65.64%'),
+        saoTome             = L.marker([0.18636, 6.613081], {icon: upIcon}).bindPopup('Sao Tome and Principe: 55.90%'),
+        angola	            = L.marker([-11.202692,17.873887], {icon: upIcon}).bindPopup('Angola:	54.40%'),
+        southKorea	        = L.marker([35.907757, 127.766922], {icon: upIcon}).bindPopup('South Korea: 53.79%'),
+        libya	            = L.marker([26.3351, 17.228331], {icon: upIcon}).bindPopup('Libya:	52.49%'),
+        saudiArabia         = L.marker([23.885942, 45.079162], {icon: upIcon}).bindPopup('Saudi Arabia:	52.37%'),
+        dominicanRepublic	= L.marker([18.735693, -70.162651], {icon: upIcon}).bindPopup('Dominican Republic: 50.09%'),
+        puertoRico	        = L.marker([18.220833, -66.590149], {icon: upIcon}).bindPopup('Puerto Rico: 49.04%');
+    
+    var downIcon = L.icon({
+        iconUrl: 'img/red_pin.png',
+        iconSize:     [25, 40], // size of the icon
+        iconAnchor:   [12, 40], // point of the icon which will correspond to marker's location
+        popupAnchor:  [20, -40] // point from which the popup should open relative to the iconAnchor
+    });    
     
     //variables for negative urbanized countries
-    var samoa           = L.marker([-13.759029, -172.104629]).bindPopup('Samoa: -0.47%'),
-        guyana          = L.marker([4.860416, -58.93018]).bindPopup('Guyana: -2.47%'),
-        isleOfMan       = L.marker([54.236107, -4.548056]).bindPopup('Isle of Man: -2.67%'),
-        stLucia         = L.marker([13.909444, -60.978893]).bindPopup('St. Lucia: -2.85%'),
-        barbados	    = L.marker([13.193887, -59.543198]).bindPopup('Barbados:	-5.62%'),
-        liechtenstein	= L.marker([47.166, 9.555373]).bindPopup('Liechtenstein: -6.12%'),
-        tajikistan	    = L.marker([38.861034, 71.276093]).bindPopup('Tajikistan: -6.19%'),
-        austria         = L.marker([47.516231, 14.550072]).bindPopup('Austria: -6.63%'),
-        aruba	        = L.marker([12.52111, -69.968338]).bindPopup('Aruba: -7.48%'),
-        belize	        = L.marker([17.189877, -88.49765]).bindPopup('Belize: - 8.43%'),
-        antiguaBarbuda	= L.marker([17.060816, -61.796428]).bindPopup('Antigua and Barbuda: -14.94%');    
+    var samoa           = L.marker([-13.759029, -172.104629], {icon: downIcon}).bindPopup('Samoa: -0.47%'),
+        guyana          = L.marker([4.860416, -58.93018], {icon: downIcon}).bindPopup('Guyana: -2.47%'),
+        isleOfMan       = L.marker([54.236107, -4.548056], {icon: downIcon}).bindPopup('Isle of Man: -2.67%'),
+        stLucia         = L.marker([13.909444, -60.978893], {icon: downIcon}).bindPopup('St. Lucia: -2.85%'),
+        barbados	    = L.marker([13.193887, -59.543198], {icon: downIcon}).bindPopup('Barbados:	-5.62%'),
+        liechtenstein	= L.marker([47.166, 9.555373], {icon: downIcon}).bindPopup('Liechtenstein: -6.12%'),
+        tajikistan	    = L.marker([38.861034, 71.276093], {icon: downIcon}).bindPopup('Tajikistan: -6.19%'),
+        austria         = L.marker([47.516231, 14.550072], {icon: downIcon}).bindPopup('Austria: -6.63%'),
+        aruba	        = L.marker([12.52111, -69.968338], {icon: downIcon}).bindPopup('Aruba: -7.48%'),
+        belize	        = L.marker([17.189877, -88.49765], {icon: downIcon}).bindPopup('Belize: - 8.43%'),
+        antiguaBarbuda	= L.marker([17.060816, -61.796428], {icon: downIcon}).bindPopup('Antigua and Barbuda: -14.94%');    
 
         //create layer group to hold the top ten countries
         var top10 = L.layerGroup([gabon, oman, botswana, saoTome, angola, southKorea, libya, saudiArabia, dominicanRepublic, puertoRico]);
@@ -456,7 +470,7 @@ function createOverlays(map){
 //function to retrieve the GeoJSON data and place it on the map
 function getData(map){
     //load the data
-    $.ajax("data/urb_percent_pop_1960_2017d.geojson", {
+    $.ajax("data/urb_percent_pop_1960_2017_fin.geojson", {
         dataType: "json",
         success: function(response){
             //create an attributes array
