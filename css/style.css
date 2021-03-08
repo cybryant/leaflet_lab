@@ -1,4 +1,4 @@
-/*Stylesheet by Cherie Y. Bryant, 2021 */
+/* Style.css for map of GeoJSON data for Change in Urbanization, 1960-2017; Author:Cherie Bryant, 2021*/
 
 body {
     background-color: tan;
@@ -93,6 +93,7 @@ h4   {
     
 }
 
+/* FOR USE IF ADD FILTER BUTTONS
 .menu-ui {
   background:#fff;
   position:absolute;

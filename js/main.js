@@ -1,6 +1,6 @@
-/* Map of GeoJSON data from MegaCities.geojson */
+/* Main.js for map of GeoJSON data for Change in Urbanization, 1960-2017; Author:Cherie Bryant, 2021*/
 
-//function to instantiate the Leaflet map
+//Instantiate the Leaflet map
 function createMap(){
     //create the map
 	var map = L.map('map', {
@@ -21,10 +21,56 @@ function createMap(){
 
     //call getData function
     getData(map);
-}//end createMap();
+}//End createMap();
 
 
-//Add circle markers for point features to the map + overlay for most and least urbanized
+//Retrieve the GeoJSON data and place it on the map
+function getData(map){
+    //load the data
+    $.ajax("data/urb_percent_pop_1960_2017_fin.geojson", {
+        dataType: "json",
+        success: function(response){
+            //create an attributes array
+            var years_array = processData(response);
+            //call function to create proportional symbols
+            createPropSymbols(response, map, years_array);
+            //call function to create slider
+            createSequenceControls(map, years_array);
+            //call function to create temporal legend
+            createLegend(map, years_array);
+        }
+    });
+    //call function to create overlays
+    createOverlays(map);
+}//End getData();
+
+$(document).ready(createMap);
+
+
+//Build an array of data for each year to pass to sequence controls
+function processData(data){
+    //empty array to hold attributes
+    var years_array = [];
+    
+    //properties of the first feature in the dataset
+    var properties = data.features[0].properties;
+    
+    //push each attribute name into years_array
+    for (var attribute in properties){
+        //only take attributes with population values
+        if (attribute.indexOf("Perc") > -1){
+            years_array.push(attribute); 
+        } 
+    }
+    
+    //check result
+    //console.log(years_array);
+    
+    return years_array;
+}//End processData();
+
+
+//Add circle markers for point features to the map
 function createPropSymbols(data, map, years_array){
     //create a Leaflet GeoJSON layer and add it to the map
     L.geoJson(data, {
@@ -32,23 +78,10 @@ function createPropSymbols(data, map, years_array){
             return pointToLayer(feature, latlng, years_array);
         }
     }).addTo(map);  
-}//end createPropSymbols();
+}//End createPropSymbols();
     
 
-//function to calculate the radius of each proportional symbol
-function calcPropRadius(attValue) {
-    //scale factor to adjust symbol size evenlyS
-    var scaleFactor = 10;
-    //area based on attribute value and scale factor
-    var area = attValue * scaleFactor;
-    //radius calculated based on area
-    var radius = Math.sqrt(area/Math.PI);
-    
-    return radius;
-}//end calcPropRadius();
-
-
-//function to convert markers to circle markers
+//Convert markers to circle markers
 function pointToLayer(feature, latlng, years_array){
      //assign the current attribute based on the first index of years_array
     var attribute = years_array[0];   
@@ -98,111 +131,23 @@ function pointToLayer(feature, latlng, years_array){
     
     //return the circle marker to the L/geoJson pointToLayer option
     return layer;
-}//end pointToLayer();
+}//End pointToLayer();
 
 
-//build an array of data for each year to pass to sequence controls
-function processData(data){
-    //empty array to hold attributes
-    var years_array = [];
+//Calculate the radius of each proportional symbol
+function calcPropRadius(attValue) {
+    //scale factor to adjust symbol size evenlyS
+    var scaleFactor = 10;
+    //area based on attribute value and scale factor
+    var area = attValue * scaleFactor;
+    //radius calculated based on area
+    var radius = Math.sqrt(area/Math.PI);
     
-    //properties of the first feature in the dataset
-    var properties = data.features[0].properties;
-    
-    //push each attribute name into years_array
-    for (var attribute in properties){
-        //only take attributes with population values
-        if (attribute.indexOf("Perc") > -1){
-            years_array.push(attribute); 
-        } 
-    }
-  
-    //check result
-    //console.log(years_array);
-    
-    return years_array;
-}//end processData();
-
-/* NOT WORKING - kill commands not working; sequencer not advancing on clicks
-//create new sequence controls within map bounds
-function createSequenceControls(map, years_array){
-    var SequenceControl = L.Control.extend({
-        options: {
-            position: 'bottomleft'
-        },
-
-        onAdd: function (map) {
-            //create the control container div with a particular class name
-            var container = L.DomUtil.create('div', 'sequence-control-container');
-
-            //create range input element (slider)
-            $(container).append('<input class="range-slider" type="range">');
-        
-            //set slider attributes
-            $('.range-slider').attr({
-              max: 6,
-              min: 0,
-              value: 0,
-              step: 1
-            });
-    
-            //add reverse & skip buttons
-            $(container).append('<button class="skip" id="reverse">Reverse</button>');
-            $(container).append('<button class="skip" id="forward">Skip</button>');
-
-            //click listener for buttons
-            $('.skip').click(function(){
-                //get the old index value
-                var index = $('.range-slider').val();
-
-                //increment or decrement depending on button clickec
-                if ($(this).attr('id') == 'forward'){
-                    index++;
-                    //if past the last attribute, wrap around to first attribute
-                    index = index > 6 ? 0 : index;
-                } else if ($(this).attr('id') == 'reverse'){
-                    index--;
-                    //if past the first attribut, wrap around to the last attribute
-                    index = index < 0 ? 6 : index;
-                }
-
-                //update slider
-                $('.range-slider').val(index); 
-                
-                //kill any mouse event listeners on the map
-                $(container).on('mousedown dblclick', function(e){
-                    L.DomEvent.stopPropagation(e);
-                });                 
-
-                //pass new attibute to update symbols
-                updatePropSymbols(map, years_array[index]);
-            });
-
-            //input listener for slider
-            $('.range-slider').on('input', function(){
-                //get the new index value
-                var index = $(this).val();
-
-                //pass new attibute to update symbols
-                updatePropSymbols(map, years_array[index]);    
-                
-            });
-            
-            //kill any mouse event listeners on the map
-            $(container).on('click', function(e){
-                L.DomEvent.stopPropagation(e);
-            });
-            
-            return container;
-        }
-    });
-    
-    map.addControl(new SequenceControl());
-}//end createSequenceControls();
-*/
+    return radius;
+}//End calcPropRadius();
 
 
-//create sequence controls (original)
+//Create sequence controls (original)
 function createSequenceControls(map, years_array){    
     //create range input element (slider)
     $('#sequence-controls').append('<input class="range-slider" type="range">');
@@ -261,7 +206,7 @@ function createSequenceControls(map, years_array){
 }//end createSequenceControls();*/
 
 
-//function to resize proportional symbols according to new attribute values
+//Resize proportional symbols according to new attribute values
 function updatePropSymbols(map, attribute){
     map.eachLayer(function(layer){
         if (layer.feature && layer.feature.properties[attribute]){
@@ -287,10 +232,10 @@ function updatePropSymbols(map, attribute){
             updateLegend(map, year)   
         }
     }); 
-}//end updatePropSymbols();
+}//End updatePropSymbols();
 
 
-//create the legend
+//Create the legend
 function createLegend(map, years_array){
     var LegendControl = L.Control.extend({
         options: {
@@ -339,10 +284,10 @@ function createLegend(map, years_array){
     //update the legend with the new year
     updateLegend(map, years_array[0]);
     
-} //end createLegend();
+} //End createLegend();
 
 
-//update the legend with new attribute
+//Update the legend with new attribute
 function updateLegend(map, attribute){
     //create content for legend
     var year = attribute.split("P")[0];
@@ -351,7 +296,7 @@ function updateLegend(map, attribute){
     //replace legend content
     $('#temporal-legend').html(content);
 
-/*//ATTRIBUTE LEGEND NOT ADVANCING - PAUSING THIS CODE UNTIL RESOLVED
+/*/ATTRIBUTE LEGEND NOT ADVANCING - COMMENTING OUT THIS CODE UNTIL RESOLVED
     //get the max, mean, and min values as an object
     var circleValues = getCircleValues(map, attribute);   
 
@@ -367,9 +312,10 @@ function updateLegend(map, attribute){
         
         //add legend text
         $('#'+key+'-text').text(Math.round(circleValues[key]*100)/100 + "%");  
-    };*/
+    };
+/*/
    
-}//end updateLegend();
+}//End updateLegend();
 
 
 //Calculate the max, mean, and min values for a given attribute
@@ -383,7 +329,7 @@ function getCircleValues(map, attribute){
         if (layer.feature){
             var attributeValue = Number(layer.feature.properties[attribute]);
 
-            //ERROR WITH attributeValue WHEN ADVANCING TO 1970, RESULTING IN max, min, median NOT BEING RETURNED, AND THUS NO RADIUS FOR updateLegend(). PROBLEM - NOT FINDING 'attribute' ON ADVANCING?
+            //ERROR WITH attributeValue WHEN ADVANCING TO 1970, RESULTING IN max, min, median NOT BEING RETURNED, AND THUS NO RADIUS FOR updateLegend(). PROBLEM - NOT FINDING 'attribute' ON ADVANCING? OR DATA PROBLEM?
             console.log(attributeValue);
             
             //test for min
@@ -407,7 +353,7 @@ function getCircleValues(map, attribute){
         mean: mean,
         min: min
     };
-}//end getCircleValues();
+}//End getCircleValues();
 
 
 //Create overlay for most and least urbanized
@@ -432,6 +378,7 @@ function createOverlays(map){
         dominicanRepublic	= L.marker([18.735693, -70.162651], {icon: upIcon}).bindPopup('Dominican Republic: 50.09%'),
         puertoRico	        = L.marker([18.220833, -66.590149], {icon: upIcon}).bindPopup('Puerto Rico: 49.04%');
     
+    //create 'decreasing' icon
     var downIcon = L.icon({
         iconUrl: 'img/red_pin.png',
         iconSize:     [25, 40], // size of the icon
@@ -439,7 +386,7 @@ function createOverlays(map){
         popupAnchor:  [20, -40] // point from which the popup should open relative to the iconAnchor
     });    
     
-    //variables for negative urbanized countries
+    //variables for negative percentage change urbanized countries
     var samoa           = L.marker([-13.759029, -172.104629], {icon: downIcon}).bindPopup('Samoa: -0.47%'),
         guyana          = L.marker([4.860416, -58.93018], {icon: downIcon}).bindPopup('Guyana: -2.47%'),
         isleOfMan       = L.marker([54.236107, -4.548056], {icon: downIcon}).bindPopup('Isle of Man: -2.67%'),
@@ -465,32 +412,4 @@ function createOverlays(map){
         };
 
         L.control.layers(null, overlayMaps).addTo(map);
-}//end createOverlays();
-
-//function to retrieve the GeoJSON data and place it on the map
-function getData(map){
-    //load the data
-    $.ajax("data/urb_percent_pop_1960_2017_fin.geojson", {
-        dataType: "json",
-        success: function(response){
-            //create an attributes array
-            var years_array = processData(response);
-            //call function to create proportional symbols
-            createPropSymbols(response, map, years_array);
-            //call function to create slider
-            createSequenceControls(map, years_array);
-            //call function to create temporal legend
-            createLegend(map, years_array);
-        }
-    });
-
-    //call function to create overlays
-    createOverlays(map);
-}//end getData();
-
-$(document).ready(createMap);
-
-
-/* FOR FUTURE DEVELOPMENT - Search box
-	map.addControl( new L.Control.Search({sourceData: searchByAjax, text:'Entity', markerLocation: true}) );
-*/
+}//End createOverlays();
