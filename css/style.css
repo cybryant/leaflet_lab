@@ -77,13 +77,15 @@ h4   {
 
 .legend-control-container {
     width: 200px;
-    height: 40px;
+    height: 90px;
     background-color: rgba(255,255,255,0.8);
     padding: 5px;
-    line-height: 45px;
+    line-height: 35px;
     text-align: center;
     border: solid gray 1px;
     border-radius: 10px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
 }
 
 #temporal-legend{
@@ -92,6 +94,7 @@ h4   {
     font-weight: bold;
     
 }
+
 
 /* FOR USE IF ADD FILTER BUTTONS
 .menu-ui {

@@ -8,7 +8,6 @@ function createMap(){
 		zoom: 3
 	});
 
-
     // access mapbox tiles
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>', 
@@ -106,7 +105,7 @@ function pointToLayer(feature, latlng, years_array){
     
     //create circle marker layer
     var layer = L.circleMarker(latlng, options);  
-    
+
     //build popup content string to identify the country
     var popupContent = "<p><b>Country: </b>" + feature.properties.Entity + "</p>";
     
@@ -217,7 +216,7 @@ function updatePropSymbols(map, attribute){
             //update each feature's radius based on new attribute values
             var radius = calcPropRadius(props[attribute]);
             layer.setRadius(radius);
-
+            
             //add city to popup content string
             var popupContent = "<p><b>Country:</b> " + props.Entity + "</p>";
 
@@ -228,8 +227,8 @@ function updatePropSymbols(map, attribute){
             //replace the layer popup
             layer.bindPopup(popupContent, {offset: new L.Point(0,-radius)
             });
- 
-            updateLegend(map, year)   
+            
+            updateLegend(map, attribute)   
         }
     }); 
 }//End updatePropSymbols();
@@ -239,7 +238,7 @@ function updatePropSymbols(map, attribute){
 function createLegend(map, years_array){
     var LegendControl = L.Control.extend({
         options: {
-            position: 'bottomright'
+            position: 'bottomleft'
         },
         
         onAdd: function(map) {
@@ -250,22 +249,22 @@ function createLegend(map, years_array){
             $(container).append('<div id="temporal-legend">')
                 
             //start attribute legend svg string
-            var svg = '<svg id="attribute-legend" width="180px" height="180px">';
+            var svg = '<svg id="attribute-legend" width="160px" height="90px">';
             
             //array of circle names to base loop on
             var circles = {
-                max: 20,
-                mean: 40,
-                min: 60
+                max: 15,
+                mean: 30,
+                min: 45
             };
 
             //loop to add each circle and text to svg string
             for (var circle in circles){
                 //circle string
-                svg += '<circle class="legend-circle" id="' + circle + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="30"/>';
+                svg += '<circle class="legend-circle" id="' + circle + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="60"/>';
     
                 //text string
-                svg += '<text id="' + circle + '-text" x="65" y="' + circles[circle] + '"></text>';
+                svg += '<text id="' + circle + '-text" x="90" y="' + circles[circle] + '"></text>';
                 
             };
 
@@ -283,7 +282,6 @@ function createLegend(map, years_array){
     
     //update the legend with the new year
     updateLegend(map, years_array[0]);
-    
 } //End createLegend();
 
 
@@ -296,7 +294,6 @@ function updateLegend(map, attribute){
     //replace legend content
     $('#temporal-legend').html(content);
 
-/*/ATTRIBUTE LEGEND NOT ADVANCING - COMMENTING OUT THIS CODE UNTIL RESOLVED
     //get the max, mean, and min values as an object
     var circleValues = getCircleValues(map, attribute);   
 
@@ -306,15 +303,13 @@ function updateLegend(map, attribute){
         
         //assign the cy and r attributes
         $('#'+key).attr({
-            cy: 179 - radius,
+            cy: 45 - radius,
             r: radius
         });
         
         //add legend text
         $('#'+key+'-text').text(Math.round(circleValues[key]*100)/100 + "%");  
     };
-/*/
-   
 }//End updateLegend();
 
 
@@ -329,9 +324,6 @@ function getCircleValues(map, attribute){
         if (layer.feature){
             var attributeValue = Number(layer.feature.properties[attribute]);
 
-            //ERROR WITH attributeValue WHEN ADVANCING TO 1970, RESULTING IN max, min, median NOT BEING RETURNED, AND THUS NO RADIUS FOR updateLegend(). PROBLEM - NOT FINDING 'attribute' ON ADVANCING? OR DATA PROBLEM?
-            console.log(attributeValue);
-            
             //test for min
             if (attributeValue < min){
                 min = attributeValue;
